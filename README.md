@@ -16,6 +16,8 @@ Built for the *AI for Digital Public Safety* national hackathon
 > reasoning behind every technical choice — read that first if you're extending this project.
 >
 > 🎤 **Presentation deck**: [`docs/presentation-deck.pptx`](docs/presentation-deck.pptx)
+>
+> 🎬 **Demo video script**: [`docs/demo-video-script.md`](docs/demo-video-script.md) — shot-by-shot recording script with exact narration
 
 ---
 
@@ -224,6 +226,7 @@ et-hackthon/
 └── docs/
     ├── architecture.excalidraw    # editable architecture diagram (open at excalidraw.com)
     ├── presentation-deck.pptx     # hackathon pitch deck
+    ├── demo-video-script.md       # shot-by-shot recording script
     └── screenshots/               # drop your own captures here
 ```
 
