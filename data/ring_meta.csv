@@ -1,0 +1,4 @@
+ring_id,ringleader_person_id,first_detectable_timestamp,num_victims,districts_spanned,states_spanned,total_amount_inr
+RING01,P001382,2026-06-24T07:54:18,50,6,6,4536090
+RING02,P001447,2026-07-04T04:27:37,18,3,3,896776
+RING03,P001474,2026-06-30T08:52:49,18,3,3,1251791

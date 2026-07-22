@@ -1,0 +1,1501 @@
+person_id,name,role,account_age_days,district,state,lat,lng
+P000001,Aryan Maharaj,normal,2521,Nagpur,Maharashtra,21.17582,79.12582
+P000002,Udant Dewan,normal,476,Alwar,Rajasthan,27.51464,76.66974
+P000003,Gagan Sami,normal,2249,Mangaluru,Karnataka,12.89784,74.83551
+P000004,Ayushman Chander,normal,2894,New Delhi,Delhi,28.64876,77.21794
+P000005,Viraj Tiwari,normal,2205,Alwar,Rajasthan,27.48569,76.6212
+P000006,Rushil Saini,normal,2952,Pune,Maharashtra,18.54802,73.83961
+P000007,Saumya Mall,normal,1703,Noida,Uttar Pradesh,28.55336,77.41762
+P000008,Nathaniel Sami,normal,983,Agra,Uttar Pradesh,27.13936,77.99988
+P000009,Arunima Dugal,normal,1496,Durgapur,West Bengal,23.58447,87.30233
+P000010,Gayathri Chaudry,normal,2037,Howrah,West Bengal,22.58691,88.20477
+P000011,Lajita Chatterjee,normal,1762,Kolkata,West Bengal,22.56697,88.40654
+P000012,Hemangini Lalla,normal,909,Noida,Uttar Pradesh,28.50649,77.47614
+P000013,Tripti Yadav,normal,1505,Gurugram,Haryana,28.4664,77.08976
+P000014,Kritika Brar,normal,295,Ghaziabad,Uttar Pradesh,28.73815,77.44662
+P000015,Janaki Handa,normal,888,Deoghar,Jharkhand,24.50806,86.61479
+P000016,Chakradev Kari,normal,1141,Jaipur,Rajasthan,26.90622,75.75946
+P000017,Fariq Kaul,normal,1602,Bharatpur,Rajasthan,27.22992,77.53773
+P000018,Lajita Mall,normal,1793,Lucknow,Uttar Pradesh,26.7952,80.90233
+P000019,Janya Gaba,normal,1054,Jamtara,Jharkhand,23.9065,86.79397
+P000020,Isha Kadakia,normal,2867,Pune,Maharashtra,18.60413,73.91963
+P000021,Ekbal Garg,normal,2907,New Delhi,Delhi,28.59504,77.21955
+P000022,Nihal Shere,normal,695,Jamtara,Jharkhand,24.03059,86.74215
+P000023,Anamika Kanda,normal,2745,Ghaziabad,Uttar Pradesh,28.70232,77.44194
+P000024,Daksh Karnik,normal,2370,Nagpur,Maharashtra,21.09892,79.06747
+P000025,Diya Rattan,normal,1917,Mumbai,Maharashtra,19.08817,72.88058
+P000026,Dominic Kakar,normal,2414,Bengaluru,Karnataka,12.98098,77.60541
+P000027,Simon Tata,normal,2540,Faridabad,Haryana,28.40936,77.37096
+P000028,Tara Dhar,normal,3104,New Delhi,Delhi,28.58213,77.22659
+P000029,Liam Koshy,normal,179,Bengaluru,Karnataka,12.94341,77.58742
+P000030,Priya Rastogi,normal,135,Delhi Central,Delhi,28.6405,77.23941
+P000031,Theodore Devi,normal,2403,New Delhi,Delhi,28.59958,77.24114
+P000032,Gavin Batta,normal,1829,Agra,Uttar Pradesh,27.16913,78.02125
+P000033,Michael Dutta,normal,97,Noida,Uttar Pradesh,28.53828,77.39741
+P000034,Devansh Rajan,normal,643,Bharatpur,Rajasthan,27.17882,77.50341
+P000035,Upadhriti Wadhwa,normal,2410,New Delhi,Delhi,28.63713,77.20673
+P000036,Advay Contractor,normal,2392,Faridabad,Haryana,28.33564,77.30438
+P000037,Harini Choudhury,normal,1132,Bharatpur,Rajasthan,27.15486,77.47761
+P000038,Radhika Dugar,normal,624,Durgapur,West Bengal,23.5027,87.3701
+P000039,Aarush Lall,normal,241,Howrah,West Bengal,22.52834,88.23055
+P000040,Yashica Cherian,normal,2505,Kota,Rajasthan,25.21032,75.85252
+P000041,Yashica Issac,normal,977,Faridabad,Haryana,28.38278,77.33974
+P000042,Kashvi Edwin,normal,2909,Durgapur,West Bengal,23.47415,87.30015
+P000043,Ekiya Suresh,normal,214,Mangaluru,Karnataka,12.86286,74.83906
+P000044,Isaac Patil,normal,165,Alwar,Rajasthan,27.48558,76.65612
+P000045,Wriddhish Bhardwaj,normal,190,Delhi Central,Delhi,28.62711,77.25035
+P000046,Farhan Chada,normal,1024,Thane,Maharashtra,19.17376,73.00128
+P000047,Ekapad Walia,normal,1232,Noida,Uttar Pradesh,28.60222,77.34685
+P000048,Kabir Soman,normal,2890,Faridabad,Haryana,28.34427,77.33708
+P000049,Alka Wable,normal,2104,Hubballi,Karnataka,15.3897,75.17407
+P000050,Siddharth Zacharia,normal,187,Bharatpur,Rajasthan,27.18423,77.4582
+P000051,Devika Rastogi,normal,821,Alwar,Rajasthan,27.54414,76.6605
+P000052,Raksha Varughese,normal,1992,Dhanbad,Jharkhand,23.73583,86.39348
+P000053,Jai Kota,normal,227,Nagpur,Maharashtra,21.17808,79.02341
+P000054,Devansh Nigam,normal,945,Delhi Central,Delhi,28.6113,77.31345
+P000055,Victor Kannan,normal,289,Delhi Central,Delhi,28.65524,77.20925
+P000056,Ekavir Bhargava,normal,994,Kota,Rajasthan,25.21061,75.9367
+P000057,Ekansh Balay,normal,2190,Faridabad,Haryana,28.40399,77.35763
+P000058,Ekavir Varkey,normal,2972,Agra,Uttar Pradesh,27.16862,77.98498
+P000059,Arya Sunder,normal,2776,Noida,Uttar Pradesh,28.48902,77.30633
+P000060,Kevin Solanki,normal,160,Delhi Central,Delhi,28.709,77.305
+P000061,Urvashi Ray,normal,1712,Asansol,West Bengal,23.71024,86.95364
+P000062,Girindra Chatterjee,normal,1034,Faridabad,Haryana,28.35521,77.30152
+P000063,Irya Sampath,normal,2518,Mangaluru,Karnataka,12.95201,74.81156
+P000064,Unni Bhagat,normal,959,Nagpur,Maharashtra,21.18777,79.06116
+P000065,Darsh Rau,normal,733,Thane,Maharashtra,19.18823,72.99398
+P000066,Ikbal Kothari,normal,3020,Pune,Maharashtra,18.49754,73.85005
+P000067,Ranveer Yadav,normal,693,Kolkata,West Bengal,22.61021,88.39854
+P000068,Logan Sami,normal,1606,Rohtak,Haryana,28.9146,76.5601
+P000069,Arya Shere,normal,3180,Kolkata,West Bengal,22.54291,88.40087
+P000070,Faqid Savant,normal,1776,Jaipur,Rajasthan,26.92158,75.81672
+P000071,Chandresh Zachariah,normal,1299,Mysuru,Karnataka,12.29141,76.65351
+P000072,Girik Khalsa,normal,2399,Bengaluru,Karnataka,12.98675,77.54521
+P000073,Niharika Sunder,normal,2930,Noida,Uttar Pradesh,28.56015,77.30668
+P000074,Tanay Rattan,normal,1287,Lucknow,Uttar Pradesh,26.87893,80.9733
+P000075,Nitesh Raghavan,normal,2434,Mumbai,Maharashtra,19.08039,72.97551
+P000076,Madhavi Lanka,normal,12,Deoghar,Jharkhand,24.5005,86.75461
+P000077,Bhavika Sampath,normal,196,Gurugram,Haryana,28.45345,77.0439
+P000078,Mohammed Gupta,normal,271,Durgapur,West Bengal,23.51772,87.37507
+P000079,Teerth Bhardwaj,normal,2663,Noida,Uttar Pradesh,28.56911,77.4505
+P000080,Dipta Bhandari,normal,2752,Mumbai,Maharashtra,19.06863,72.86689
+P000081,Vansha Thakkar,normal,972,Howrah,West Bengal,22.59225,88.26375
+P000082,Dakshesh Trivedi,normal,2761,Rohtak,Haryana,28.87304,76.63451
+P000083,Quincy Biswas,normal,1313,Kolkata,West Bengal,22.55613,88.34936
+P000084,Wahab Raval,normal,1144,Jamtara,Jharkhand,23.92949,86.82881
+P000085,Yatin Baral,normal,1591,Ranchi,Jharkhand,23.30704,85.369
+P000086,Oni Virk,normal,994,Faridabad,Haryana,28.38934,77.31036
+P000087,Advika Jayaraman,normal,45,Agra,Uttar Pradesh,27.20585,77.98503
+P000088,William Lanka,normal,584,Jaipur,Rajasthan,26.93713,75.84938
+P000089,Karan Mital,normal,1351,Alwar,Rajasthan,27.56508,76.60558
+P000090,Diya Bora,normal,972,Kota,Rajasthan,25.24028,75.89081
+P000091,Tara Chaudhry,normal,653,Mumbai,Maharashtra,18.99544,72.90953
+P000092,Tanay Toor,normal,1809,Ranchi,Jharkhand,23.28108,85.28314
+P000093,Kevin Palla,normal,1309,Ghaziabad,Uttar Pradesh,28.622,77.48598
+P000094,Yash Pingle,normal,609,Rohtak,Haryana,28.9342,76.61832
+P000095,Nakul Sarma,normal,2155,Howrah,West Bengal,22.58725,88.23168
+P000096,Abhiram Mistry,normal,2934,Ghaziabad,Uttar Pradesh,28.69807,77.53032
+P000097,Krish Lalla,normal,1058,Kota,Rajasthan,25.26695,75.91463
+P000098,Hredhaan Dugal,normal,2314,Alwar,Rajasthan,27.5403,76.62801
+P000099,Baghyawati Kade,normal,2654,Ranchi,Jharkhand,23.3368,85.33262
+P000100,Samar Lalla,normal,805,Hubballi,Karnataka,15.45389,75.06128
+P000101,Zayan Behl,normal,722,Nuh,Haryana,28.14098,77.03785
+P000102,Pallavi Malhotra,normal,1658,Nagpur,Maharashtra,21.11921,79.10262
+P000103,Aarush Nath,normal,2910,Durgapur,West Bengal,23.51583,87.40388
+P000104,Adweta Edwin,normal,1579,Jaipur,Rajasthan,26.8417,75.79168
+P000105,Prisha Andra,normal,2382,Kota,Rajasthan,25.2449,75.83242
+P000106,Faqid Dixit,normal,2546,Dhanbad,Jharkhand,23.82418,86.38314
+P000107,Kala Divan,normal,2302,Thane,Maharashtra,19.1384,72.91081
+P000108,Joshua Barman,normal,94,Faridabad,Haryana,28.40208,77.23241
+P000109,Janya Baral,normal,680,Lucknow,Uttar Pradesh,26.85618,80.942
+P000110,Shivansh Krish,normal,2702,Pune,Maharashtra,18.49126,73.88756
+P000111,Irya Ray,normal,2298,Bharatpur,Rajasthan,27.2085,77.50316
+P000112,Warjas Gaba,normal,467,Hubballi,Karnataka,15.29986,75.03023
+P000113,Nitara Bakshi,normal,3178,Noida,Uttar Pradesh,28.5333,77.43631
+P000114,Gaurangi Sabharwal,normal,964,Thane,Maharashtra,19.19118,72.99939
+P000115,Amara Dutta,normal,1769,Delhi Central,Delhi,28.69501,77.1827
+P000116,Lavanya Barad,normal,2661,Pune,Maharashtra,18.50197,73.88264
+P000117,Tristan Iyengar,normal,1210,Kota,Rajasthan,25.14341,75.89487
+P000118,Inaya Mody,normal,2563,Kota,Rajasthan,25.14988,75.8702
+P000119,Udant Bajwa,normal,365,Jaipur,Rajasthan,26.89087,75.79722
+P000120,Mohini Narasimhan,normal,2586,Hubballi,Karnataka,15.37285,75.07888
+P000121,Ekaraj Mallick,normal,1248,Pune,Maharashtra,18.51587,73.81619
+P000122,Yashodhara Ratta,normal,2404,Thane,Maharashtra,19.22123,72.9796
+P000123,Ayaan D’Alia,normal,660,Bharatpur,Rajasthan,27.23756,77.43703
+P000124,Pranav Lanka,normal,1053,Gurugram,Haryana,28.55021,76.98537
+P000125,Ikbal Saraf,normal,2428,New Delhi,Delhi,28.60146,77.19094
+P000126,Dipta Sarin,normal,1743,Kota,Rajasthan,25.24131,75.91332
+P000127,Lekha Gupta,normal,1909,Ranchi,Jharkhand,23.32156,85.29188
+P000128,Chaitanya Sarin,normal,2376,Agra,Uttar Pradesh,27.17642,78.01491
+P000129,Zinal Yohannan,normal,1109,Ranchi,Jharkhand,23.40645,85.27456
+P000130,Januja Sankar,normal,1782,Faridabad,Haryana,28.44406,77.25791
+P000131,Ganga Murthy,normal,364,Mumbai,Maharashtra,19.06925,72.91945
+P000132,Charita Tripathi,normal,2892,Kolkata,West Bengal,22.55013,88.33925
+P000133,Nilima Narain,normal,255,Faridabad,Haryana,28.41957,77.27526
+P000134,Chakrika Datta,normal,619,Bharatpur,Rajasthan,27.19512,77.53235
+P000135,Osha Raghavan,normal,434,Hubballi,Karnataka,15.41231,75.00209
+P000136,Charvi Ravi,normal,270,Agra,Uttar Pradesh,27.206,77.93933
+P000137,Daksha Mangat,normal,973,Thane,Maharashtra,19.13109,72.96291
+P000138,Qushi Nagy,normal,2602,Delhi Central,Delhi,28.64045,77.20806
+P000139,Riya Sathe,normal,1765,Kolkata,West Bengal,22.57679,88.43176
+P000140,Yasti Solanki,normal,128,Howrah,West Bengal,22.56511,88.23135
+P000141,Frado Mander,normal,196,Agra,Uttar Pradesh,27.15006,78.02546
+P000142,Girik Keer,normal,146,Thane,Maharashtra,19.22467,72.97698
+P000143,Umang Issac,normal,2766,Bharatpur,Rajasthan,27.19818,77.54183
+P000144,Aryan Batra,normal,1580,Faridabad,Haryana,28.35373,77.27803
+P000145,Vaishnavi Bora,normal,3010,Noida,Uttar Pradesh,28.51139,77.34728
+P000146,Oeshi Hayer,normal,153,Pune,Maharashtra,18.50994,73.85896
+P000147,Warda Ratta,normal,2985,Faridabad,Haryana,28.39018,77.29263
+P000148,Manbir Ahluwalia,normal,308,Agra,Uttar Pradesh,27.14815,78.03897
+P000149,Pavani Kanda,normal,1378,Agra,Uttar Pradesh,27.17921,78.0124
+P000150,Zarna Shetty,normal,3095,Bharatpur,Rajasthan,27.31081,77.47438
+P000151,Zaid Dara,normal,1891,Faridabad,Haryana,28.38113,77.28009
+P000152,Kiaan Shetty,normal,1672,Howrah,West Bengal,22.57494,88.22584
+P000153,Saanvi Thaman,normal,1265,Nuh,Haryana,28.09601,76.95234
+P000154,Sanaya Dutt,normal,1664,Mangaluru,Karnataka,12.89536,74.93644
+P000155,Shivani Lad,normal,1236,Dhanbad,Jharkhand,23.78863,86.43403
+P000156,Aradhana Verma,normal,290,Nagpur,Maharashtra,21.14625,79.08428
+P000157,William Maharaj,normal,1665,Delhi Central,Delhi,28.6088,77.18002
+P000158,Faras Mangal,normal,1122,Ranchi,Jharkhand,23.31928,85.24631
+P000159,Anita Nayak,normal,2099,Bharatpur,Rajasthan,27.12221,77.45811
+P000160,Faris Devi,normal,83,Mumbai,Maharashtra,19.08107,72.75515
+P000161,Vihaan Rajagopal,normal,1308,New Delhi,Delhi,28.55069,77.22687
+P000162,Tanish Bhatt,normal,1611,Delhi Central,Delhi,28.66667,77.21177
+P000163,Nikita Narayanan,normal,989,Mangaluru,Karnataka,13.00348,74.84518
+P000164,Ojasvi Bhatia,normal,1510,Delhi Central,Delhi,28.65056,77.21184
+P000165,Osha Ramachandran,normal,3173,Deoghar,Jharkhand,24.45463,86.75688
+P000166,Lajita Sood,normal,2925,Noida,Uttar Pradesh,28.52141,77.41021
+P000167,Indira Misra,normal,2900,Jamtara,Jharkhand,23.98168,86.77554
+P000168,Oni Yohannan,normal,1340,Alwar,Rajasthan,27.58124,76.5682
+P000169,Vinaya Kanda,normal,2570,Gurugram,Haryana,28.48254,76.99196
+P000170,Rajata Sunder,normal,1087,Howrah,West Bengal,22.62045,88.17052
+P000171,Lopa Nayar,normal,517,Ghaziabad,Uttar Pradesh,28.62847,77.4579
+P000172,Noah Sibal,normal,2440,Kolkata,West Bengal,22.67675,88.34886
+P000173,Avi Ramesh,normal,86,Bengaluru,Karnataka,12.89494,77.54422
+P000174,Fiyaz Sangha,normal,348,Jamtara,Jharkhand,23.9252,86.80496
+P000175,Triya Gopal,normal,1721,Nuh,Haryana,28.16311,77.00091
+P000176,Abha Raghavan,normal,966,Mumbai,Maharashtra,19.09538,72.92641
+P000177,Siddharth Sha,normal,1872,Durgapur,West Bengal,23.57784,87.33411
+P000178,Geetika Raghavan,normal,813,Alwar,Rajasthan,27.59893,76.65629
+P000179,Oviya Krishnan,normal,1433,Alwar,Rajasthan,27.5845,76.63278
+P000180,Upma Bahl,normal,1099,Gurugram,Haryana,28.5169,77.0862
+P000181,Inaya Kapur,normal,52,Bengaluru,Karnataka,13.03054,77.60192
+P000182,Banjeet Balasubramanian,normal,1073,Dhanbad,Jharkhand,23.85211,86.44278
+P000183,Ryan Bahri,normal,1144,Thane,Maharashtra,19.21479,72.98629
+P000184,William Date,normal,1615,Jaipur,Rajasthan,26.9121,75.82452
+P000185,Ishwar Kamdar,normal,1657,Bengaluru,Karnataka,12.93215,77.59237
+P000186,Aahana Pillay,normal,1363,Mumbai,Maharashtra,19.03773,72.93558
+P000187,Ishwar Gade,normal,1412,Kota,Rajasthan,25.17578,75.8576
+P000188,Hritik Bal,normal,1096,Mysuru,Karnataka,12.35324,76.62082
+P000189,Keya Ranganathan,normal,818,Deoghar,Jharkhand,24.41204,86.68721
+P000190,Faqid Kibe,normal,2039,Durgapur,West Bengal,23.47592,87.34532
+P000191,Charvi Dara,normal,1264,Asansol,West Bengal,23.6766,86.957
+P000192,Idika Walia,normal,2328,Rohtak,Haryana,28.84872,76.55452
+P000193,Kamala Biswas,normal,557,Asansol,West Bengal,23.71468,86.9988
+P000194,Advik Salvi,normal,2459,Alwar,Rajasthan,27.58301,76.66948
+P000195,Hitesh Sant,normal,2679,Ranchi,Jharkhand,23.33433,85.30305
+P000196,Tripti Dua,normal,2356,Pune,Maharashtra,18.51814,73.83363
+P000197,Patrick Vig,normal,66,Ranchi,Jharkhand,23.33372,85.34839
+P000198,Veda Shroff,normal,1191,Gurugram,Haryana,28.45979,77.00519
+P000199,Amrita Naidu,normal,3143,Lucknow,Uttar Pradesh,26.78013,81.04596
+P000200,Gabriel Mallick,normal,1978,Durgapur,West Bengal,23.54967,87.28532
+P000201,Yagnesh Shetty,normal,199,Hubballi,Karnataka,15.36975,75.11042
+P000202,Gayathri Balakrishnan,normal,2413,Bengaluru,Karnataka,12.92866,77.5188
+P000203,Ekta Gopal,normal,2825,Durgapur,West Bengal,23.54086,87.31757
+P000204,Simon Pant,normal,2980,Howrah,West Bengal,22.62814,88.24118
+P000205,Harini Mammen,normal,2348,Ranchi,Jharkhand,23.2547,85.32389
+P000206,Advaith Varughese,normal,2801,Nuh,Haryana,28.05398,76.98853
+P000207,Frederick Khurana,normal,26,Kolkata,West Bengal,22.57358,88.35216
+P000208,Vrinda Khosla,normal,725,Jaipur,Rajasthan,26.91695,75.79467
+P000209,Vritti Sem,normal,1930,Mumbai,Maharashtra,19.07477,72.85434
+P000210,Girik Menon,normal,2145,New Delhi,Delhi,28.56105,77.19112
+P000211,Nidhi Kohli,normal,397,Deoghar,Jharkhand,24.46894,86.74676
+P000212,Jyoti Solanki,normal,2177,Dhanbad,Jharkhand,23.80045,86.46989
+P000213,Pavani Narayanan,normal,2056,Nagpur,Maharashtra,21.12401,79.11763
+P000214,Sudiksha Madan,normal,965,Bengaluru,Karnataka,12.96872,77.64499
+P000215,Zayan Kashyap,normal,959,Deoghar,Jharkhand,24.46425,86.65127
+P000216,Reyansh Mutti,normal,1598,Nuh,Haryana,28.07419,77.03536
+P000217,Qasim Handa,normal,69,Jaipur,Rajasthan,26.8915,75.76847
+P000218,Veda Malhotra,normal,2175,Asansol,West Bengal,23.75443,86.97605
+P000219,Harish Hari,normal,16,Mumbai,Maharashtra,19.14064,72.90888
+P000220,Utkarsh Patel,normal,1811,Jamtara,Jharkhand,23.97802,86.77445
+P000221,Chasmum Atwal,normal,1970,Agra,Uttar Pradesh,27.29797,77.999
+P000222,Anusha Bath,normal,704,Durgapur,West Bengal,23.62727,87.30136
+P000223,Brinda Date,normal,63,Hubballi,Karnataka,15.40727,75.15154
+P000224,Harshil Arora,normal,5,Kolkata,West Bengal,22.53336,88.33497
+P000225,Upasna Srinivas,normal,2329,Bengaluru,Karnataka,12.94865,77.64114
+P000226,Harini Gour,normal,30,Bharatpur,Rajasthan,27.23595,77.43682
+P000227,Zayyan Sridhar,normal,967,Alwar,Rajasthan,27.50108,76.65922
+P000228,Dhruv Rattan,normal,23,Mangaluru,Karnataka,12.92448,74.86633
+P000229,Ethan Bera,normal,58,Jaipur,Rajasthan,26.8865,75.85307
+P000230,Manthan Modi,normal,611,Bengaluru,Karnataka,12.95855,77.5875
+P000231,Yuvraj Dani,normal,1025,Nuh,Haryana,28.05364,77.04393
+P000232,Upkaar Virk,normal,87,Mysuru,Karnataka,12.31781,76.72187
+P000233,Shravya Savant,normal,1391,Gurugram,Haryana,28.49403,77.02013
+P000234,Pushti Mody,normal,1436,Lucknow,Uttar Pradesh,26.84746,80.94481
+P000235,Hardik Johal,normal,2750,Pune,Maharashtra,18.46167,73.84741
+P000236,Aishani Bumb,normal,34,Dhanbad,Jharkhand,23.75492,86.43702
+P000237,Wriddhish Ghose,normal,1184,Dhanbad,Jharkhand,23.73661,86.40704
+P000238,Naksh Agate,normal,2392,Mumbai,Maharashtra,19.05598,72.81573
+P000239,Shravya Singhal,normal,2927,Bharatpur,Rajasthan,27.2503,77.46098
+P000240,Bachittar Kata,normal,1914,Asansol,West Bengal,23.62967,86.95502
+P000241,Barkha Setty,normal,2244,Asansol,West Bengal,23.74899,86.9841
+P000242,Vivaan Lalla,normal,2598,Thane,Maharashtra,19.20336,73.02234
+P000243,Pavani Contractor,normal,1976,Mysuru,Karnataka,12.25807,76.63029
+P000244,Manthan Lata,normal,643,Kolkata,West Bengal,22.61642,88.38592
+P000245,Ekbal Bhasin,normal,2782,Hubballi,Karnataka,15.39402,75.13462
+P000246,Damyanti Mani,normal,2079,Mangaluru,Karnataka,12.96699,74.88143
+P000247,Jeet Sidhu,normal,3193,Jaipur,Rajasthan,26.90727,75.80157
+P000248,Neha Magar,normal,1399,Ranchi,Jharkhand,23.28249,85.30511
+P000249,Raksha Buch,normal,2205,Bharatpur,Rajasthan,27.21114,77.50568
+P000250,Rachana Naidu,normal,2135,New Delhi,Delhi,28.63029,77.23225
+P000251,Atharv Chand,normal,809,Kolkata,West Bengal,22.604,88.37843
+P000252,Ansh Luthra,normal,522,Thane,Maharashtra,19.29959,72.93715
+P000253,Parth Singhal,normal,1477,Agra,Uttar Pradesh,27.23254,78.04683
+P000254,Arunima Golla,normal,99,Gurugram,Haryana,28.38539,77.06107
+P000255,Vyanjana Chand,normal,2463,Howrah,West Bengal,22.64488,88.28883
+P000256,Ijaya Rege,normal,502,Dhanbad,Jharkhand,23.7698,86.41944
+P000257,Ekani Cheema,normal,2769,Mumbai,Maharashtra,19.15262,72.84142
+P000258,Forum Sabharwal,normal,238,Dhanbad,Jharkhand,23.81839,86.3531
+P000259,Bhavya Rattan,normal,3083,Rohtak,Haryana,28.84699,76.6237
+P000260,Suhani Chakrabarti,normal,1783,Noida,Uttar Pradesh,28.49984,77.36136
+P000261,Zayyan Naik,normal,430,Mumbai,Maharashtra,19.10677,72.8955
+P000262,Netra Varkey,normal,1370,Nuh,Haryana,28.07857,77.02905
+P000263,Turvi Sachdev,normal,1469,Asansol,West Bengal,23.65923,86.88573
+P000264,Raghav Vasa,normal,2396,Rohtak,Haryana,28.82403,76.58884
+P000265,Wishi Sathe,normal,178,Jaipur,Rajasthan,26.95602,75.74985
+P000266,Samar Loke,normal,85,Durgapur,West Bengal,23.59165,87.29219
+P000267,Bhavna Sarma,normal,2728,Dhanbad,Jharkhand,23.78687,86.44244
+P000268,Jairaj Balakrishnan,normal,1323,Thane,Maharashtra,19.18902,72.97559
+P000269,Nathan Mukhopadhyay,normal,1667,Durgapur,West Bengal,23.4817,87.39764
+P000270,Nikita Chander,normal,308,Mysuru,Karnataka,12.29924,76.54603
+P000271,Ishaan Shenoy,normal,2769,Nagpur,Maharashtra,21.16159,79.03961
+P000272,Mitesh Tara,normal,2284,Thane,Maharashtra,19.16982,72.92695
+P000273,Yashodhara Mahajan,normal,618,Durgapur,West Bengal,23.50386,87.30142
+P000274,Vasudha Sodhi,normal,168,Bharatpur,Rajasthan,27.15641,77.48026
+P000275,Tanmayi Dhillon,normal,1685,Pune,Maharashtra,18.50775,73.83065
+P000276,Rayaan Trivedi,normal,1448,Ranchi,Jharkhand,23.37431,85.32365
+P000277,Ekaraj Majumdar,normal,1139,Durgapur,West Bengal,23.51838,87.36422
+P000278,Harini Tripathi,normal,737,Ghaziabad,Uttar Pradesh,28.63604,77.50618
+P000279,Aarnav Mandal,normal,2567,Jamtara,Jharkhand,24.02953,86.77677
+P000280,Vrishti Dixit,normal,1204,Alwar,Rajasthan,27.60087,76.59828
+P000281,Veda Pai,normal,857,Jamtara,Jharkhand,23.97243,86.89305
+P000282,Krishna Shah,normal,1144,Noida,Uttar Pradesh,28.5742,77.37816
+P000283,Ranbir Khare,normal,2034,Rohtak,Haryana,28.91899,76.6304
+P000284,Vivaan Roy,normal,2327,Mangaluru,Karnataka,12.90749,74.83335
+P000285,Eesha Solanki,normal,85,Howrah,West Bengal,22.63834,88.23752
+P000286,Libni Doshi,normal,1578,Durgapur,West Bengal,23.48742,87.20741
+P000287,Balhaar Date,normal,2956,Jaipur,Rajasthan,27.00346,75.78976
+P000288,Harish Sarraf,normal,138,Deoghar,Jharkhand,24.51333,86.60006
+P000289,Tanmayi Aurora,normal,540,Dhanbad,Jharkhand,23.76636,86.40458
+P000290,Nimrat Dubey,normal,1429,Deoghar,Jharkhand,24.44019,86.67244
+P000291,Upasna Lanka,normal,1628,Jamtara,Jharkhand,24.04128,86.79885
+P000292,Mitali Buch,normal,1706,Mumbai,Maharashtra,19.09733,72.82388
+P000293,Lajita Nadig,normal,2787,Mysuru,Karnataka,12.3122,76.65286
+P000294,Balendra Biswas,normal,2907,Ranchi,Jharkhand,23.37698,85.33265
+P000295,Bhavna Karan,normal,3191,Deoghar,Jharkhand,24.47201,86.69715
+P000296,Radha Chaudhari,normal,260,Ghaziabad,Uttar Pradesh,28.65374,77.51872
+P000297,Sachi Ganesan,normal,188,Durgapur,West Bengal,23.57671,87.36107
+P000298,Ayush Batra,normal,2498,Agra,Uttar Pradesh,27.18531,78.02813
+P000299,Daksh Memon,normal,2992,Dhanbad,Jharkhand,23.84046,86.41173
+P000300,Kavya Sankar,normal,2370,Bharatpur,Rajasthan,27.20182,77.52015
+P000301,Yash Wali,normal,992,Ranchi,Jharkhand,23.32643,85.24665
+P000302,Pranit Garde,normal,1986,Noida,Uttar Pradesh,28.53591,77.39101
+P000303,Farhan Raja,normal,2131,Kota,Rajasthan,25.17589,75.98575
+P000304,Widisha Dhar,normal,1927,Mangaluru,Karnataka,12.97524,74.89686
+P000305,Triya Kumar,normal,30,Kolkata,West Bengal,22.48239,88.38019
+P000306,Aadhya Andra,normal,3108,Ranchi,Jharkhand,23.35766,85.29481
+P000307,Bhavna Dugar,normal,1471,Dhanbad,Jharkhand,23.73515,86.42511
+P000308,Riya Pai,normal,199,Ranchi,Jharkhand,23.3514,85.36084
+P000309,Panini Krishna,normal,1354,Bharatpur,Rajasthan,27.2681,77.46817
+P000310,Chasmum Issac,normal,1441,Kolkata,West Bengal,22.62693,88.41015
+P000311,Vasudha Chhabra,normal,1456,Nagpur,Maharashtra,21.15303,79.16452
+P000312,Lakshmi Parmer,normal,411,Ranchi,Jharkhand,23.34487,85.36561
+P000313,Chakrika Bains,normal,2181,Kolkata,West Bengal,22.61605,88.33922
+P000314,Anvi Anand,normal,2188,Nagpur,Maharashtra,21.12514,79.11853
+P000315,Watika Mangat,normal,834,Bharatpur,Rajasthan,27.18116,77.46009
+P000316,Indira Kanda,normal,658,Thane,Maharashtra,19.24828,72.93778
+P000317,Zashil Devan,normal,180,Noida,Uttar Pradesh,28.49325,77.40373
+P000318,Balveer More,normal,571,Ranchi,Jharkhand,23.35875,85.27302
+P000319,Bahadurjit Patla,normal,2810,Hubballi,Karnataka,15.33194,75.1638
+P000320,Gautam Merchant,normal,172,Nuh,Haryana,28.12805,77.00572
+P000321,Ojasvi Gill,normal,2769,Bharatpur,Rajasthan,27.18138,77.39197
+P000322,Kevin Zacharia,normal,974,Faridabad,Haryana,28.44284,77.37964
+P000323,Yachana Mahajan,normal,1971,Bharatpur,Rajasthan,27.21514,77.5118
+P000324,Aarini Subramaniam,normal,2114,Noida,Uttar Pradesh,28.49539,77.50025
+P000325,Hamsini Contractor,normal,1529,Kota,Rajasthan,25.15119,75.82894
+P000326,Faqid Dhaliwal,normal,1643,Kota,Rajasthan,25.21145,75.8342
+P000327,Mekhala Pau,normal,424,Hubballi,Karnataka,15.29979,75.10966
+P000328,Megha Atwal,normal,152,Jaipur,Rajasthan,26.96524,75.80258
+P000329,Jatin Sha,normal,2389,Agra,Uttar Pradesh,27.15298,78.05239
+P000330,Adweta Raj,normal,1548,Kolkata,West Bengal,22.60161,88.38691
+P000331,Hritik Kaur,normal,1196,Deoghar,Jharkhand,24.4938,86.70299
+P000332,Aryan Narang,normal,304,Jamtara,Jharkhand,23.87187,86.78797
+P000333,Dev Shetty,normal,2525,Ghaziabad,Uttar Pradesh,28.61999,77.41177
+P000334,Nilima Dada,normal,2866,Bengaluru,Karnataka,12.98364,77.65885
+P000335,Chakradev Barad,normal,1526,Jaipur,Rajasthan,26.941,75.7533
+P000336,Waida D’Alia,normal,947,Lucknow,Uttar Pradesh,26.77767,80.82178
+P000337,Wahab Yogi,normal,1027,Mysuru,Karnataka,12.33476,76.62092
+P000338,Lipika Setty,normal,3148,Faridabad,Haryana,28.43212,77.26268
+P000339,Oni Dubey,normal,2425,Gurugram,Haryana,28.416,76.99414
+P000340,Hardik Suri,normal,259,Mumbai,Maharashtra,19.10122,72.8482
+P000341,Ati Bali,normal,2931,Thane,Maharashtra,19.24211,73.00475
+P000342,Teerth Sawhney,normal,2950,Howrah,West Bengal,22.63328,88.28674
+P000343,Warinder Patil,normal,1408,New Delhi,Delhi,28.63627,77.15031
+P000344,Jhalak Parmer,normal,1178,Asansol,West Bengal,23.72352,86.9838
+P000345,Mitali Majumdar,normal,2853,Kolkata,West Bengal,22.61151,88.3504
+P000346,Jason Sha,normal,1817,Kolkata,West Bengal,22.55717,88.33717
+P000347,Simon Bail,normal,1272,Pune,Maharashtra,18.51939,73.89047
+P000348,Gauri Kohli,normal,1279,Howrah,West Bengal,22.57628,88.23762
+P000349,Samesh Biswas,normal,2268,Mumbai,Maharashtra,19.09847,72.92277
+P000350,Tarak Kaul,normal,2451,Deoghar,Jharkhand,24.45975,86.66971
+P000351,Manbir Agate,normal,325,Howrah,West Bengal,22.52974,88.28059
+P000352,Maanav De,normal,315,Delhi Central,Delhi,28.62083,77.27524
+P000353,Owen Choudhary,normal,17,Thane,Maharashtra,19.25886,72.91925
+P000354,Karan Aurora,normal,2123,Thane,Maharashtra,19.21818,73.01888
+P000355,Wazir Naik,normal,29,Bengaluru,Karnataka,12.96287,77.58279
+P000356,Owen Lanka,normal,2459,Mangaluru,Karnataka,12.9169,74.88991
+P000357,Jonathan Sama,normal,1159,Ghaziabad,Uttar Pradesh,28.61559,77.45375
+P000358,Devansh Soni,normal,213,Pune,Maharashtra,18.556,73.8415
+P000359,Janaki Varghese,normal,2907,Gurugram,Haryana,28.40259,77.01348
+P000360,Siya Thakur,normal,2006,Agra,Uttar Pradesh,27.16377,78.02464
+P000361,Caleb Verma,normal,1987,Ghaziabad,Uttar Pradesh,28.73429,77.45047
+P000362,Tara Balasubramanian,normal,536,Hubballi,Karnataka,15.32849,75.09605
+P000363,Varenya Ratti,normal,420,Nagpur,Maharashtra,21.11916,79.06144
+P000364,Hritik Swaminathan,normal,1235,Bengaluru,Karnataka,12.99206,77.6077
+P000365,Ethan Buch,normal,1952,Alwar,Rajasthan,27.49421,76.59458
+P000366,Manbir Bhatti,normal,1947,Mysuru,Karnataka,12.33283,76.56031
+P000367,Anvi Nair,normal,1061,Bharatpur,Rajasthan,27.20775,77.4542
+P000368,Chaitaly Setty,normal,1992,Howrah,West Bengal,22.56076,88.25972
+P000369,Hardik Contractor,normal,1066,Deoghar,Jharkhand,24.44291,86.6926
+P000370,Qushi Seth,normal,1352,Asansol,West Bengal,23.6563,87.03141
+P000371,Odika Nori,normal,1568,Mumbai,Maharashtra,19.1731,72.8818
+P000372,Mohini Sagar,normal,1528,Mumbai,Maharashtra,19.06355,72.93174
+P000373,Dhriti Sane,normal,1408,Gurugram,Haryana,28.4333,76.99298
+P000374,Aadhya Prasad,normal,138,Durgapur,West Bengal,23.55223,87.34759
+P000375,Urvi Bhavsar,normal,2963,Bengaluru,Karnataka,12.98345,77.63426
+P000376,Frederick Chander,normal,2437,Asansol,West Bengal,23.68557,87.03219
+P000377,Gopal Pradhan,normal,1788,Asansol,West Bengal,23.66124,86.94237
+P000378,Darpan Narayan,normal,636,Alwar,Rajasthan,27.4961,76.56985
+P000379,Nirja Pandya,normal,1329,Faridabad,Haryana,28.41835,77.36403
+P000380,Charan Mani,normal,2212,Hubballi,Karnataka,15.35435,75.07557
+P000381,Indira Chawla,normal,2973,Thane,Maharashtra,19.25905,72.94056
+P000382,Mohammed Subramaniam,normal,2230,Howrah,West Bengal,22.59444,88.31544
+P000383,Hritik Palla,normal,1924,Hubballi,Karnataka,15.32217,75.1184
+P000384,Ishwar Mallick,normal,372,Nagpur,Maharashtra,21.11053,79.11362
+P000385,Pushti Bal,normal,1835,Alwar,Rajasthan,27.45882,76.6263
+P000386,Ayush Gole,normal,2206,Bharatpur,Rajasthan,27.17948,77.46896
+P000387,Dayamai Nori,normal,593,Deoghar,Jharkhand,24.51478,86.6573
+P000388,Abeer Golla,normal,829,Pune,Maharashtra,18.51866,73.86336
+P000389,Nandini Boase,normal,2718,Mangaluru,Karnataka,12.95359,74.8695
+P000390,Azaan Chand,normal,2766,Kolkata,West Bengal,22.58907,88.46347
+P000391,Krisha Saini,normal,372,Hubballi,Karnataka,15.3614,75.14021
+P000392,Harita Dugar,normal,3191,Nagpur,Maharashtra,21.14843,79.09501
+P000393,Devika Nair,normal,2204,Ghaziabad,Uttar Pradesh,28.66568,77.40336
+P000394,Charles Dugal,normal,1199,Rohtak,Haryana,28.91441,76.708
+P000395,Chandran Bumb,normal,1275,Ghaziabad,Uttar Pradesh,28.72998,77.34292
+P000396,Saanvi Samra,normal,749,Agra,Uttar Pradesh,27.1161,77.97426
+P000397,Riya Sachdeva,normal,2076,Thane,Maharashtra,19.23346,72.98787
+P000398,Tanveer Vala,normal,2535,Mangaluru,Karnataka,12.89378,74.79017
+P000399,Hemani Sani,normal,1298,Alwar,Rajasthan,27.51716,76.70705
+P000400,Bhanumati Sur,normal,1017,Jaipur,Rajasthan,26.8726,75.79637
+P000401,Chakradev Kannan,normal,53,Ghaziabad,Uttar Pradesh,28.71065,77.4727
+P000402,Christopher Amble,normal,846,Mysuru,Karnataka,12.2975,76.62596
+P000403,Charvi Kakar,normal,2555,Jaipur,Rajasthan,26.85236,75.75786
+P000404,Aadhya Mann,normal,1542,Thane,Maharashtra,19.19447,73.05519
+P000405,Jagdish Amble,normal,514,Howrah,West Bengal,22.60047,88.27043
+P000406,Qushi Gill,normal,2388,Deoghar,Jharkhand,24.48343,86.6791
+P000407,Lajita Walia,normal,2278,Ranchi,Jharkhand,23.33166,85.29451
+P000408,Xiti Pandya,normal,2603,Bharatpur,Rajasthan,27.23097,77.47419
+P000409,Mekhala Basak,normal,1365,Hubballi,Karnataka,15.3577,75.04485
+P000410,Anirudh Sharaf,normal,2201,Asansol,West Bengal,23.69669,86.95093
+P000411,Dhriti Sanghvi,normal,1723,Delhi Central,Delhi,28.67121,77.2072
+P000412,Omisha Mann,normal,376,Mysuru,Karnataka,12.26992,76.69065
+P000413,Nidhi Bail,normal,345,Deoghar,Jharkhand,24.56223,86.74428
+P000414,Onveer Sharma,normal,488,Howrah,West Bengal,22.5979,88.22898
+P000415,Gaurang Sarkar,normal,2973,Bharatpur,Rajasthan,27.28559,77.59792
+P000416,Yagnesh Sarin,normal,2077,Mysuru,Karnataka,12.24935,76.59454
+P000417,Farhan Randhawa,normal,14,Pune,Maharashtra,18.42947,73.88452
+P000418,Harinakshi Kant,normal,3100,Lucknow,Uttar Pradesh,26.84401,81.02251
+P000419,Om Bose,normal,102,Mumbai,Maharashtra,19.05385,72.82162
+P000420,Yashvi Hari,normal,1187,Gurugram,Haryana,28.49639,77.03632
+P000421,Indali Divan,normal,2499,Noida,Uttar Pradesh,28.49536,77.33413
+P000422,Harshil Dhingra,normal,1911,Deoghar,Jharkhand,24.47847,86.62848
+P000423,Rudra Ghose,normal,3179,Faridabad,Haryana,28.39683,77.29237
+P000424,Faqid Goel,normal,784,Lucknow,Uttar Pradesh,26.87992,80.93987
+P000425,Ucchal Sen,normal,2973,Rohtak,Haryana,28.86068,76.61282
+P000426,Diya Dora,normal,847,Noida,Uttar Pradesh,28.5471,77.39418
+P000427,Ekansh Singh,normal,2677,Nagpur,Maharashtra,21.21828,79.06077
+P000428,Chavvi Maharaj,normal,2699,Deoghar,Jharkhand,24.4599,86.76649
+P000429,Indira Tripathi,normal,754,Alwar,Rajasthan,27.50787,76.61527
+P000430,Dayita Shenoy,normal,2509,Rohtak,Haryana,28.9023,76.64228
+P000431,Baljiwan Bhandari,normal,1148,Thane,Maharashtra,19.19772,72.951
+P000432,Bhavini Bose,normal,2328,Pune,Maharashtra,18.47903,73.89623
+P000433,Yashica Rajagopalan,normal,1324,Thane,Maharashtra,19.17024,73.04654
+P000434,Benjamin Sengupta,normal,652,Alwar,Rajasthan,27.49494,76.64377
+P000435,Ekanta Soni,normal,2545,Mangaluru,Karnataka,12.88415,74.86147
+P000436,David Seshadri,normal,2306,Thane,Maharashtra,19.19328,73.02662
+P000437,Hemal Chad,normal,763,Mangaluru,Karnataka,12.90218,74.8548
+P000438,Balveer Kota,normal,1870,Mumbai,Maharashtra,19.05477,72.92313
+P000439,Reva Viswanathan,normal,1761,Alwar,Rajasthan,27.56178,76.67166
+P000440,Januja Pradhan,normal,1384,Ranchi,Jharkhand,23.34093,85.30149
+P000441,Lila Rege,normal,2602,Noida,Uttar Pradesh,28.48932,77.40227
+P000442,Charles Natt,normal,1616,Mangaluru,Karnataka,12.91858,74.89521
+P000443,Forum Chandra,normal,2494,Bharatpur,Rajasthan,27.23997,77.53836
+P000444,Bhanumati Krishnan,normal,2865,Mangaluru,Karnataka,12.89398,74.86719
+P000445,Gauri Bumb,normal,403,Howrah,West Bengal,22.64602,88.26481
+P000446,Inaya Mukherjee,normal,648,Ranchi,Jharkhand,23.42692,85.28642
+P000447,Kai Chad,normal,61,Kota,Rajasthan,25.28226,75.82463
+P000448,Krisha Narasimhan,normal,1753,Mysuru,Karnataka,12.28019,76.60361
+P000449,Girik Sampath,normal,2186,Jamtara,Jharkhand,23.95137,86.85022
+P000450,Andrew Patil,normal,2135,Lucknow,Uttar Pradesh,26.82077,81.01652
+P000451,Pranit Kala,normal,1186,Agra,Uttar Pradesh,27.17474,78.06754
+P000452,Vedika Handa,normal,1015,Agra,Uttar Pradesh,27.21273,78.05181
+P000453,Laksh Dubey,normal,3021,Bharatpur,Rajasthan,27.22992,77.47663
+P000454,Chakrika Chaudhuri,normal,381,Asansol,West Bengal,23.62447,86.97931
+P000455,Gayathri Deep,normal,63,Nagpur,Maharashtra,21.13718,79.06173
+P000456,Mitesh Gaba,normal,1197,Bharatpur,Rajasthan,27.22202,77.41059
+P000457,Noah Sarma,normal,1223,Bengaluru,Karnataka,12.98752,77.56852
+P000458,Nirja Patla,normal,2519,Jaipur,Rajasthan,26.92079,75.83127
+P000459,Sachi Mane,normal,1575,Faridabad,Haryana,28.39953,77.30507
+P000460,Vivaan Walla,normal,2720,Asansol,West Bengal,23.66886,86.92609
+P000461,Dayamai Singh,normal,160,Ranchi,Jharkhand,23.30366,85.29474
+P000462,Jhalak Sastry,normal,537,Kota,Rajasthan,25.22028,75.88143
+P000463,Baghyawati Raja,normal,2929,Howrah,West Bengal,22.58638,88.25786
+P000464,Neel Iyengar,normal,805,Rohtak,Haryana,28.85223,76.60416
+P000465,Zashil Ben,normal,2343,Nagpur,Maharashtra,21.14122,79.10859
+P000466,Kamya Chauhan,normal,2242,Kota,Rajasthan,25.23591,75.85517
+P000467,Bhavani Chacko,normal,3009,Agra,Uttar Pradesh,27.19362,78.0631
+P000468,Anjali Sengupta,normal,50,Jamtara,Jharkhand,23.92506,86.79661
+P000469,Rajeshri Chand,normal,1930,Agra,Uttar Pradesh,27.16074,77.99737
+P000470,Shravya Palla,normal,1263,Nuh,Haryana,28.08937,76.98799
+P000471,Oeshi Bera,normal,176,Thane,Maharashtra,19.22567,72.94682
+P000472,Yadavi Prakash,normal,663,Ranchi,Jharkhand,23.38851,85.30106
+P000473,Libni Bumb,normal,1509,Agra,Uttar Pradesh,27.23563,77.97697
+P000474,Udarsh Bala,normal,1726,Alwar,Rajasthan,27.57699,76.63204
+P000475,Hardik Nayak,normal,175,Kolkata,West Bengal,22.64334,88.30796
+P000476,Laksh Barad,normal,557,Rohtak,Haryana,28.84933,76.66804
+P000477,Urmi Dewan,normal,1771,Kolkata,West Bengal,22.55866,88.37928
+P000478,Saumya Ahluwalia,normal,3096,Pune,Maharashtra,18.53438,73.83822
+P000479,Anirudh Kunda,normal,1781,Delhi Central,Delhi,28.69878,77.15233
+P000480,Mason Wable,normal,420,Kolkata,West Bengal,22.56846,88.43487
+P000481,Indrajit Mani,normal,1013,Thane,Maharashtra,19.2176,72.92639
+P000482,Charvi Dara,normal,2979,Ranchi,Jharkhand,23.32067,85.31548
+P000483,William Saini,normal,1149,Thane,Maharashtra,19.20907,73.00991
+P000484,Dev Choudhry,normal,2323,Mumbai,Maharashtra,19.04199,72.88139
+P000485,Amol Varma,normal,705,Asansol,West Bengal,23.69912,86.92868
+P000486,Maanas Manne,normal,230,Hubballi,Karnataka,15.36349,75.08482
+P000487,Aarav Pandit,normal,1988,Kota,Rajasthan,25.21016,75.83157
+P000488,Omaja Grover,normal,2753,Delhi Central,Delhi,28.68016,77.22329
+P000489,Jalsa Bir,normal,159,Mangaluru,Karnataka,13.01,74.89948
+P000490,Madhavi Singhal,normal,3063,Delhi Central,Delhi,28.63402,77.18262
+P000491,Lila Prakash,normal,765,Kolkata,West Bengal,22.53083,88.36694
+P000492,Amol Parikh,normal,981,Agra,Uttar Pradesh,27.15243,77.99206
+P000493,Hemani Khosla,normal,2836,Rohtak,Haryana,28.95516,76.65824
+P000494,Gaurangi Deol,normal,404,Lucknow,Uttar Pradesh,26.79498,80.95129
+P000495,Indira Nigam,normal,487,Agra,Uttar Pradesh,27.21274,77.93587
+P000496,Ucchal Srinivas,normal,1596,Mumbai,Maharashtra,19.07258,72.89412
+P000497,Krishna Bhatnagar,normal,152,Mysuru,Karnataka,12.33083,76.67412
+P000498,Balhaar Memon,normal,918,Lucknow,Uttar Pradesh,26.84489,80.93937
+P000499,Caleb Iyengar,normal,2796,Thane,Maharashtra,19.26497,72.98554
+P000500,Diya Mukherjee,normal,2837,Thane,Maharashtra,19.20264,72.94604
+P000501,Urvashi Kulkarni,normal,270,Lucknow,Uttar Pradesh,26.88041,80.9098
+P000502,Rayaan Mangal,normal,2856,Nagpur,Maharashtra,21.17982,79.09668
+P000503,Champak Narula,normal,1219,Mumbai,Maharashtra,19.07032,72.87446
+P000504,Jeet Pillai,normal,2340,Jaipur,Rajasthan,26.93652,75.76253
+P000505,Mugdha Sarraf,normal,33,Durgapur,West Bengal,23.55372,87.34577
+P000506,Harinakshi Grover,normal,800,Ranchi,Jharkhand,23.306,85.25043
+P000507,Widisha Pillai,normal,110,Ranchi,Jharkhand,23.29359,85.33118
+P000508,Fitan Samra,normal,34,Alwar,Rajasthan,27.51531,76.65141
+P000509,Qushi Gole,normal,31,Durgapur,West Bengal,23.50816,87.37887
+P000510,Ekani Chauhan,normal,1221,Rohtak,Haryana,28.97,76.62547
+P000511,Falak Merchant,normal,315,Mangaluru,Karnataka,12.96406,74.85771
+P000512,Sanaya Sandhu,normal,1298,Gurugram,Haryana,28.46146,77.02945
+P000513,Sachi Panchal,normal,2367,Mangaluru,Karnataka,12.92117,74.83667
+P000514,Brijesh Pandit,normal,2009,Thane,Maharashtra,19.20019,72.93661
+P000515,Anvi Bhandari,normal,1915,Deoghar,Jharkhand,24.47443,86.69889
+P000516,Nidra Patla,normal,1004,Ranchi,Jharkhand,23.35,85.29516
+P000517,Azaan Dhar,normal,2828,Ranchi,Jharkhand,23.36835,85.25439
+P000518,Bakhshi Date,normal,2918,Thane,Maharashtra,19.21183,73.00595
+P000519,Warinder Peri,normal,3091,Hubballi,Karnataka,15.37207,75.18589
+P000520,Leela Bali,normal,1413,Kota,Rajasthan,25.14379,75.81194
+P000521,Shivani Prabhakar,normal,1029,Bengaluru,Karnataka,13.01353,77.56582
+P000522,Sachi Bose,normal,180,Kolkata,West Bengal,22.52806,88.35952
+P000523,Jeevika Rao,normal,2024,Noida,Uttar Pradesh,28.50976,77.3889
+P000524,Arya Krish,normal,2580,Ranchi,Jharkhand,23.35916,85.2843
+P000525,Atharv Grewal,normal,2597,Agra,Uttar Pradesh,27.19531,78.04659
+P000526,Zarna Ram,normal,2703,Bengaluru,Karnataka,13.00904,77.50771
+P000527,Adweta Lad,normal,328,Howrah,West Bengal,22.63422,88.25827
+P000528,Tanish Mangal,normal,10,Gurugram,Haryana,28.52825,77.01392
+P000529,Ryan Das,normal,656,Faridabad,Haryana,28.38542,77.26207
+P000530,Ethan Seth,normal,2290,Noida,Uttar Pradesh,28.51638,77.40665
+P000531,Sai Chahal,normal,1243,Gurugram,Haryana,28.43717,77.04472
+P000532,Idika Bhattacharyya,normal,1123,Nagpur,Maharashtra,21.1069,79.0408
+P000533,Charita Dugar,normal,2739,Noida,Uttar Pradesh,28.47621,77.42506
+P000534,Janaki Trivedi,normal,2290,New Delhi,Delhi,28.66697,77.24229
+P000535,Jairaj Iyer,normal,1862,Mumbai,Maharashtra,19.11712,72.80392
+P000536,Warjas Tak,normal,1281,Agra,Uttar Pradesh,27.22573,77.92002
+P000537,Jalsa Pillay,normal,1029,Mumbai,Maharashtra,19.08523,72.84613
+P000538,Kai Chadha,normal,2813,Mangaluru,Karnataka,12.91517,74.8047
+P000539,Dayamai Rao,normal,2144,Pune,Maharashtra,18.53066,73.8252
+P000540,Nirja Rout,normal,1470,Kolkata,West Bengal,22.56052,88.36754
+P000541,Jeremiah Nadig,normal,762,Faridabad,Haryana,28.45374,77.31356
+P000542,Shivani Shukla,normal,2224,Bharatpur,Rajasthan,27.1792,77.45071
+P000543,Kabir Gopal,normal,2068,Dhanbad,Jharkhand,23.82987,86.45529
+P000544,Rachita Thakkar,normal,3106,Gurugram,Haryana,28.38205,77.03194
+P000545,Jeet Vasa,normal,2330,Lucknow,Uttar Pradesh,26.88905,80.94252
+P000546,Daksha Gala,normal,1375,Ghaziabad,Uttar Pradesh,28.65581,77.43961
+P000547,Ekantika Kar,normal,481,Gurugram,Haryana,28.48199,77.06541
+P000548,Zilmil Mander,normal,1413,Kolkata,West Bengal,22.46259,88.38985
+P000549,Zashil Hegde,normal,990,Howrah,West Bengal,22.57852,88.34637
+P000550,Jeremiah Mitter,normal,335,Delhi Central,Delhi,28.68862,77.2713
+P000551,Yadavi Ganguly,normal,1379,Noida,Uttar Pradesh,28.52614,77.4321
+P000552,Onveer Nazareth,normal,309,Ghaziabad,Uttar Pradesh,28.64669,77.45352
+P000553,Ayush Bumb,normal,2277,Agra,Uttar Pradesh,27.12139,78.03296
+P000554,Alka Kade,normal,333,Alwar,Rajasthan,27.59629,76.61375
+P000555,Azaan Tank,normal,1871,Asansol,West Bengal,23.67861,86.97574
+P000556,Chasmum Subramanian,normal,786,Lucknow,Uttar Pradesh,26.7812,80.98213
+P000557,Nidra Mishra,normal,1144,Pune,Maharashtra,18.54437,73.85839
+P000558,Elijah Bhasin,normal,1922,Bengaluru,Karnataka,12.8839,77.53293
+P000559,Ria Sagar,normal,2899,Bengaluru,Karnataka,12.96635,77.66379
+P000560,Ucchal Jani,normal,2465,Ghaziabad,Uttar Pradesh,28.65449,77.45939
+P000561,Maanas Munshi,normal,2074,Mysuru,Karnataka,12.34443,76.62136
+P000562,Hemani Rastogi,normal,3119,Jamtara,Jharkhand,24.00747,86.86589
+P000563,Kamala Varma,normal,669,Jamtara,Jharkhand,23.98315,86.81166
+P000564,Eiravati Khurana,normal,377,Lucknow,Uttar Pradesh,26.73082,80.90713
+P000565,Jason Loke,normal,1809,Bengaluru,Karnataka,12.93345,77.64568
+P000566,Yug Dhaliwal,normal,670,Rohtak,Haryana,28.86076,76.60423
+P000567,Chandresh Mannan,normal,1367,Deoghar,Jharkhand,24.5309,86.85783
+P000568,Omya Kothari,normal,857,Ghaziabad,Uttar Pradesh,28.66724,77.38474
+P000569,Falak Munshi,normal,2431,Noida,Uttar Pradesh,28.56571,77.4011
+P000570,Nathaniel Tara,normal,142,Durgapur,West Bengal,23.54619,87.33787
+P000571,Wishi Morar,normal,2080,Nuh,Haryana,28.12576,77.02638
+P000572,Arin Chana,normal,1486,Noida,Uttar Pradesh,28.56376,77.47847
+P000573,Yashasvi Shankar,normal,2369,Ranchi,Jharkhand,23.33771,85.30178
+P000574,Tanveer Pandit,normal,1294,Bengaluru,Karnataka,12.99407,77.57225
+P000575,Chandresh Manda,normal,2675,Agra,Uttar Pradesh,27.13176,78.01113
+P000576,Upma Mangal,normal,246,Nagpur,Maharashtra,21.12103,79.05205
+P000577,Hritik Sankar,normal,2489,Delhi Central,Delhi,28.64005,77.21445
+P000578,Aishani Pau,normal,3159,Thane,Maharashtra,19.27066,72.98556
+P000579,Jasmit Bath,normal,2731,Faridabad,Haryana,28.40707,77.323
+P000580,Charan Hayer,normal,1040,Pune,Maharashtra,18.50783,73.88518
+P000581,Bhavya Borah,normal,2891,Bharatpur,Rajasthan,27.20058,77.49664
+P000582,Yamini Seshadri,normal,920,Asansol,West Bengal,23.61736,86.97752
+P000583,Jagat Dave,normal,1673,Faridabad,Haryana,28.40316,77.24359
+P000584,Meera Prakash,normal,534,New Delhi,Delhi,28.66492,77.20562
+P000585,Jasmit Dhawan,normal,964,Asansol,West Bengal,23.61683,86.96193
+P000586,Yashodhara Ratti,normal,1303,Alwar,Rajasthan,27.58794,76.61402
+P000587,Chakradev Barad,normal,527,Jamtara,Jharkhand,23.94269,86.80461
+P000588,Gauri Som,normal,430,Ranchi,Jharkhand,23.31448,85.30057
+P000589,Manthan Varma,normal,758,Jamtara,Jharkhand,23.9659,86.73696
+P000590,Falak Nagar,normal,71,Bengaluru,Karnataka,12.98312,77.57964
+P000591,Maya Mistry,normal,30,Kolkata,West Bengal,22.60662,88.39387
+P000592,Yashica Upadhyay,normal,559,Bharatpur,Rajasthan,27.29769,77.53213
+P000593,Chandani Soman,normal,930,Bengaluru,Karnataka,13.0002,77.61884
+P000594,Jyoti Narula,normal,2530,Asansol,West Bengal,23.6224,86.95359
+P000595,Omaja Morar,normal,1802,Jamtara,Jharkhand,23.98897,86.78698
+P000596,Urvi Lanka,normal,593,Jaipur,Rajasthan,26.85362,75.78581
+P000597,Charan Srinivasan,normal,2226,Noida,Uttar Pradesh,28.53521,77.37334
+P000598,Lajita Divan,normal,225,Bharatpur,Rajasthan,27.23032,77.57065
+P000599,Azad Choudhary,normal,808,Jamtara,Jharkhand,23.97135,86.79128
+P000600,Anirudh Sastry,normal,20,Asansol,West Bengal,23.63808,86.95737
+P000601,Omya Doshi,normal,609,Dhanbad,Jharkhand,23.72346,86.44234
+P000602,Samar Roy,normal,682,Jamtara,Jharkhand,23.95451,86.8044
+P000603,David Devi,normal,3087,Mumbai,Maharashtra,19.03799,72.96522
+P000604,Ekta Sridhar,normal,2372,Ghaziabad,Uttar Pradesh,28.62514,77.48449
+P000605,Dipta Ghose,normal,642,Faridabad,Haryana,28.41893,77.28823
+P000606,Hema Pandya,normal,3092,Lucknow,Uttar Pradesh,26.79727,80.89836
+P000607,Veda Handa,normal,175,Jamtara,Jharkhand,23.95188,86.82422
+P000608,Arya Misra,normal,2685,Pune,Maharashtra,18.52651,73.88453
+P000609,Chameli Mani,normal,2904,Bharatpur,Rajasthan,27.24976,77.51515
+P000610,Vrinda Nadig,normal,3030,Dhanbad,Jharkhand,23.77436,86.37658
+P000611,Ikshita Mahal,normal,2031,Lucknow,Uttar Pradesh,26.83374,80.98445
+P000612,Jairaj Raghavan,normal,3031,Hubballi,Karnataka,15.42429,75.10173
+P000613,Hemani Dhingra,normal,2055,Durgapur,West Bengal,23.52031,87.39072
+P000614,Brijesh Mani,normal,2483,Pune,Maharashtra,18.53779,73.86197
+P000615,Hiral Sathe,normal,295,Nagpur,Maharashtra,21.14321,79.10574
+P000616,Varenya Kala,normal,134,Jaipur,Rajasthan,26.96763,75.83575
+P000617,Anika Magar,normal,1375,Nagpur,Maharashtra,21.16526,79.06731
+P000618,Ikbal Khatri,normal,478,Noida,Uttar Pradesh,28.56596,77.34557
+P000619,Chandresh Wali,normal,994,Jaipur,Rajasthan,26.85222,75.80833
+P000620,Viraj Ben,normal,1676,Delhi Central,Delhi,28.63089,77.30885
+P000621,Odika Narayanan,normal,579,Kolkata,West Bengal,22.60835,88.34306
+P000622,Harish Devan,normal,303,Bharatpur,Rajasthan,27.22449,77.44888
+P000623,Nakul Ray,normal,2390,Howrah,West Bengal,22.64657,88.2992
+P000624,Vansha Iyengar,normal,2001,Asansol,West Bengal,23.70512,86.89051
+P000625,Ekani Mangal,normal,119,Thane,Maharashtra,19.17156,73.00571
+P000626,Gaurav Kata,normal,852,Alwar,Rajasthan,27.50604,76.53374
+P000627,Parth Sahni,normal,2235,Mumbai,Maharashtra,19.1105,72.89806
+P000628,Balhaar Ranganathan,normal,1930,Jaipur,Rajasthan,26.9006,75.80168
+P000629,Quincy Mann,normal,1077,Thane,Maharashtra,19.22607,72.89194
+P000630,Aditya Misra,normal,2987,Delhi Central,Delhi,28.58623,77.16742
+P000631,Gautami Mane,normal,3133,Jamtara,Jharkhand,24.02369,86.76233
+P000632,Wakeeta Desai,normal,1229,Thane,Maharashtra,19.17545,72.99911
+P000633,Anjali Hans,normal,2685,Deoghar,Jharkhand,24.44265,86.67423
+P000634,Ganga Gaba,normal,717,Delhi Central,Delhi,28.6706,77.24958
+P000635,Aarini Grewal,normal,1140,Bharatpur,Rajasthan,27.27782,77.42276
+P000636,Geetika Merchant,normal,47,Mysuru,Karnataka,12.28448,76.71437
+P000637,Parth Ravi,normal,2984,Kolkata,West Bengal,22.56203,88.40693
+P000638,Yutika Narang,normal,1191,Gurugram,Haryana,28.49275,77.0457
+P000639,Nandini Chandran,normal,1462,Bharatpur,Rajasthan,27.17611,77.50587
+P000640,Logan Sood,normal,2275,Hubballi,Karnataka,15.29062,75.14483
+P000641,Yuvraj Ahuja,normal,987,Pune,Maharashtra,18.53731,73.87553
+P000642,Leela Keer,normal,1274,Deoghar,Jharkhand,24.52761,86.73372
+P000643,Amara Narayan,normal,2424,Deoghar,Jharkhand,24.52426,86.75961
+P000644,Advay Lal,normal,2191,Mysuru,Karnataka,12.3614,76.72601
+P000645,Warinder Bhatia,normal,809,Bharatpur,Rajasthan,27.19959,77.48766
+P000646,Udyati Mohanty,normal,1858,Mangaluru,Karnataka,12.90474,74.82517
+P000647,Nidra Thakkar,normal,2603,Asansol,West Bengal,23.6673,86.95931
+P000648,Jacob Merchant,normal,2983,Ranchi,Jharkhand,23.37103,85.27259
+P000649,Timothy Kanda,normal,1273,Kolkata,West Bengal,22.57024,88.31852
+P000650,Vanya Dua,normal,124,Jamtara,Jharkhand,23.9826,86.73239
+P000651,Kashvi Sagar,normal,1973,Jamtara,Jharkhand,23.96137,86.84546
+P000652,Tejas Kota,normal,511,Nagpur,Maharashtra,21.11369,79.04739
+P000653,Sanya Wable,normal,465,Ranchi,Jharkhand,23.4112,85.33786
+P000654,Faras Choudhury,normal,406,Thane,Maharashtra,19.17361,72.98467
+P000655,Yashasvi Jain,normal,427,Nuh,Haryana,28.06693,76.98353
+P000656,Nitesh Narang,normal,3169,Ranchi,Jharkhand,23.39526,85.33926
+P000657,Jackson Jha,normal,2381,Bengaluru,Karnataka,12.97595,77.6305
+P000658,Gavin Uppal,normal,1064,Asansol,West Bengal,23.64495,86.9517
+P000659,Christopher Setty,normal,3047,Gurugram,Haryana,28.43605,76.96586
+P000660,Yochana Sagar,normal,179,Lucknow,Uttar Pradesh,26.92742,80.91583
+P000661,Dalbir Shere,normal,344,Alwar,Rajasthan,27.53728,76.67431
+P000662,Anthony Randhawa,normal,2983,Kota,Rajasthan,25.2023,75.94805
+P000663,Aarush Kamdar,normal,1689,Delhi Central,Delhi,28.64445,77.17525
+P000664,Chakradev Sampath,normal,545,Asansol,West Bengal,23.66331,86.92793
+P000665,Devansh Bhasin,normal,2113,Jaipur,Rajasthan,26.94013,75.77735
+P000666,Urmi Balay,normal,1095,Mysuru,Karnataka,12.34006,76.65186
+P000667,Nilima Gole,normal,927,New Delhi,Delhi,28.60466,77.24696
+P000668,Osha Prasad,normal,934,Mangaluru,Karnataka,12.93984,74.95009
+P000669,Saumya Purohit,normal,762,Kolkata,West Bengal,22.68068,88.34527
+P000670,Faris Zacharia,normal,849,Rohtak,Haryana,28.81186,76.55816
+P000671,Ijaya Dani,normal,977,Bengaluru,Karnataka,12.92836,77.62471
+P000672,Maya Wadhwa,normal,215,Hubballi,Karnataka,15.36139,75.18778
+P000673,Udant Aggarwal,normal,274,Mysuru,Karnataka,12.28901,76.58632
+P000674,Chanchal Sheth,normal,1369,Jaipur,Rajasthan,26.93127,75.78341
+P000675,Ladli Karpe,normal,87,Kota,Rajasthan,25.16931,75.88594
+P000676,Triveni Pal,normal,2685,Jamtara,Jharkhand,23.9834,86.86818
+P000677,Anya Gulati,normal,218,Howrah,West Bengal,22.58481,88.2427
+P000678,Azad Saini,normal,2325,Mumbai,Maharashtra,19.09298,72.9068
+P000679,Wridesh Jhaveri,normal,2129,Lucknow,Uttar Pradesh,26.88839,80.97101
+P000680,Harrison Bandi,normal,2833,Dhanbad,Jharkhand,23.80615,86.44464
+P000681,Chanakya Konda,normal,3110,Asansol,West Bengal,23.72766,86.91953
+P000682,Neelima Sarna,normal,195,Thane,Maharashtra,19.21295,72.91852
+P000683,Teerth Bhalla,normal,159,Delhi Central,Delhi,28.6697,77.22106
+P000684,Yahvi Mann,normal,1308,Asansol,West Bengal,23.71799,86.98938
+P000685,Eiravati Nagi,normal,1039,Rohtak,Haryana,28.82985,76.5334
+P000686,Chasmum Dhar,normal,1054,Ghaziabad,Uttar Pradesh,28.59622,77.38233
+P000687,Odika Mital,normal,2313,Lucknow,Uttar Pradesh,26.8825,80.9553
+P000688,Darsh Gill,normal,269,Durgapur,West Bengal,23.5028,87.25905
+P000689,Warhi Batta,normal,1016,Noida,Uttar Pradesh,28.47946,77.36492
+P000690,Lakshmi Vohra,normal,1746,Rohtak,Haryana,28.89483,76.62055
+P000691,Omaja Rege,normal,133,Nuh,Haryana,28.13349,77.00569
+P000692,Charita Puri,normal,1512,Faridabad,Haryana,28.46922,77.40011
+P000693,Urvashi Khosla,normal,690,Rohtak,Haryana,28.89858,76.63092
+P000694,Charita Dhawan,normal,79,Pune,Maharashtra,18.47104,73.84691
+P000695,Dalbir Sachar,normal,1254,Alwar,Rajasthan,27.5154,76.65737
+P000696,Krish Rama,normal,1407,Lucknow,Uttar Pradesh,26.87816,80.93824
+P000697,Aadhya Jani,normal,14,Gurugram,Haryana,28.50122,77.05842
+P000698,Farhan Sengupta,normal,351,Bengaluru,Karnataka,12.99251,77.58435
+P000699,George Wason,normal,738,Mumbai,Maharashtra,19.12491,72.83891
+P000700,Charan Loyal,normal,19,Asansol,West Bengal,23.7387,86.94987
+P000701,Balveer Bora,normal,2488,Mumbai,Maharashtra,19.0084,72.90849
+P000702,Teerth Srinivas,normal,2864,Nagpur,Maharashtra,21.14545,79.06636
+P000703,Gaurangi Mitter,normal,2729,Bengaluru,Karnataka,12.94345,77.55563
+P000704,Siddharth Gupta,normal,755,Nuh,Haryana,28.10036,76.95377
+P000705,Varenya Kibe,normal,815,Agra,Uttar Pradesh,27.14079,78.03566
+P000706,Mekhala Khatri,normal,2336,Dhanbad,Jharkhand,23.81141,86.4358
+P000707,Barkha Rai,normal,2478,Rohtak,Haryana,28.87537,76.63768
+P000708,Jagrati Morar,normal,1374,Pune,Maharashtra,18.50515,73.88088
+P000709,Jagvi Varghese,normal,1500,Bengaluru,Karnataka,12.95693,77.56253
+P000710,Unnati Chaudhari,normal,933,Pune,Maharashtra,18.53787,73.81647
+P000711,Ekaja Jani,normal,3002,Asansol,West Bengal,23.64568,86.9932
+P000712,Dhriti Sachdev,normal,1717,Durgapur,West Bengal,23.5535,87.27338
+P000713,Timothy Dhingra,normal,3109,Mumbai,Maharashtra,19.01783,72.85771
+P000714,Advika Sahni,normal,1683,Deoghar,Jharkhand,24.50029,86.66615
+P000715,Michael Hayre,normal,1794,Pune,Maharashtra,18.51473,73.85017
+P000716,Victor Raghavan,normal,2315,Kolkata,West Bengal,22.53489,88.36187
+P000717,Xalak Nazareth,normal,2873,Alwar,Rajasthan,27.60128,76.6558
+P000718,Vrinda Swaminathan,normal,3050,Gurugram,Haryana,28.44522,77.10055
+P000719,Om Pandey,normal,74,Howrah,West Bengal,22.61703,88.28127
+P000720,Logan Suresh,normal,151,Asansol,West Bengal,23.71568,86.93872
+P000721,Daniel Viswanathan,normal,850,Faridabad,Haryana,28.41591,77.34116
+P000722,Falan Bava,normal,2974,Bengaluru,Karnataka,12.91512,77.61394
+P000723,Nitara Devan,normal,2717,Asansol,West Bengal,23.72039,86.99577
+P000724,Ekansh Dora,normal,460,Mangaluru,Karnataka,12.93051,74.8527
+P000725,Tejas Tiwari,normal,2606,Rohtak,Haryana,28.82665,76.58514
+P000726,Kashvi Bhasin,normal,2503,Agra,Uttar Pradesh,27.24399,78.00984
+P000727,Vinaya Babu,normal,719,Howrah,West Bengal,22.53312,88.24124
+P000728,Nisha Arora,normal,1843,Delhi Central,Delhi,28.67338,77.21121
+P000729,Anvi Wason,normal,2028,New Delhi,Delhi,28.62597,77.18757
+P000730,Anay Thakkar,normal,290,Lucknow,Uttar Pradesh,26.88782,80.90165
+P000731,Praneel Chhabra,normal,2856,New Delhi,Delhi,28.57553,77.19056
+P000732,Manthan Khosla,normal,1609,Jaipur,Rajasthan,26.91165,75.75465
+P000733,Zayyan Pandya,normal,1570,New Delhi,Delhi,28.6263,77.23691
+P000734,Mekhala Brar,normal,3195,Durgapur,West Bengal,23.5591,87.32296
+P000735,Nidra Sharaf,normal,2973,Rohtak,Haryana,28.919,76.58664
+P000736,Upkaar Mital,normal,2134,Delhi Central,Delhi,28.70265,77.26416
+P000737,Azad Chander,normal,867,New Delhi,Delhi,28.57125,77.22733
+P000738,Ladli Purohit,normal,949,Agra,Uttar Pradesh,27.23388,77.97249
+P000739,Daksh Andra,normal,1387,Nuh,Haryana,28.06992,77.02281
+P000740,Fitan Tata,normal,24,Durgapur,West Bengal,23.42716,87.28952
+P000741,Garima Chandran,normal,334,Asansol,West Bengal,23.67842,86.97564
+P000742,Victor Kakar,normal,2615,Hubballi,Karnataka,15.38776,75.09696
+P000743,Anika Batra,normal,604,Bengaluru,Karnataka,12.98862,77.5902
+P000744,Avni Bali,normal,2654,Asansol,West Bengal,23.71735,86.98977
+P000745,Divya Babu,normal,627,Kota,Rajasthan,25.18412,75.82446
+P000746,Maanas Rao,normal,1137,Kolkata,West Bengal,22.50554,88.27106
+P000747,Chandani Gaba,normal,2000,Ghaziabad,Uttar Pradesh,28.64575,77.45472
+P000748,Lopa Zachariah,normal,973,Jamtara,Jharkhand,24.00003,86.80057
+P000749,Leena Dey,normal,2151,Ghaziabad,Uttar Pradesh,28.64471,77.48253
+P000750,Xiti Pal,normal,3162,Faridabad,Haryana,28.38742,77.23236
+P000751,Guneet Sarkar,normal,1491,Bharatpur,Rajasthan,27.24896,77.53571
+P000752,Faqid Oak,normal,2888,Rohtak,Haryana,28.96737,76.56747
+P000753,Eta Balan,normal,1208,Agra,Uttar Pradesh,27.20267,77.99458
+P000754,Shravya Swaminathan,normal,609,Ranchi,Jharkhand,23.29091,85.33176
+P000755,Ishani Prashad,normal,592,Agra,Uttar Pradesh,27.19643,77.99986
+P000756,Quincy Rai,normal,1546,Durgapur,West Bengal,23.52328,87.31447
+P000757,Chakrika Koshy,normal,1867,Howrah,West Bengal,22.58143,88.23329
+P000758,Fitan Loyal,normal,448,Delhi Central,Delhi,28.73178,77.23108
+P000759,Lajita Dube,normal,3044,Kolkata,West Bengal,22.55228,88.3955
+P000760,Edhitha Patel,normal,2599,Jamtara,Jharkhand,24.00316,86.89938
+P000761,Gavin Ahluwalia,normal,1162,Noida,Uttar Pradesh,28.61751,77.34659
+P000762,Sai Parsa,normal,2989,Ranchi,Jharkhand,23.36137,85.26251
+P000763,Harsh Deo,normal,1230,Bengaluru,Karnataka,13.06033,77.59495
+P000764,Rachit Sankar,normal,2682,Kolkata,West Bengal,22.57552,88.3573
+P000765,Yauvani Reddy,normal,782,Noida,Uttar Pradesh,28.52235,77.35155
+P000766,Atharv Chakraborty,normal,1976,Nuh,Haryana,28.03811,76.98805
+P000767,Girik Nair,normal,3116,Durgapur,West Bengal,23.55423,87.30245
+P000768,Advik Manne,normal,430,Delhi Central,Delhi,28.71534,77.26558
+P000769,Lipika Chad,normal,2390,Alwar,Rajasthan,27.55412,76.65946
+P000770,Omkaar Rai,normal,2541,Nagpur,Maharashtra,21.08463,79.10676
+P000771,Liam Luthra,normal,2133,Jamtara,Jharkhand,23.94326,86.7698
+P000772,Amrita Tailor,normal,475,Mangaluru,Karnataka,12.91516,74.8211
+P000773,Dev Ganesh,normal,3175,Jaipur,Rajasthan,26.91309,75.73765
+P000774,Anya Sama,normal,882,Deoghar,Jharkhand,24.42619,86.67431
+P000775,Veda Bose,normal,766,Delhi Central,Delhi,28.66821,77.21082
+P000776,Zayan Koshy,normal,1723,Kota,Rajasthan,25.25727,75.88342
+P000777,Rohan Shankar,normal,323,Pune,Maharashtra,18.49883,73.86591
+P000778,Krishna Modi,normal,2602,Deoghar,Jharkhand,24.51377,86.74723
+P000779,Meghana Natarajan,normal,1261,Deoghar,Jharkhand,24.45336,86.69893
+P000780,Forum Sarraf,normal,2715,Noida,Uttar Pradesh,28.5242,77.47629
+P000781,Qushi Deshpande,normal,15,Jamtara,Jharkhand,23.94116,86.81938
+P000782,Ekani Iyer,normal,2704,Gurugram,Haryana,28.40559,77.03689
+P000783,Dipta Goel,normal,1956,Nuh,Haryana,28.0731,77.0142
+P000784,Eiravati Manne,normal,48,New Delhi,Delhi,28.59147,77.20706
+P000785,Xavier Nanda,normal,2623,Rohtak,Haryana,28.92606,76.64559
+P000786,Avni Ramaswamy,normal,1757,Hubballi,Karnataka,15.31321,75.04534
+P000787,Ishaan Iyengar,normal,2341,Rohtak,Haryana,28.85566,76.53372
+P000788,Avi Shenoy,normal,996,Ghaziabad,Uttar Pradesh,28.65365,77.49989
+P000789,Raksha Manne,normal,1774,Hubballi,Karnataka,15.38248,75.15711
+P000790,Nilima Tata,normal,2740,Mysuru,Karnataka,12.32755,76.65264
+P000791,Chavvi Khurana,normal,2990,Ghaziabad,Uttar Pradesh,28.62127,77.42897
+P000792,Mitesh Sampath,normal,1770,Nuh,Haryana,28.08565,76.95687
+P000793,Ethan Sen,normal,47,Howrah,West Bengal,22.54606,88.27227
+P000794,Nandini Warrior,normal,3137,Thane,Maharashtra,19.17911,73.02605
+P000795,Balhaar Parsa,normal,1211,Noida,Uttar Pradesh,28.52401,77.46714
+P000796,Ikbal Kothari,normal,832,Bengaluru,Karnataka,12.96224,77.54872
+P000797,Ojas Basu,normal,744,Ranchi,Jharkhand,23.40401,85.27533
+P000798,Garima Sani,normal,272,Agra,Uttar Pradesh,27.18572,78.01183
+P000799,Advaith Chaudhari,normal,215,Jaipur,Rajasthan,26.86994,75.82961
+P000800,Tristan Uppal,normal,2223,Howrah,West Bengal,22.65697,88.2094
+P000801,Sanaya Prasad,normal,103,Ghaziabad,Uttar Pradesh,28.6895,77.4487
+P000802,Ubika Tella,normal,1790,Mysuru,Karnataka,12.26127,76.60763
+P000803,Hemani Bakshi,normal,193,Gurugram,Haryana,28.41486,76.97702
+P000804,Henry Merchant,normal,217,Nuh,Haryana,28.14445,76.95773
+P000805,Frederick D’Alia,normal,644,Noida,Uttar Pradesh,28.56802,77.432
+P000806,Ijaya Muni,normal,278,Faridabad,Haryana,28.43806,77.33011
+P000807,Tamanna Jhaveri,normal,369,Durgapur,West Bengal,23.5638,87.35521
+P000808,Ijaya Soni,normal,1755,Thane,Maharashtra,19.18509,73.03761
+P000809,Raksha Sethi,normal,1390,Nuh,Haryana,28.12706,76.97501
+P000810,Ekalinga Mital,normal,1775,Lucknow,Uttar Pradesh,26.85425,80.95056
+P000811,Ishwar Bajaj,normal,820,Thane,Maharashtra,19.23584,72.91213
+P000812,Ikbal Gala,normal,1939,Mysuru,Karnataka,12.2619,76.67921
+P000813,Zaitra Ghosh,normal,2625,Asansol,West Bengal,23.69701,86.97884
+P000814,Ganga Sandhu,normal,967,Mysuru,Karnataka,12.24304,76.68912
+P000815,Vincent Ravel,normal,798,Delhi Central,Delhi,28.57828,77.26013
+P000816,Quincy Sankaran,normal,1376,Hubballi,Karnataka,15.38553,75.10754
+P000817,Ayush Hora,normal,1313,Kolkata,West Bengal,22.51865,88.34714
+P000818,Pushti Ramachandran,normal,584,Nagpur,Maharashtra,21.11191,79.12566
+P000819,Tanish Jha,normal,346,Ranchi,Jharkhand,23.41839,85.28033
+P000820,Dev Chaudry,normal,524,Gurugram,Haryana,28.43299,77.04918
+P000821,Jasmit Nanda,normal,2872,Kota,Rajasthan,25.18828,75.82536
+P000822,Tanvi Comar,normal,362,Alwar,Rajasthan,27.58283,76.67812
+P000823,Vrishti Wable,normal,1447,Kota,Rajasthan,25.21934,75.87212
+P000824,Lipika Ramanathan,normal,563,Asansol,West Bengal,23.61794,86.94687
+P000825,Ijaya Pandey,normal,368,Rohtak,Haryana,28.94878,76.54075
+P000826,Orinder Mishra,normal,3111,Pune,Maharashtra,18.55147,73.90777
+P000827,Krish Munshi,normal,419,Thane,Maharashtra,19.21844,73.08021
+P000828,William Mody,normal,772,Bharatpur,Rajasthan,27.20619,77.4409
+P000829,Qadim Prakash,normal,145,Nuh,Haryana,28.05342,76.98957
+P000830,Yasti Rama,normal,1182,Jaipur,Rajasthan,26.87637,75.79665
+P000831,Lakshit Rajagopal,normal,2884,Bharatpur,Rajasthan,27.20559,77.49939
+P000832,Quincy Sur,normal,2085,Mumbai,Maharashtra,19.01031,72.92376
+P000833,Ojas Suri,normal,1518,Bharatpur,Rajasthan,27.19722,77.49229
+P000834,Logan Grover,normal,31,Gurugram,Haryana,28.45658,76.94392
+P000835,Shravya Bera,normal,229,Durgapur,West Bengal,23.51477,87.30073
+P000836,Aditya Sundaram,normal,1747,Faridabad,Haryana,28.43894,77.33876
+P000837,Robert Rajagopalan,normal,2300,Noida,Uttar Pradesh,28.47599,77.39752
+P000838,Nilima Swamy,normal,456,Kota,Rajasthan,25.22017,75.87408
+P000839,Sachi Suresh,normal,40,Mysuru,Karnataka,12.27982,76.62897
+P000840,Fitan Balasubramanian,normal,133,Lucknow,Uttar Pradesh,26.80936,80.8903
+P000841,Brinda Bali,normal,1433,Asansol,West Bengal,23.56769,86.90693
+P000842,Umang Yogi,normal,1252,Durgapur,West Bengal,23.63332,87.26315
+P000843,Om Shankar,normal,764,Rohtak,Haryana,28.90818,76.62124
+P000844,Yasti Chowdhury,normal,1544,Delhi Central,Delhi,28.53292,77.23403
+P000845,Amrita Peri,normal,1616,Ranchi,Jharkhand,23.42986,85.2822
+P000846,Ridhi Kamdar,normal,904,Kota,Rajasthan,25.16371,75.8462
+P000847,Harsh Kota,normal,1705,Nuh,Haryana,28.14633,76.96996
+P000848,Bachittar Sengupta,normal,1976,Mysuru,Karnataka,12.31384,76.62007
+P000849,Ijaya Chahal,normal,3003,Ghaziabad,Uttar Pradesh,28.67488,77.4555
+P000850,Jacob Khalsa,normal,3193,Gurugram,Haryana,28.46431,76.98687
+P000851,Indali Sangha,normal,558,Bharatpur,Rajasthan,27.20753,77.46022
+P000852,Liam Jhaveri,normal,475,Hubballi,Karnataka,15.29819,75.12375
+P000853,Daniel Panchal,normal,296,Hubballi,Karnataka,15.38935,75.13598
+P000854,Om Naik,normal,2731,Alwar,Rajasthan,27.55298,76.63634
+P000855,Bimala Loke,normal,928,Jamtara,Jharkhand,23.92999,86.78432
+P000856,Krishna Sabharwal,normal,1688,Kota,Rajasthan,25.18372,75.84839
+P000857,Aradhana Date,normal,1876,Howrah,West Bengal,22.56156,88.25441
+P000858,Zaid Dhingra,normal,851,Mangaluru,Karnataka,12.98961,74.84117
+P000859,Yug Ramaswamy,normal,1006,Kota,Rajasthan,25.14036,75.91571
+P000860,Lucky Luthra,normal,2328,Asansol,West Bengal,23.57966,86.93798
+P000861,Keya Seth,normal,2511,Hubballi,Karnataka,15.45238,75.10678
+P000862,Girik Rau,normal,2988,Jamtara,Jharkhand,23.95995,86.79607
+P000863,Jyoti Sha,normal,1026,Rohtak,Haryana,28.92323,76.61888
+P000864,Falak Agate,normal,890,Ghaziabad,Uttar Pradesh,28.70553,77.46015
+P000865,Tara Parmar,normal,3198,Nuh,Haryana,28.11536,77.01044
+P000866,Mitali Kamdar,normal,1873,Durgapur,West Bengal,23.48326,87.34817
+P000867,Siddharth Talwar,normal,2673,Nagpur,Maharashtra,21.11758,79.01468
+P000868,Ekantika Mander,normal,1925,Noida,Uttar Pradesh,28.55982,77.39547
+P000869,Kalpit Sundaram,normal,1480,New Delhi,Delhi,28.67184,77.20746
+P000870,Chanakya Batra,normal,62,New Delhi,Delhi,28.6068,77.24318
+P000871,Tripti Babu,normal,2183,Hubballi,Karnataka,15.31146,75.07274
+P000872,Nakul Sastry,normal,726,Faridabad,Haryana,28.37305,77.30329
+P000873,Aadi Sangha,normal,1573,Lucknow,Uttar Pradesh,26.87769,80.95805
+P000874,Kevin Mittal,normal,1768,Jaipur,Rajasthan,26.86204,75.74446
+P000875,Anusha Chander,normal,207,Agra,Uttar Pradesh,27.179,78.05172
+P000876,Zashil Butala,normal,1879,Ghaziabad,Uttar Pradesh,28.66038,77.47548
+P000877,Noah Ben,normal,2127,Durgapur,West Bengal,23.56273,87.36822
+P000878,Dalaja Kaur,normal,905,Gurugram,Haryana,28.52663,77.0147
+P000879,Gavin Chandran,normal,637,Agra,Uttar Pradesh,27.17144,78.01229
+P000880,Tanay Sood,normal,1482,Dhanbad,Jharkhand,23.81238,86.44067
+P000881,Kevin Kara,normal,2262,Alwar,Rajasthan,27.64741,76.60999
+P000882,Aditya Anand,normal,1426,Howrah,West Bengal,22.66451,88.20602
+P000883,Jai Sami,normal,1069,Agra,Uttar Pradesh,27.16272,78.04355
+P000884,Vanya Bobal,normal,194,Durgapur,West Bengal,23.55471,87.2827
+P000885,Leela Chakraborty,normal,1537,Pune,Maharashtra,18.55031,73.84795
+P000886,Harshil Munshi,normal,1330,Nuh,Haryana,28.0688,76.96304
+P000887,Chandani Devan,normal,385,Mysuru,Karnataka,12.26349,76.74348
+P000888,Kiaan Dhar,normal,2540,Bengaluru,Karnataka,12.97271,77.64645
+P000889,Abhiram Gala,normal,1356,Dhanbad,Jharkhand,23.7825,86.35497
+P000890,Indali Kala,normal,2809,Ranchi,Jharkhand,23.31572,85.30082
+P000891,Nisha Savant,normal,63,Faridabad,Haryana,28.48723,77.31636
+P000892,Gabriel Chaudhry,normal,3084,Bharatpur,Rajasthan,27.15465,77.54085
+P000893,Jatin Rajagopalan,normal,1011,Bharatpur,Rajasthan,27.1929,77.54586
+P000894,Pushti Murty,normal,52,Ghaziabad,Uttar Pradesh,28.59271,77.50032
+P000895,Yug Malhotra,normal,1073,Thane,Maharashtra,19.15401,72.92151
+P000896,Yuvraj Mane,normal,1434,Noida,Uttar Pradesh,28.47367,77.51207
+P000897,Charvi Jha,normal,1326,Kolkata,West Bengal,22.57578,88.37997
+P000898,Manya Merchant,normal,2597,Alwar,Rajasthan,27.54218,76.70045
+P000899,Wriddhish Talwar,normal,675,Mumbai,Maharashtra,19.08301,72.81304
+P000900,Isaiah Khosla,normal,268,Pune,Maharashtra,18.54926,73.83898
+P000901,Ekavir Wable,normal,15,Thane,Maharashtra,19.29399,73.04041
+P000902,Jalsa Nadig,normal,2459,Mysuru,Karnataka,12.26129,76.61396
+P000903,Lila Salvi,normal,1203,Dhanbad,Jharkhand,23.78812,86.42298
+P000904,Orinder Sinha,normal,2035,Faridabad,Haryana,28.43687,77.29445
+P000905,Anay Bir,normal,1155,Bengaluru,Karnataka,12.90637,77.6422
+P000906,Adweta Kale,normal,886,Pune,Maharashtra,18.50966,73.85321
+P000907,Darpan Rao,normal,1797,Jamtara,Jharkhand,24.00677,86.79634
+P000908,Yachana Sagar,normal,1789,Asansol,West Bengal,23.66976,86.90531
+P000909,Neelima Butala,normal,187,Deoghar,Jharkhand,24.42676,86.68237
+P000910,Arunima Chacko,normal,654,Asansol,West Bengal,23.69575,86.9841
+P000911,Farhan Vaidya,normal,858,Hubballi,Karnataka,15.31475,75.10688
+P000912,Nachiket Yadav,normal,13,Ranchi,Jharkhand,23.32773,85.25505
+P000913,Mahika Bhatti,normal,739,Mangaluru,Karnataka,12.887,74.82286
+P000914,Rajeshri Khare,normal,2221,Mumbai,Maharashtra,19.08485,72.86891
+P000915,Yash Chadha,normal,69,Ranchi,Jharkhand,23.31987,85.36083
+P000916,Jack Setty,normal,1373,Jaipur,Rajasthan,26.85184,75.72179
+P000917,Dayamai Gill,normal,2951,Gurugram,Haryana,28.4579,77.0336
+P000918,Advik Devan,normal,733,Ranchi,Jharkhand,23.28234,85.33176
+P000919,Nihal Taneja,normal,552,Rohtak,Haryana,28.8809,76.56424
+P000920,Zansi Lad,normal,2588,Nagpur,Maharashtra,21.21743,79.11662
+P000921,Kamya Date,normal,187,Mysuru,Karnataka,12.32799,76.66588
+P000922,Jacob Balan,normal,1241,Thane,Maharashtra,19.21419,73.04101
+P000923,Pushti Magar,normal,2161,New Delhi,Delhi,28.66701,77.20863
+P000924,Adya Bose,normal,2751,Thane,Maharashtra,19.18779,73.00161
+P000925,Tamanna Vaidya,normal,1577,Howrah,West Bengal,22.63023,88.27188
+P000926,Christopher Tata,normal,489,Bengaluru,Karnataka,12.89807,77.63489
+P000927,Jhalak Dugar,normal,517,Delhi Central,Delhi,28.59915,77.20229
+P000928,Harshil D’Alia,normal,2242,Deoghar,Jharkhand,24.44028,86.72677
+P000929,Yashodhara Agate,normal,803,Hubballi,Karnataka,15.37553,75.09924
+P000930,Advik Konda,normal,1468,Agra,Uttar Pradesh,27.13049,78.02588
+P000931,Urmi Patla,normal,198,Bharatpur,Rajasthan,27.19284,77.4113
+P000932,Mason Gola,normal,2773,Delhi Central,Delhi,28.65124,77.1845
+P000933,Oni Kapur,normal,2069,Noida,Uttar Pradesh,28.46054,77.41789
+P000934,Yuvraj Saha,normal,3105,Asansol,West Bengal,23.65433,86.94374
+P000935,Anika Brahmbhatt,normal,3186,Lucknow,Uttar Pradesh,26.78914,80.90775
+P000936,Jagdish Thakkar,normal,116,Nuh,Haryana,28.02089,76.96731
+P000937,Praneel Kapoor,normal,569,Hubballi,Karnataka,15.33591,75.1706
+P000938,Nandini Biswas,normal,129,Asansol,West Bengal,23.59434,86.91268
+P000939,Barkha Mukhopadhyay,normal,2473,Asansol,West Bengal,23.7125,86.94231
+P000940,Gabriel Shan,normal,2295,Alwar,Rajasthan,27.60739,76.61751
+P000941,Jyoti Iyer,normal,1023,Ghaziabad,Uttar Pradesh,28.69222,77.51364
+P000942,Daksha Kibe,normal,1101,Alwar,Rajasthan,27.49378,76.62707
+P000943,Jyoti Tak,normal,2784,Asansol,West Bengal,23.66687,86.89396
+P000944,Yatan Dora,normal,95,Mumbai,Maharashtra,19.03373,72.92947
+P000945,Nimrat Bajwa,normal,3189,Dhanbad,Jharkhand,23.78075,86.46152
+P000946,Hiral Andra,normal,3076,Mangaluru,Karnataka,12.89342,74.85851
+P000947,Aarav Puri,normal,1675,New Delhi,Delhi,28.6107,77.27732
+P000948,Hemang Jha,normal,1265,Jamtara,Jharkhand,24.00222,86.80929
+P000949,Oni Swamy,normal,1173,Nagpur,Maharashtra,21.10706,79.16965
+P000950,Lucky Mammen,normal,1066,Jaipur,Rajasthan,26.91831,75.86074
+P000951,Caleb Kata,normal,1568,Agra,Uttar Pradesh,27.13241,78.01785
+P000952,Kashish Shanker,normal,2532,Bharatpur,Rajasthan,27.22184,77.47343
+P000953,Girish Tiwari,normal,1181,Jaipur,Rajasthan,26.92034,75.78302
+P000954,Meera Borde,normal,1763,Hubballi,Karnataka,15.39871,75.12266
+P000955,Radhika De,normal,1466,Mangaluru,Karnataka,12.87244,74.82845
+P000956,Bishakha Lal,normal,586,Howrah,West Bengal,22.63277,88.22423
+P000957,Maya Narain,normal,933,Mysuru,Karnataka,12.28048,76.56241
+P000958,Sneha Magar,normal,1154,Durgapur,West Bengal,23.54998,87.24421
+P000959,Falan Jain,normal,1873,Nuh,Haryana,28.10363,77.07479
+P000960,Ikbal Dugal,normal,1133,Rohtak,Haryana,28.93805,76.64723
+P000961,Nitesh Sengupta,normal,82,Thane,Maharashtra,19.20876,72.97721
+P000962,Dipta Ray,normal,2431,Kolkata,West Bengal,22.61509,88.43351
+P000963,Ishita Johal,normal,1411,Rohtak,Haryana,28.89164,76.66178
+P000964,Darika Sheth,normal,2974,Hubballi,Karnataka,15.42463,75.15516
+P000965,Jagdish Chana,normal,535,Jaipur,Rajasthan,26.88455,75.86259
+P000966,Daksha Baria,normal,1954,Pune,Maharashtra,18.54168,73.88591
+P000967,Falak Divan,normal,315,Deoghar,Jharkhand,24.46058,86.68879
+P000968,Yuvraj Parekh,normal,2431,Howrah,West Bengal,22.6728,88.23849
+P000969,Yochana Bawa,normal,2769,Delhi Central,Delhi,28.63647,77.29117
+P000970,Abha Ghosh,normal,803,Jamtara,Jharkhand,23.91632,86.82181
+P000971,Nidhi Sethi,normal,2822,Agra,Uttar Pradesh,27.1723,78.04375
+P000972,Girindra Shere,normal,2780,Lucknow,Uttar Pradesh,26.85489,80.97143
+P000973,Logan Dara,normal,855,Asansol,West Bengal,23.71343,86.97752
+P000974,David Kapadia,normal,499,Asansol,West Bengal,23.67253,86.93248
+P000975,Rudra Rattan,normal,1699,Kolkata,West Bengal,22.55083,88.32934
+P000976,Frado Lad,normal,2350,Noida,Uttar Pradesh,28.56216,77.38587
+P000977,Anthony Bhattacharyya,normal,1674,Rohtak,Haryana,28.83807,76.61257
+P000978,Sachi Dave,normal,1001,Hubballi,Karnataka,15.38514,75.19702
+P000979,Garima Das,normal,2456,Howrah,West Bengal,22.60708,88.3147
+P000980,Triya Bedi,normal,569,Alwar,Rajasthan,27.57845,76.68622
+P000981,Rachita Rana,normal,217,Gurugram,Haryana,28.46973,77.00028
+P000982,Ayushman Raja,normal,234,Dhanbad,Jharkhand,23.81023,86.44975
+P000983,Orinder Pandya,normal,1673,Nagpur,Maharashtra,21.16748,79.01802
+P000984,Rachit Maharaj,normal,3106,Lucknow,Uttar Pradesh,26.8614,80.94936
+P000985,Sanaya Dixit,normal,1336,Bengaluru,Karnataka,12.93568,77.59553
+P000986,Yatan Merchant,normal,3168,Bharatpur,Rajasthan,27.1331,77.42559
+P000987,Nisha Srinivas,normal,2294,Mangaluru,Karnataka,12.97209,74.76994
+P000988,Gagan Mammen,normal,109,Noida,Uttar Pradesh,28.46573,77.44798
+P000989,Laksh Saini,normal,591,Jaipur,Rajasthan,26.92836,75.73444
+P000990,Zaid Bahl,normal,835,Hubballi,Karnataka,15.37736,75.12458
+P000991,Jagrati Srinivasan,normal,2124,Bharatpur,Rajasthan,27.10406,77.45048
+P000992,Hemangini Thakkar,normal,229,Noida,Uttar Pradesh,28.54705,77.38545
+P000993,Lipika Madan,normal,3092,Nagpur,Maharashtra,21.12633,79.08288
+P000994,Atharv Nagar,normal,2570,Ghaziabad,Uttar Pradesh,28.71945,77.49318
+P000995,Ayushman Mand,normal,2638,Hubballi,Karnataka,15.39174,75.13786
+P000996,Urmi Wagle,normal,3079,Jamtara,Jharkhand,23.89752,86.83856
+P000997,Viraj Dutta,normal,1612,Nuh,Haryana,28.07524,77.02249
+P000998,Yug Khosla,normal,2029,Deoghar,Jharkhand,24.41075,86.76857
+P000999,Daksh Kanda,normal,1181,Faridabad,Haryana,28.41978,77.36151
+P001000,Isha Ghose,normal,2704,Deoghar,Jharkhand,24.42505,86.66501
+P001001,Warjas Nadkarni,normal,2127,Delhi Central,Delhi,28.66799,77.27986
+P001002,Ayaan Pandey,normal,175,Nagpur,Maharashtra,21.18144,79.15315
+P001003,Raghav Tailor,normal,850,Mumbai,Maharashtra,19.10429,72.91235
+P001004,Parth Swaminathan,normal,1326,Mysuru,Karnataka,12.21393,76.61479
+P001005,Gautam Bhalla,normal,1585,Noida,Uttar Pradesh,28.56492,77.37846
+P001006,Theodore Bahri,normal,724,Noida,Uttar Pradesh,28.5132,77.37283
+P001007,Aadi Narula,normal,536,Bharatpur,Rajasthan,27.10582,77.59559
+P001008,Kalpit Oak,normal,1100,Kota,Rajasthan,25.16627,75.88557
+P001009,Ekiya Bhargava,normal,1027,Pune,Maharashtra,18.53941,73.88434
+P001010,Manbir Dhar,normal,1556,Gurugram,Haryana,28.42085,77.06889
+P001011,Janya Bora,normal,1446,Nagpur,Maharashtra,21.14066,79.14456
+P001012,Meghana Chaudhuri,normal,13,Asansol,West Bengal,23.644,86.91912
+P001013,Chasmum Naidu,normal,491,Deoghar,Jharkhand,24.48738,86.66636
+P001014,Nakul Sarkar,normal,2890,Alwar,Rajasthan,27.60175,76.6708
+P001015,Edhitha Ghosh,normal,21,Asansol,West Bengal,23.73645,86.89391
+P001016,Udant Gill,normal,926,Hubballi,Karnataka,15.29918,75.08474
+P001017,Damyanti Menon,normal,835,Lucknow,Uttar Pradesh,26.79892,80.93991
+P001018,Peter Agarwal,normal,2661,Gurugram,Haryana,28.51274,77.11959
+P001019,Bachittar Gopal,normal,178,Bharatpur,Rajasthan,27.24903,77.49774
+P001020,Timothy Chawla,normal,2528,Bengaluru,Karnataka,12.94197,77.54474
+P001021,Lohit Narula,normal,2165,Gurugram,Haryana,28.53073,77.03952
+P001022,Wazir Palan,normal,91,Nagpur,Maharashtra,21.21759,79.1664
+P001023,Oliver Chakrabarti,normal,1453,Gurugram,Haryana,28.48995,77.0001
+P001024,Sanya Apte,normal,466,New Delhi,Delhi,28.57176,77.16502
+P001025,Shaurya Krish,normal,2166,Jaipur,Rajasthan,26.92606,75.80455
+P001026,Inaya Kunda,normal,2620,Asansol,West Bengal,23.63317,86.96592
+P001027,Aarav Bava,normal,144,Delhi Central,Delhi,28.7077,77.24947
+P001028,Raksha Saini,normal,733,Mysuru,Karnataka,12.35667,76.63653
+P001029,Odika Tailor,normal,985,Nagpur,Maharashtra,21.1924,79.14478
+P001030,Indali Prashad,normal,3128,Kota,Rajasthan,25.25403,75.86399
+P001031,Varenya Kar,normal,2304,Mysuru,Karnataka,12.19741,76.68057
+P001032,Siya Borah,normal,838,New Delhi,Delhi,28.62913,77.3052
+P001033,Chaitaly Bahri,normal,2855,Alwar,Rajasthan,27.64419,76.59368
+P001034,Advika Cheema,normal,1906,Thane,Maharashtra,19.26496,72.91897
+P001035,Hema Garde,normal,140,Kolkata,West Bengal,22.57487,88.34807
+P001036,Naveen Borde,normal,305,Kolkata,West Bengal,22.54205,88.4278
+P001037,Hamsini Subramanian,normal,904,Kota,Rajasthan,25.23069,75.80675
+P001038,Raagini Gala,normal,873,Ranchi,Jharkhand,23.37165,85.28819
+P001039,Naksh Bera,normal,2687,Nuh,Haryana,28.0568,77.04437
+P001040,Garima Jha,normal,1141,Kota,Rajasthan,25.21463,75.80071
+P001041,Nimrat Zachariah,normal,1489,Bengaluru,Karnataka,12.96195,77.63472
+P001042,Baghyawati Mishra,normal,2068,Dhanbad,Jharkhand,23.82236,86.35403
+P001043,Gopal Bawa,normal,2803,Jamtara,Jharkhand,23.9943,86.83742
+P001044,Vritti Dube,normal,76,Alwar,Rajasthan,27.56552,76.59264
+P001045,Jalsa Aggarwal,normal,2434,New Delhi,Delhi,28.58225,77.24759
+P001046,Gagan Menon,normal,41,Bengaluru,Karnataka,13.03388,77.52518
+P001047,Ryan Chatterjee,normal,1993,Nuh,Haryana,28.00333,76.93682
+P001048,Samuel Garde,normal,3190,Noida,Uttar Pradesh,28.5137,77.42336
+P001049,Finn Solanki,normal,1920,Kolkata,West Bengal,22.54111,88.3459
+P001050,Darika Rao,normal,159,Mangaluru,Karnataka,12.91633,74.90099
+P001051,Vrinda Lanka,normal,1091,Delhi Central,Delhi,28.65165,77.18283
+P001052,Lila Goyal,normal,2170,Lucknow,Uttar Pradesh,26.81509,80.90504
+P001053,Lakshmi Pingle,normal,995,Nuh,Haryana,28.09936,77.02731
+P001054,Sanaya Basu,normal,1293,Mysuru,Karnataka,12.35394,76.64474
+P001055,Ria Shroff,normal,2841,Nagpur,Maharashtra,21.15699,79.096
+P001056,Upkaar Luthra,normal,575,Nuh,Haryana,28.09718,76.98398
+P001057,Matthew Chatterjee,normal,3044,Mangaluru,Karnataka,12.87861,74.7682
+P001058,Hemangini Sachdev,normal,1844,Deoghar,Jharkhand,24.46014,86.69393
+P001059,Darsh Ram,normal,501,Pune,Maharashtra,18.56886,73.75524
+P001060,Vaishnavi Keer,normal,2831,Faridabad,Haryana,28.35924,77.29094
+P001061,Chandani Brar,normal,1324,Lucknow,Uttar Pradesh,26.84039,80.91613
+P001062,Bakhshi Thakkar,normal,1548,Hubballi,Karnataka,15.38932,75.14822
+P001063,Jai Sen,normal,882,Asansol,West Bengal,23.63385,86.88276
+P001064,Oliver Kakar,normal,805,Lucknow,Uttar Pradesh,26.89438,81.00245
+P001065,Jonathan Basak,normal,3055,New Delhi,Delhi,28.61457,77.21194
+P001066,Farhan Saran,normal,112,Asansol,West Bengal,23.67658,86.94376
+P001067,Manbir Kuruvilla,normal,2636,Gurugram,Haryana,28.47218,76.99202
+P001068,Ekalinga Chahal,normal,2450,Dhanbad,Jharkhand,23.84185,86.48092
+P001069,Mekhala Nanda,normal,1482,Kota,Rajasthan,25.21529,75.87327
+P001070,Zinal Shanker,normal,1702,Hubballi,Karnataka,15.42114,75.10721
+P001071,Oni Chowdhury,normal,1223,Agra,Uttar Pradesh,27.16462,77.98847
+P001072,Mason Divan,normal,695,Thane,Maharashtra,19.20623,72.88951
+P001073,Hitesh Chaudhuri,normal,177,Agra,Uttar Pradesh,27.14804,77.99724
+P001074,Hemangini Roy,normal,127,Mangaluru,Karnataka,12.96018,74.89805
+P001075,Leela Sunder,normal,2217,Asansol,West Bengal,23.6587,86.89529
+P001076,Baljiwan Gera,normal,2965,Bengaluru,Karnataka,13.03873,77.5725
+P001077,Neha Dhawan,normal,1381,Kota,Rajasthan,25.24661,75.89472
+P001078,Balvan Randhawa,normal,61,Agra,Uttar Pradesh,27.22485,78.05847
+P001079,Wazir Bawa,normal,52,Rohtak,Haryana,28.81595,76.66159
+P001080,Amruta Pradhan,normal,1371,Noida,Uttar Pradesh,28.50276,77.35135
+P001081,Geetika Mitter,normal,3073,Pune,Maharashtra,18.58238,73.80432
+P001082,Avni Swamy,normal,2019,Ranchi,Jharkhand,23.30356,85.25324
+P001083,Vedant Desai,normal,540,Lucknow,Uttar Pradesh,26.86372,80.92291
+P001084,Saanvi Nagi,normal,2616,Deoghar,Jharkhand,24.55299,86.71283
+P001085,Omaja Chakraborty,normal,349,Kota,Rajasthan,25.24332,75.91887
+P001086,Riya Kakar,normal,1281,Bharatpur,Rajasthan,27.25956,77.52936
+P001087,Vedhika Varty,normal,430,Deoghar,Jharkhand,24.417,86.6914
+P001088,Daksh Varma,normal,2101,Bengaluru,Karnataka,12.96427,77.61385
+P001089,Dominic Mukhopadhyay,normal,3019,Delhi Central,Delhi,28.64727,77.19492
+P001090,Krishna Viswanathan,normal,1413,Mysuru,Karnataka,12.29618,76.58766
+P001091,Oscar Hans,normal,1003,Bharatpur,Rajasthan,27.19956,77.47327
+P001092,Dalbir Krish,normal,2048,Nagpur,Maharashtra,21.12299,79.05034
+P001093,Tanmayi Bedi,normal,2784,Nagpur,Maharashtra,21.17745,79.06567
+P001094,Rushil Mahal,normal,2446,Gurugram,Haryana,28.44216,77.11116
+P001095,Ucchal Tiwari,normal,345,Mysuru,Karnataka,12.30494,76.64153
+P001096,Jatin Balasubramanian,normal,3197,Dhanbad,Jharkhand,23.77101,86.40298
+P001097,Kashish Suresh,normal,825,Deoghar,Jharkhand,24.48774,86.68509
+P001098,Peter Som,normal,2419,Alwar,Rajasthan,27.581,76.63315
+P001099,Hemangini Gade,normal,726,Bharatpur,Rajasthan,27.18564,77.44975
+P001100,Gautam Mane,normal,65,Faridabad,Haryana,28.41601,77.33535
+P001101,Libni Bawa,normal,1621,Howrah,West Bengal,22.669,88.35504
+P001102,Tanish Kant,normal,415,Bharatpur,Rajasthan,27.20035,77.47894
+P001103,Samuel Luthra,normal,280,Alwar,Rajasthan,27.54151,76.66083
+P001104,Yochana Bahri,normal,3151,Mysuru,Karnataka,12.26059,76.68447
+P001105,Urvi Deo,normal,3079,Mangaluru,Karnataka,12.85867,74.75498
+P001106,Abhiram Kapur,normal,2926,Nagpur,Maharashtra,21.16336,79.12801
+P001107,Dalaja Maharaj,normal,3045,Mangaluru,Karnataka,12.88215,74.83186
+P001108,Krisha Palla,normal,2359,Nuh,Haryana,28.08861,76.96516
+P001109,Zayyan Kamdar,normal,1512,Hubballi,Karnataka,15.38723,75.14257
+P001110,Chasmum Verma,normal,1959,Delhi Central,Delhi,28.72383,77.31817
+P001111,Harsh Amble,normal,109,Bharatpur,Rajasthan,27.21233,77.53676
+P001112,Barkha Misra,normal,2850,Nagpur,Maharashtra,21.12594,79.12907
+P001113,Vasatika Bhatt,normal,646,Deoghar,Jharkhand,24.45007,86.74418
+P001114,Aradhana Nair,normal,2142,Faridabad,Haryana,28.40394,77.28971
+P001115,Advika Misra,normal,1928,Mangaluru,Karnataka,12.94285,74.86578
+P001116,Mason Varughese,normal,879,New Delhi,Delhi,28.71569,77.20752
+P001117,Dakshesh Raval,normal,69,Ghaziabad,Uttar Pradesh,28.65832,77.45358
+P001118,Logan Bal,normal,185,Rohtak,Haryana,28.87893,76.60428
+P001119,Chakrika Lad,normal,66,Noida,Uttar Pradesh,28.52705,77.39076
+P001120,Nidhi Rama,normal,1105,Pune,Maharashtra,18.45357,73.92721
+P001121,Ranveer Oza,normal,196,Noida,Uttar Pradesh,28.52157,77.38813
+P001122,Vamakshi Parmer,normal,796,Mangaluru,Karnataka,12.91635,74.83681
+P001123,Onkar Golla,normal,1644,Durgapur,West Bengal,23.52147,87.32654
+P001124,Gunbir Sinha,normal,1940,Noida,Uttar Pradesh,28.51409,77.37554
+P001125,Aarna Goswami,normal,815,Kolkata,West Bengal,22.54408,88.29987
+P001126,Gaurav Kapadia,normal,2368,Bengaluru,Karnataka,12.98302,77.59586
+P001127,Udant Mohanty,normal,2671,Nagpur,Maharashtra,21.19548,79.06849
+P001128,Garima Prabhu,normal,1634,Dhanbad,Jharkhand,23.75843,86.43266
+P001129,Chaitaly Sheth,normal,1036,Lucknow,Uttar Pradesh,26.82671,80.93838
+P001130,Upma Bera,normal,3007,Jaipur,Rajasthan,26.85683,75.72913
+P001131,Urmi Hayer,normal,525,Faridabad,Haryana,28.33397,77.33311
+P001132,Lakshmi Wagle,normal,142,Delhi Central,Delhi,28.66859,77.23471
+P001133,Odika Bhagat,normal,362,Howrah,West Bengal,22.56045,88.27648
+P001134,Laksh Iyer,normal,2566,New Delhi,Delhi,28.58005,77.30802
+P001135,Nimrat Shankar,normal,2735,Rohtak,Haryana,28.85607,76.65784
+P001136,Diya Gole,normal,3194,Thane,Maharashtra,19.27108,72.97517
+P001137,Vinaya Natarajan,normal,110,Mysuru,Karnataka,12.27847,76.63177
+P001138,Dhriti Bhardwaj,normal,533,Faridabad,Haryana,28.39486,77.26932
+P001139,Siya Mahal,normal,2838,Bharatpur,Rajasthan,27.17346,77.45755
+P001140,Om Dutt,normal,182,Nagpur,Maharashtra,21.04394,79.09525
+P001141,Gaurang Dayal,normal,2558,Gurugram,Haryana,28.44454,77.05609
+P001142,Pushti Raval,normal,502,Ghaziabad,Uttar Pradesh,28.59164,77.43674
+P001143,Vansha Rajagopal,normal,688,Kota,Rajasthan,25.29487,75.91414
+P001144,Baljiwan Walla,normal,1795,Asansol,West Bengal,23.80191,86.96068
+P001145,Kashvi Atwal,normal,50,Howrah,West Bengal,22.60617,88.2359
+P001146,Rayaan Badami,normal,2883,Mangaluru,Karnataka,12.94862,74.88385
+P001147,Yuvraj Kara,normal,917,Jaipur,Rajasthan,26.94168,75.80162
+P001148,Devika Dayal,normal,928,Dhanbad,Jharkhand,23.82348,86.45364
+P001149,Leela Thakur,normal,2884,Mysuru,Karnataka,12.36296,76.6298
+P001150,Oliver Bhattacharyya,normal,2184,Jaipur,Rajasthan,26.8945,75.78926
+P001151,Chanchal Mannan,normal,605,Jaipur,Rajasthan,26.88229,75.83299
+P001152,Zinal Viswanathan,normal,2527,Pune,Maharashtra,18.55228,73.85664
+P001153,Radha Desai,normal,1073,Lucknow,Uttar Pradesh,26.80005,80.91613
+P001154,Vrishti Parmer,normal,2880,Asansol,West Bengal,23.77924,86.95625
+P001155,Nitesh Raval,normal,425,Kolkata,West Bengal,22.5822,88.29919
+P001156,Vedant Kapur,normal,929,Alwar,Rajasthan,27.62754,76.65772
+P001157,Siddharth Bains,normal,2410,Rohtak,Haryana,28.9732,76.6326
+P001158,Jatin Peri,normal,2129,Howrah,West Bengal,22.54108,88.22576
+P001159,Keya Kumer,normal,3142,New Delhi,Delhi,28.61457,77.225
+P001160,Chanakya Chokshi,normal,1918,Rohtak,Haryana,28.88732,76.61026
+P001161,Chanakya D’Alia,normal,814,Ranchi,Jharkhand,23.30301,85.2795
+P001162,Sachi Rai,normal,2766,Mumbai,Maharashtra,19.03026,72.90344
+P001163,Zayyan Som,normal,373,Nuh,Haryana,28.144,77.04523
+P001164,Samesh Andra,normal,7,Thane,Maharashtra,19.20832,73.03355
+P001165,Osha Chaudhuri,normal,2404,Hubballi,Karnataka,15.34443,75.1219
+P001166,Laksh Sahota,normal,911,Gurugram,Haryana,28.47492,76.98841
+P001167,Yasti Dalal,normal,2144,Mumbai,Maharashtra,19.14183,72.89825
+P001168,Ishaan Cherian,normal,3009,Durgapur,West Bengal,23.52047,87.38262
+P001169,Rushil Iyengar,normal,1977,Kota,Rajasthan,25.18604,75.88615
+P001170,Saksham Parmar,normal,396,Asansol,West Bengal,23.66342,86.97222
+P001171,Chakrika Dyal,normal,1629,Nuh,Haryana,28.1252,76.9716
+P001172,Watika Johal,normal,108,Thane,Maharashtra,19.24319,73.01611
+P001173,Ganga Keer,normal,2953,Mumbai,Maharashtra,18.9782,72.86128
+P001174,Agastya Chakraborty,normal,870,Mysuru,Karnataka,12.23101,76.60215
+P001175,Wakeeta Dixit,normal,1179,New Delhi,Delhi,28.6669,77.21222
+P001176,Yasti Borde,normal,47,Lucknow,Uttar Pradesh,26.85735,80.91065
+P001177,Aahana Kashyap,normal,1714,Bharatpur,Rajasthan,27.1663,77.53572
+P001178,Chaman Lalla,normal,1245,Hubballi,Karnataka,15.30355,75.17351
+P001179,Chandresh Chaudhry,normal,2659,Ghaziabad,Uttar Pradesh,28.69307,77.44095
+P001180,Balveer Mannan,normal,2054,Faridabad,Haryana,28.34253,77.37761
+P001181,Dhriti Sandhu,normal,1596,Durgapur,West Bengal,23.4964,87.36414
+P001182,Girish Bath,normal,1277,Ranchi,Jharkhand,23.34585,85.28801
+P001183,Lakshit Garde,normal,465,Kota,Rajasthan,25.22884,75.80869
+P001184,Ishita Sarma,normal,837,Thane,Maharashtra,19.3012,72.97021
+P001185,Girik Pradhan,normal,859,Kolkata,West Bengal,22.58465,88.35663
+P001186,Qadim Comar,normal,1515,Durgapur,West Bengal,23.52073,87.32491
+P001187,Mugdha Shan,normal,323,Deoghar,Jharkhand,24.45413,86.71504
+P001188,Lekha Sridhar,normal,516,Mysuru,Karnataka,12.36993,76.60625
+P001189,Ojas Chowdhury,normal,1836,Nuh,Haryana,28.13475,76.98881
+P001190,Daniel Dutta,normal,775,Gurugram,Haryana,28.3936,76.96898
+P001191,Omaja Subramanian,normal,1831,Mangaluru,Karnataka,12.91852,74.89614
+P001192,Pratyush Raghavan,normal,3046,Nuh,Haryana,28.0083,77.05201
+P001193,Ayush De,normal,1904,Nuh,Haryana,28.13502,76.99484
+P001194,Vinaya Chowdhury,normal,2593,Ghaziabad,Uttar Pradesh,28.64742,77.44833
+P001195,Ridhi Batra,normal,2057,Pune,Maharashtra,18.61563,73.88052
+P001196,Advika Murthy,normal,1609,Nagpur,Maharashtra,21.11055,79.07111
+P001197,Udarsh Nigam,normal,158,Ranchi,Jharkhand,23.31694,85.2791
+P001198,Rachita Kothari,normal,2203,Alwar,Rajasthan,27.53475,76.63424
+P001199,Hiral Rajan,normal,1810,Howrah,West Bengal,22.54314,88.27623
+P001200,Chatura Apte,normal,1616,Faridabad,Haryana,28.43765,77.31529
+P001201,Yashasvi Singh,normal,2216,Agra,Uttar Pradesh,27.12371,78.04523
+P001202,Noah Borde,normal,2185,Faridabad,Haryana,28.45188,77.29825
+P001203,Ekani Khosla,normal,625,Nagpur,Maharashtra,21.12848,79.0162
+P001204,Arunima Bedi,normal,1079,Dhanbad,Jharkhand,23.77302,86.44545
+P001205,Kritika Rau,normal,2877,Delhi Central,Delhi,28.63287,77.21517
+P001206,Farhan Sharaf,normal,2186,Lucknow,Uttar Pradesh,26.85229,80.91706
+P001207,Sara Chakrabarti,normal,57,Pune,Maharashtra,18.5865,73.89681
+P001208,Sanya Mutti,normal,2616,Rohtak,Haryana,28.83812,76.62852
+P001209,Widisha Badami,normal,935,Kolkata,West Bengal,22.59001,88.36112
+P001210,Netra Sachar,normal,44,Faridabad,Haryana,28.36705,77.30964
+P001211,Aadi Chand,normal,2775,Jaipur,Rajasthan,26.97993,75.84015
+P001212,Yashoda Jhaveri,normal,437,Rohtak,Haryana,28.91306,76.63063
+P001213,Harita Patla,normal,1859,Durgapur,West Bengal,23.53413,87.32354
+P001214,Udant Sha,normal,2086,Alwar,Rajasthan,27.57524,76.65358
+P001215,Urvashi Patla,normal,907,New Delhi,Delhi,28.58687,77.12465
+P001216,Ishaan Chatterjee,normal,559,Deoghar,Jharkhand,24.44361,86.74338
+P001217,Aarnav Om,normal,1658,Mangaluru,Karnataka,12.89428,74.87877
+P001218,Bishakha Vig,normal,1538,Lucknow,Uttar Pradesh,26.86409,81.01004
+P001219,Hitesh Bath,normal,403,Kota,Rajasthan,25.24308,75.85107
+P001220,Waida Dey,normal,20,Kolkata,West Bengal,22.5901,88.27924
+P001221,Hredhaan Kumar,normal,17,New Delhi,Delhi,28.59431,77.28159
+P001222,Raghav Dara,normal,414,Thane,Maharashtra,19.20027,73.06499
+P001223,Tanveer Shankar,normal,1403,Alwar,Rajasthan,27.51622,76.57233
+P001224,Hamsini Chokshi,normal,2425,Mumbai,Maharashtra,19.07829,72.90942
+P001225,Chakradhar Dasgupta,normal,919,Pune,Maharashtra,18.55902,73.79258
+P001226,Tanvi Thaman,normal,1293,Ranchi,Jharkhand,23.33019,85.32322
+P001227,Wishi Agrawal,normal,2841,Mangaluru,Karnataka,12.9149,74.81348
+P001228,Rachita Subramanian,normal,3187,Noida,Uttar Pradesh,28.55164,77.4113
+P001229,Oscar Dave,normal,175,Rohtak,Haryana,28.84291,76.56008
+P001230,Lila Nagy,normal,2930,Bengaluru,Karnataka,13.00587,77.58665
+P001231,Omya Kothari,normal,87,Dhanbad,Jharkhand,23.84801,86.44101
+P001232,Mitali Oza,normal,3033,New Delhi,Delhi,28.6947,77.22116
+P001233,Sneha Deol,normal,1829,Nuh,Haryana,28.02169,76.99299
+P001234,Nitara Vala,normal,108,Agra,Uttar Pradesh,27.20299,78.04395
+P001235,Dipta Kalla,normal,1746,Noida,Uttar Pradesh,28.54298,77.43543
+P001236,Shaurya Mannan,normal,2015,Asansol,West Bengal,23.69467,86.94096
+P001237,Kevin Gokhale,normal,888,Mangaluru,Karnataka,12.89538,74.86374
+P001238,Jack Pandey,normal,1423,Mysuru,Karnataka,12.34453,76.69536
+P001239,Omisha Walla,normal,1730,Bengaluru,Karnataka,12.96695,77.60924
+P001240,Pahal Arya,normal,2984,Nuh,Haryana,28.12428,77.04296
+P001241,Aryan Raj,normal,1685,Agra,Uttar Pradesh,27.15356,78.07245
+P001242,Chatresh Bhalla,normal,769,New Delhi,Delhi,28.61327,77.24734
+P001243,Amara Dyal,normal,2697,Mumbai,Maharashtra,19.06443,72.93885
+P001244,Zashil Dhingra,normal,2977,Pune,Maharashtra,18.55974,73.88264
+P001245,Chakrika Jani,normal,814,Howrah,West Bengal,22.59825,88.2845
+P001246,Jagrati Sethi,normal,2535,Mumbai,Maharashtra,19.02248,72.89435
+P001247,Udarsh Ramachandran,normal,1592,New Delhi,Delhi,28.60768,77.18836
+P001248,Yasti Mani,normal,857,Kota,Rajasthan,25.23481,75.87006
+P001249,Lakshmi Ram,normal,631,Jamtara,Jharkhand,24.02217,86.7919
+P001250,Dhriti Bhagat,normal,3187,Alwar,Rajasthan,27.57386,76.53111
+P001251,Zayan Jain,normal,587,Durgapur,West Bengal,23.52073,87.36713
+P001252,Umang Pillai,normal,35,Bengaluru,Karnataka,12.929,77.59849
+P001253,Rishi Menon,normal,446,Nagpur,Maharashtra,21.2076,79.00951
+P001254,Peter Borde,normal,2595,Mangaluru,Karnataka,12.98522,74.87335
+P001255,Oscar Varkey,normal,123,Bharatpur,Rajasthan,27.19162,77.4799
+P001256,Krishna Baria,normal,2305,Kolkata,West Bengal,22.53592,88.37857
+P001257,Arya Lalla,normal,495,Nagpur,Maharashtra,21.17381,79.12765
+P001258,Naveen Kumer,normal,3173,Ranchi,Jharkhand,23.32457,85.38582
+P001259,Ganga Shukla,normal,507,Jamtara,Jharkhand,23.93379,86.77993
+P001260,Balveer Dube,normal,3114,Howrah,West Bengal,22.53504,88.24213
+P001261,Charan Mitra,normal,802,Bharatpur,Rajasthan,27.23093,77.49603
+P001262,Ishita Bora,normal,1598,Nagpur,Maharashtra,21.11611,79.08247
+P001263,Thomas Gour,normal,861,Howrah,West Bengal,22.59273,88.22048
+P001264,Yashasvi Dutta,normal,234,Gurugram,Haryana,28.46668,77.05227
+P001265,Netra Chanda,normal,2456,Mangaluru,Karnataka,12.97,74.88688
+P001266,Timothy Kala,normal,469,Bengaluru,Karnataka,12.96917,77.6216
+P001267,Garima Patel,normal,2619,Nagpur,Maharashtra,21.17034,79.148
+P001268,Tejas Wali,normal,2225,Jamtara,Jharkhand,23.99297,86.76253
+P001269,Aditya Contractor,normal,3175,Asansol,West Bengal,23.67909,86.98174
+P001270,Sanaya Khosla,normal,1205,Bharatpur,Rajasthan,27.20572,77.44762
+P001271,Balveer Nagi,normal,55,Ranchi,Jharkhand,23.35801,85.26663
+P001272,Ishaan Raju,normal,3131,Thane,Maharashtra,19.19426,73.00848
+P001273,Barkha Bakshi,normal,2257,Mumbai,Maharashtra,19.13527,72.86487
+P001274,Yoshita Trivedi,normal,2627,Jaipur,Rajasthan,26.88447,75.77185
+P001275,Vidhi Bassi,normal,708,Hubballi,Karnataka,15.36326,75.06225
+P001276,Reyansh Nagi,normal,1077,Lucknow,Uttar Pradesh,26.88625,80.95704
+P001277,Gopal Ganesh,normal,3156,Ghaziabad,Uttar Pradesh,28.67657,77.46813
+P001278,Dominic Kade,normal,2619,Howrah,West Bengal,22.58372,88.18209
+P001279,Panini Chawla,normal,1690,Hubballi,Karnataka,15.35708,75.09656
+P001280,Radhika Bora,normal,486,Gurugram,Haryana,28.47188,76.97313
+P001281,Arjun Sharaf,normal,141,Nuh,Haryana,28.11405,77.04189
+P001282,Baljiwan Chahal,normal,9,Thane,Maharashtra,19.2078,73.01276
+P001283,Chatura Gokhale,normal,252,Lucknow,Uttar Pradesh,26.80295,80.97698
+P001284,Ekavir Kari,normal,39,Kolkata,West Bengal,22.53026,88.38629
+P001285,Nikita Rama,normal,865,Deoghar,Jharkhand,24.41319,86.74442
+P001286,Nidhi Sant,normal,2470,Bengaluru,Karnataka,13.01567,77.60836
+P001287,Anay Ramachandran,normal,2744,Kolkata,West Bengal,22.52962,88.34594
+P001288,Abeer Bhatnagar,normal,2257,Mumbai,Maharashtra,19.04957,72.82554
+P001289,Elijah Parmar,normal,1687,Jamtara,Jharkhand,23.91265,86.73222
+P001290,Bimala Mitra,normal,1438,Thane,Maharashtra,19.15458,73.01401
+P001291,Baghyawati Sarma,normal,1249,Mangaluru,Karnataka,12.83728,74.87679
+P001292,Megha Balasubramanian,normal,1239,Agra,Uttar Pradesh,27.17567,77.99368
+P001293,Naksh Walla,normal,2582,Pune,Maharashtra,18.51042,73.79428
+P001294,Laban Raman,normal,617,Asansol,West Bengal,23.72519,86.99762
+P001295,Maanas Misra,normal,1148,Nuh,Haryana,28.11445,77.02706
+P001296,Advay Dhaliwal,normal,114,Bharatpur,Rajasthan,27.24932,77.51319
+P001297,Benjamin Ahluwalia,normal,33,Mysuru,Karnataka,12.21856,76.62132
+P001298,Frederick Mody,normal,163,Jaipur,Rajasthan,26.90865,75.79454
+P001299,Hemangini Kakar,normal,234,Mumbai,Maharashtra,19.13002,72.86925
+P001300,Yauvani Dhar,normal,1926,Deoghar,Jharkhand,24.50878,86.6691
+P001301,Qarin Kant,normal,2694,Howrah,West Bengal,22.59278,88.23688
+P001302,Rishi Contractor,normal,1059,Alwar,Rajasthan,27.52233,76.65608
+P001303,Chatura Shenoy,normal,1578,Faridabad,Haryana,28.43933,77.37287
+P001304,Bina Bhavsar,normal,1105,Agra,Uttar Pradesh,27.20718,78.05853
+P001305,Guneet Hora,normal,1089,Gurugram,Haryana,28.51669,77.06299
+P001306,Ganga Parikh,normal,2419,Asansol,West Bengal,23.71837,86.92109
+P001307,Wahab Chaudhry,normal,1090,Agra,Uttar Pradesh,27.14404,77.96175
+P001308,Ekaraj Hari,normal,1398,Delhi Central,Delhi,28.71892,77.24832
+P001309,Vedika Seshadri,normal,2279,Dhanbad,Jharkhand,23.83568,86.45044
+P001310,Damini Dua,normal,2895,Kota,Rajasthan,25.25964,75.88045
+P001311,Diya Sangha,normal,635,Noida,Uttar Pradesh,28.47818,77.45977
+P001312,Aayush Munshi,normal,536,Kota,Rajasthan,25.24614,75.90782
+P001313,Timothy Sarin,normal,209,Deoghar,Jharkhand,24.4991,86.77626
+P001314,Jagvi Desai,normal,179,Ranchi,Jharkhand,23.29523,85.34943
+P001315,Varsha Shere,normal,304,Deoghar,Jharkhand,24.449,86.71182
+P001316,Jagrati Mody,normal,319,Thane,Maharashtra,19.25862,72.99227
+P001317,Ikbal Gill,normal,498,Dhanbad,Jharkhand,23.76899,86.46065
+P001318,Avni Dey,normal,2134,Kolkata,West Bengal,22.64513,88.36508
+P001319,Adya Bose,normal,337,Dhanbad,Jharkhand,23.78718,86.43637
+P001320,Anirudh Tripathi,normal,1198,Jamtara,Jharkhand,24.02433,86.83582
+P001321,Nidhi Kala,normal,1942,Jaipur,Rajasthan,26.96363,75.78434
+P001322,Abha Zacharia,normal,604,Hubballi,Karnataka,15.44998,75.1335
+P001323,Manthan Pau,normal,313,Durgapur,West Bengal,23.54015,87.2359
+P001324,Udant Mannan,normal,1574,Delhi Central,Delhi,28.65318,77.22923
+P001325,Ucchal Thaker,normal,311,Howrah,West Bengal,22.61354,88.21211
+P001326,Mekhala Patla,normal,1935,Bharatpur,Rajasthan,27.24322,77.53635
+P001327,William Gandhi,normal,2797,Asansol,West Bengal,23.6775,86.95483
+P001328,Sanaya Dutta,normal,2446,Nagpur,Maharashtra,21.14235,79.14047
+P001329,Madhav Sule,normal,287,Noida,Uttar Pradesh,28.50415,77.40061
+P001330,Banjeet Kanda,normal,1469,Howrah,West Bengal,22.5874,88.22246
+P001331,Vincent Bhatnagar,normal,1101,Nagpur,Maharashtra,21.15839,79.05943
+P001332,Kala Kaur,normal,2549,Delhi Central,Delhi,28.67138,77.20697
+P001333,Samuel Vasa,normal,881,Durgapur,West Bengal,23.53674,87.26451
+P001334,Lipika Singh,normal,2556,Bharatpur,Rajasthan,27.21765,77.49484
+P001335,Chakradhar Baral,normal,2323,Asansol,West Bengal,23.66686,86.9481
+P001336,Harshil Verma,normal,1910,Mysuru,Karnataka,12.31422,76.63914
+P001337,Adya Ghosh,normal,242,Alwar,Rajasthan,27.52217,76.65004
+P001338,Kritika Pau,normal,2753,Agra,Uttar Pradesh,27.2142,77.98229
+P001339,Zansi Krishnamurthy,normal,1999,Faridabad,Haryana,28.36442,77.35454
+P001340,Udant Varty,normal,2330,Jaipur,Rajasthan,26.95736,75.8294
+P001341,Ira Pai,normal,1174,Bengaluru,Karnataka,12.96972,77.61841
+P001342,Vasatika Ahuja,normal,2992,Nuh,Haryana,28.20223,77.0355
+P001343,Ria Gandhi,normal,2214,Bengaluru,Karnataka,12.95059,77.55472
+P001344,Faraj Varkey,normal,2368,Thane,Maharashtra,19.29803,72.99371
+P001345,Siddharth Doctor,normal,2380,Delhi Central,Delhi,28.70322,77.27982
+P001346,Nakul Pathak,normal,1055,Thane,Maharashtra,19.19686,73.03433
+P001347,Victor Sachdeva,normal,391,Kolkata,West Bengal,22.59981,88.30949
+P001348,Ishaan Subramaniam,normal,2442,Nuh,Haryana,28.07315,76.99817
+P001349,Varenya Kade,normal,2090,Durgapur,West Bengal,23.51441,87.2739
+P001350,Nirja Bains,normal,1591,Gurugram,Haryana,28.47879,77.11074
+P001351,Caleb Datta,normal,2774,Mumbai,Maharashtra,19.06336,72.78516
+P001352,Krish Vala,normal,187,Gurugram,Haryana,28.49491,76.9868
+P001353,Manan Bhalla,normal,23,Ghaziabad,Uttar Pradesh,28.6778,77.50896
+P001354,Aarna Gole,normal,2231,Kolkata,West Bengal,22.6126,88.37343
+P001355,Anirudh Mander,normal,95,Deoghar,Jharkhand,24.46648,86.65825
+P001356,Tarak Sen,normal,3000,Delhi Central,Delhi,28.65284,77.28002
+P001357,Vasatika Garde,normal,714,Durgapur,West Bengal,23.61827,87.34332
+P001358,Nirja Dhar,normal,1669,New Delhi,Delhi,28.56522,77.19479
+P001359,Yasti Lalla,normal,150,Durgapur,West Bengal,23.53389,87.36865
+P001360,Hema Setty,normal,2333,Ghaziabad,Uttar Pradesh,28.69231,77.46847
+P001361,Victor Radhakrishnan,normal,687,Ghaziabad,Uttar Pradesh,28.63443,77.34669
+P001362,Kevin Chopra,normal,120,Jaipur,Rajasthan,26.98068,75.7327
+P001363,Samaksh Virk,normal,2769,Nagpur,Maharashtra,21.17205,79.05479
+P001364,Mason Char,normal,1653,Thane,Maharashtra,19.11801,73.01424
+P001365,Vamakshi Barad,normal,212,Alwar,Rajasthan,27.5027,76.60382
+P001366,Girik Subramaniam,normal,1735,Kota,Rajasthan,25.21955,75.88721
+P001367,Aarav Sankar,normal,1783,Thane,Maharashtra,19.20667,72.98696
+P001368,Kamala Bassi,normal,2299,Alwar,Rajasthan,27.55035,76.62985
+P001369,Veer Subramaniam,normal,1187,Mangaluru,Karnataka,12.89726,74.82565
+P001370,Inaya Chaudhari,normal,1221,Nuh,Haryana,28.07628,77.06942
+P001371,Krish Kumar,normal,169,Gurugram,Haryana,28.4481,77.04069
+P001372,Viraj Chacko,normal,156,Alwar,Rajasthan,27.5161,76.64911
+P001373,Nilima Kurian,normal,1875,Rohtak,Haryana,28.90608,76.62848
+P001374,Abdul Amble,normal,170,Faridabad,Haryana,28.44141,77.35138
+P001375,Zinal Amble,normal,2255,Nuh,Haryana,28.21859,76.96421
+P001376,Samesh Mutti,normal,2880,Thane,Maharashtra,19.27225,72.97373
+P001377,Janaki Chhabra,normal,1263,Nagpur,Maharashtra,21.1123,79.07012
+P001378,Pooja Kulkarni,normal,2802,Rohtak,Haryana,28.91857,76.62106
+P001379,Pallavi Pau,normal,2623,Bharatpur,Rajasthan,27.26304,77.46395
+P001380,Mekhala Jani,normal,2247,New Delhi,Delhi,28.56056,77.2217
+P001381,Vasudha Gola,normal,2791,Mumbai,Maharashtra,19.05762,72.91236
+P001382,Veda Kulkarni,ringleader,45,Jamtara,Jharkhand,24.02803,86.83196
+P001383,Hemangini Rao,scammer,53,Jamtara,Jharkhand,23.97899,86.85515
+P001384,Jagat Karpe,scammer,60,Jamtara,Jharkhand,23.92726,86.76502
+P001385,Neel Chaudhry,scammer,56,Jamtara,Jharkhand,24.00952,86.81763
+P001386,Yashoda Rattan,scammer,41,Jamtara,Jharkhand,24.03983,86.83691
+P001387,Charles Dyal,scammer,73,Jamtara,Jharkhand,24.04978,86.8209
+P001388,Abdul Chand,mule,398,Jamtara,Jharkhand,23.93281,86.76318
+P001389,Urishilla Saran,mule,16,Deoghar,Jharkhand,24.50939,86.71478
+P001390,Devansh Lall,mule,158,Jamtara,Jharkhand,23.96025,86.86148
+P001391,Kamala Buch,mule,32,Deoghar,Jharkhand,24.55951,86.64326
+P001392,Leena Rattan,mule,467,Jamtara,Jharkhand,23.87953,86.80531
+P001393,Dakshesh Gill,mule,11,Deoghar,Jharkhand,24.47378,86.63187
+P001394,Reva Anne,mule,6,Jamtara,Jharkhand,23.97828,86.83724
+P001395,Zarna Mangal,mule,42,Deoghar,Jharkhand,24.49899,86.67292
+P001396,Bahadurjit Uppal,mule,255,Jamtara,Jharkhand,23.97382,86.86557
+P001397,Omkaar Banik,victim,2833,Mumbai,Maharashtra,19.03568,72.89778
+P001398,William Acharya,victim,1902,Gurugram,Haryana,28.42595,77.00939
+P001399,Gabriel Majumdar,victim,2074,Kolkata,West Bengal,22.58936,88.35942
+P001400,Ira Rana,victim,1236,Bengaluru,Karnataka,12.93194,77.62985
+P001401,Sai Vasa,victim,1924,New Delhi,Delhi,28.65673,77.22964
+P001402,Ekapad Chana,victim,1757,Lucknow,Uttar Pradesh,26.88063,80.90638
+P001403,Ijaya Palan,victim,2832,Mumbai,Maharashtra,19.10699,72.90044
+P001404,Upkaar Hayer,victim,830,Gurugram,Haryana,28.43428,77.03941
+P001405,Netra Agrawal,victim,298,Kolkata,West Bengal,22.57739,88.36228
+P001406,Parth Ray,victim,1430,Bengaluru,Karnataka,12.99293,77.65044
+P001407,Elijah Thakur,victim,2426,New Delhi,Delhi,28.56919,77.22363
+P001408,Harini Dada,victim,1770,Lucknow,Uttar Pradesh,26.79162,80.93097
+P001409,Zashil Savant,victim,255,Mumbai,Maharashtra,19.05947,72.86429
+P001410,Veda Kohli,victim,2529,Gurugram,Haryana,28.49131,77.08813
+P001411,Tara Sharma,victim,1790,Kolkata,West Bengal,22.59384,88.4109
+P001412,Vasatika Dada,victim,1643,Bengaluru,Karnataka,12.92604,77.55186
+P001413,Ekansh Raja,victim,2546,New Delhi,Delhi,28.56481,77.24083
+P001414,Victor Mutti,victim,1762,Lucknow,Uttar Pradesh,26.86832,80.91175
+P001415,Ira Varty,victim,161,Mumbai,Maharashtra,19.08734,72.92278
+P001416,Adya Kothari,victim,1594,Gurugram,Haryana,28.50868,77.02449
+P001417,Girik Rastogi,victim,1372,Kolkata,West Bengal,22.5324,88.41666
+P001418,Faqid Gokhale,victim,1969,Bengaluru,Karnataka,12.95238,77.67594
+P001419,Dipta Pandya,victim,2366,New Delhi,Delhi,28.5645,77.18026
+P001420,Amruta Goswami,victim,1172,Lucknow,Uttar Pradesh,26.8704,80.90983
+P001421,Wishi Iyengar,victim,1635,Mumbai,Maharashtra,19.06575,72.89924
+P001422,Wyatt Lanka,victim,1120,Gurugram,Haryana,28.47913,76.99661
+P001423,Veer Jain,victim,152,Kolkata,West Bengal,22.58644,88.43484
+P001424,Ishani Dugal,victim,510,Bengaluru,Karnataka,12.96607,77.54049
+P001425,Jagdish Brar,victim,1893,New Delhi,Delhi,28.5667,77.1603
+P001426,Abeer Basak,victim,2058,Lucknow,Uttar Pradesh,26.86744,80.91517
+P001427,Kamya Murty,victim,2556,Mumbai,Maharashtra,19.02402,72.95614
+P001428,Anvi Swaminathan,victim,215,Gurugram,Haryana,28.49428,76.90848
+P001429,Yasti Mammen,victim,2808,Kolkata,West Bengal,22.54565,88.31252
+P001430,Tristan Dave,victim,1046,Bengaluru,Karnataka,12.97364,77.64941
+P001431,Pallavi Sridhar,victim,1456,New Delhi,Delhi,28.59624,77.15967
+P001432,Yadavi Palan,victim,1071,Lucknow,Uttar Pradesh,26.79599,80.94227
+P001433,Owen Shankar,victim,615,Mumbai,Maharashtra,19.11095,72.91396
+P001434,Zarna Sharma,victim,1183,Gurugram,Haryana,28.39809,76.99781
+P001435,Abhiram Arora,victim,373,Kolkata,West Bengal,22.53212,88.37233
+P001436,Ladli Chaudhuri,victim,2695,Bengaluru,Karnataka,12.9886,77.54188
+P001437,Janaki Lad,victim,912,New Delhi,Delhi,28.62014,77.23529
+P001438,Adya Khalsa,victim,555,Lucknow,Uttar Pradesh,26.78834,80.93508
+P001439,Urishilla Oza,victim,2593,Mumbai,Maharashtra,19.10065,72.89333
+P001440,Qarin Tara,victim,2204,Gurugram,Haryana,28.54636,77.09957
+P001441,Shivansh Saini,victim,2433,Kolkata,West Bengal,22.54864,88.36952
+P001442,Janya Rattan,victim,457,Bengaluru,Karnataka,12.92626,77.54732
+P001443,Shravya Gole,victim,1766,New Delhi,Delhi,28.60319,77.20577
+P001444,Veer Chaudhry,victim,1863,Lucknow,Uttar Pradesh,26.81904,80.90782
+P001445,Warinder Sankaran,victim,2080,Mumbai,Maharashtra,19.05085,72.85768
+P001446,Rohan Dhingra,victim,1292,Gurugram,Haryana,28.37021,77.06451
+P001447,Urvashi Andra,ringleader,45,Nuh,Haryana,28.14211,77.01241
+P001448,Oviya Tata,scammer,48,Nuh,Haryana,28.08286,77.00134
+P001449,Zansi Walla,scammer,14,Nuh,Haryana,28.15222,77.02209
+P001450,Vidhi Mital,scammer,75,Nuh,Haryana,28.10071,76.98593
+P001451,Champak Rao,mule,474,Nuh,Haryana,28.14586,76.98316
+P001452,Nihal Bhasin,mule,13,Faridabad,Haryana,28.45171,77.39608
+P001453,Aachal Soni,mule,43,Nuh,Haryana,28.10767,77.013
+P001454,Shivani Natt,mule,315,Faridabad,Haryana,28.3746,77.27474
+P001455,Jalsa Parsa,mule,37,Nuh,Haryana,28.07945,76.96244
+P001456,Hemangini Bahri,victim,1945,Pune,Maharashtra,18.50737,73.82111
+P001457,Jairaj Panchal,victim,1668,Bharatpur,Rajasthan,27.20429,77.47053
+P001458,Owen Mane,victim,2344,Howrah,West Bengal,22.59515,88.28806
+P001459,Ekta Uppal,victim,613,Pune,Maharashtra,18.53309,73.87015
+P001460,Sanya Brar,victim,1644,Bharatpur,Rajasthan,27.16954,77.56133
+P001461,Bhavini Sheth,victim,2535,Howrah,West Bengal,22.59613,88.36042
+P001462,Oliver Nazareth,victim,2271,Pune,Maharashtra,18.44822,73.85503
+P001463,Nidhi Bora,victim,2663,Bharatpur,Rajasthan,27.20875,77.49512
+P001464,Neel Oza,victim,2964,Howrah,West Bengal,22.58109,88.23889
+P001465,Dipta Nadig,victim,1857,Pune,Maharashtra,18.49331,73.81677
+P001466,Amara Rana,victim,1295,Bharatpur,Rajasthan,27.12997,77.53042
+P001467,Sai Patil,victim,2957,Howrah,West Bengal,22.57773,88.23365
+P001468,Odika Ganesh,victim,1677,Pune,Maharashtra,18.53906,73.85715
+P001469,Arin Dass,victim,706,Bharatpur,Rajasthan,27.24058,77.54022
+P001470,Zayan Buch,victim,301,Howrah,West Bengal,22.58028,88.23579
+P001471,Ojas Ranganathan,victim,688,Pune,Maharashtra,18.52587,73.85483
+P001472,Girish Bhatt,victim,910,Bharatpur,Rajasthan,27.21571,77.50546
+P001473,Chatura Bal,victim,2786,Howrah,West Bengal,22.60505,88.24681
+P001474,Fiyaz Chawla,ringleader,48,Nuh,Haryana,28.09749,76.97657
+P001475,Nachiket Chad,scammer,40,Nuh,Haryana,28.07967,76.99259
+P001476,Dayamai Karnik,scammer,43,Nuh,Haryana,28.08514,77.05379
+P001477,Bhanumati Savant,scammer,35,Nuh,Haryana,28.13861,76.97086
+P001478,Karan Vyas,mule,35,Nuh,Haryana,28.08264,76.93633
+P001479,Ayush Banerjee,mule,43,Faridabad,Haryana,28.32545,77.30377
+P001480,Eshana Soni,mule,236,Nuh,Haryana,28.11417,77.03429
+P001481,Anita Saxena,mule,11,Faridabad,Haryana,28.36628,77.27254
+P001482,Peter Shan,mule,7,Nuh,Haryana,28.09734,77.03383
+P001483,Dayita Palan,victim,441,Pune,Maharashtra,18.51672,73.83383
+P001484,Utkarsh Chakraborty,victim,2450,Bharatpur,Rajasthan,27.18467,77.49229
+P001485,Darika Pau,victim,2138,Howrah,West Bengal,22.52633,88.24742
+P001486,Abha Dugal,victim,806,Pune,Maharashtra,18.50765,73.86784
+P001487,Advaith Acharya,victim,1292,Bharatpur,Rajasthan,27.22835,77.50649
+P001488,Hemangini Mangat,victim,1632,Howrah,West Bengal,22.6217,88.16138
+P001489,Abhiram Swamy,victim,2635,Pune,Maharashtra,18.53564,73.90107
+P001490,Chandani Andra,victim,1737,Bharatpur,Rajasthan,27.26885,77.5181
+P001491,Brinda Kashyap,victim,2806,Howrah,West Bengal,22.58051,88.23292
+P001492,Kashvi Gulati,victim,1053,Pune,Maharashtra,18.51661,73.8239
+P001493,Rajeshri Rana,victim,2409,Bharatpur,Rajasthan,27.19946,77.49069
+P001494,Nihal Ramakrishnan,victim,168,Howrah,West Bengal,22.62178,88.26912
+P001495,Thomas Lall,victim,769,Pune,Maharashtra,18.48015,73.79276
+P001496,Pahal Khatri,victim,2655,Bharatpur,Rajasthan,27.19221,77.47716
+P001497,Bhavani Wali,victim,1488,Howrah,West Bengal,22.60886,88.2287
+P001498,Nitara Guha,victim,2266,Pune,Maharashtra,18.59096,73.88534
+P001499,Qabil Deshpande,victim,2910,Bharatpur,Rajasthan,27.24986,77.48745
+P001500,Indrajit Shah,victim,777,Howrah,West Bengal,22.66387,88.35424

@@ -1,0 +1,25 @@
+# Secrets — never commit the real env
+.env
+*.env.local
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local databases
+*.db
+*.sqlite3
+
+# Node / Next.js
+node_modules/
+.next/
+frontend/out/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Claude Code local settings
+.claude/settings.local.json

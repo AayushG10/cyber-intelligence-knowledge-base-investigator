@@ -1,0 +1,31 @@
+{
+  "seed": 42,
+  "config": {
+    "seed": 42,
+    "num_persons": 1500,
+    "num_rings": 3,
+    "num_transactions": 15000,
+    "days": 28,
+    "end_date": "2026-07-21",
+    "out": "data",
+    "structuring_band": [
+      49000,
+      49900
+    ],
+    "min_structuring_txns": 5
+  },
+  "row_counts": {
+    "persons": 1500,
+    "accounts": 1503,
+    "upi": 1519,
+    "phones": 1500,
+    "devices": 1474,
+    "device_usage": 1496,
+    "ips": 1385,
+    "logins": 1413,
+    "transactions": 14991,
+    "ground_truth": 1500,
+    "ring_meta": 3
+  },
+  "generated_at": "2026-07-21T16:32:11"
+}

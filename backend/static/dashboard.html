@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>CyberInvestigator — Fraud Network Intelligence</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/cytoscape@3.30.2/dist/cytoscape.min.js"></script>
+<style>
+  :root{--bg:#0b1020;--panel:#141b2e;--panel2:#1b2540;--line:#26314f;--txt:#e7ecf6;
+        --muted:#9aa7c4;--accent:#4f8cff;--red:#ff5d6c;--amber:#ffb547;--blue:#49b6ff;
+        --green:#38d39f;--gold:#ffd54a}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+       background:var(--bg);color:var(--txt);height:100vh;overflow:hidden}
+  header{display:flex;align-items:center;gap:18px;padding:12px 18px;
+         background:linear-gradient(90deg,#101833,#0b1020);border-bottom:1px solid var(--line)}
+  header h1{font-size:16px;margin:0;font-weight:700;letter-spacing:.3px}
+  header .tag{color:var(--muted);font-size:12px}
+  .kpis{display:flex;gap:10px;margin-left:auto;flex-wrap:wrap}
+  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+       padding:6px 12px;min-width:96px}
+  .kpi b{display:block;font-size:16px}
+  .kpi span{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+  main{display:grid;grid-template-columns:290px 1fr 380px;height:calc(100vh - 57px)}
+  .col{overflow:auto;padding:12px}
+  .col.left{border-right:1px solid var(--line)}
+  .col.right{border-left:1px solid var(--line);background:var(--panel)}
+  h2{font-size:12px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin:4px 0 10px}
+  .ring{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:11px;
+        margin-bottom:10px;cursor:pointer;transition:.15s}
+  .ring:hover{border-color:var(--accent);transform:translateY(-1px)}
+  .ring.active{border-color:var(--accent);background:var(--panel2)}
+  .ring .top{display:flex;justify-content:space-between;align-items:center}
+  .ring .id{font-weight:700}
+  .badge{font-size:10px;padding:2px 8px;border-radius:20px;font-weight:700}
+  .b-high{background:rgba(255,93,108,.16);color:var(--red)}
+  .b-med{background:rgba(255,181,71,.16);color:var(--amber)}
+  .b-low{background:rgba(73,182,255,.16);color:var(--blue)}
+  .ring .meta{color:var(--muted);font-size:11px;margin-top:6px;line-height:1.5}
+  #cy{width:100%;height:100%}
+  .center{position:relative;height:100%}
+  .legend{position:absolute;left:12px;bottom:12px;background:rgba(20,27,46,.9);
+          border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:11px}
+  .legend div{display:flex;align-items:center;gap:6px;margin:2px 0}
+  .dot{width:10px;height:10px;border-radius:50%}
+  .tabs{display:flex;gap:6px;margin-bottom:12px}
+  .tab{flex:1;text-align:center;padding:7px;border:1px solid var(--line);border-radius:8px;
+       cursor:pointer;font-size:12px;color:var(--muted)}
+  .tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .pane{display:none} .pane.active{display:block}
+  #map{height:340px;border-radius:12px;border:1px solid var(--line)}
+  .stat{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line);font-size:13px}
+  .stat span{color:var(--muted)}
+  .lead{background:linear-gradient(135deg,#2a1420,#1b2540);border:1px solid #48263a;
+        border-radius:12px;padding:12px;margin:12px 0;font-size:13px;line-height:1.55}
+  .lead b{color:var(--amber)}
+  button.act{width:100%;padding:11px;border:0;border-radius:10px;font-weight:700;cursor:pointer;
+             background:linear-gradient(90deg,#ffb547,#ff8a3d);color:#201200;margin-top:8px}
+  button.act:hover{filter:brightness(1.08)}
+  .pkg{margin-top:10px;font-size:11px;background:#0a1020;border:1px solid var(--line);
+       border-radius:10px;padding:10px;max-height:260px;overflow:auto;white-space:pre-wrap;
+       font-family:ui-monospace,Menlo,monospace}
+  .hash{color:var(--green);word-break:break-all}
+  .chat{display:flex;flex-direction:column;height:420px}
+  .log{flex:1;overflow:auto;border:1px solid var(--line);border-radius:10px;padding:10px;
+       background:#0a1020;font-size:13px;line-height:1.5}
+  .msg{margin-bottom:10px} .msg.u{color:var(--blue)} .msg.a{color:var(--txt)}
+  .msg .who{font-size:10px;text-transform:uppercase;color:var(--muted)}
+  .tools{font-size:10px;color:var(--muted);margin-top:4px}
+  .ask{display:flex;gap:6px;margin-top:8px}
+  .ask input{flex:1;padding:9px;border-radius:8px;border:1px solid var(--line);
+             background:var(--panel);color:var(--txt)}
+  .ask button{padding:9px 14px;border:0;border-radius:8px;background:var(--accent);color:#fff;cursor:pointer}
+  .hint{color:var(--muted);font-size:11px;margin-top:6px}
+</style>
+</head>
+<body>
+<header>
+  <h1>🛡️ CyberInvestigator</h1>
+  <span class="tag">Fraud Network Intelligence · cross-jurisdiction · court-admissible</span>
+  <div class="kpis" id="kpis"></div>
+</header>
+<main>
+  <div class="col left">
+    <h2>Detected fraud rings</h2>
+    <div id="rings"></div>
+  </div>
+  <div class="col center" style="padding:0">
+    <div class="center">
+      <div id="cy"></div>
+      <div class="legend">
+        <div><span class="dot" style="background:var(--gold)"></span> Ringleader</div>
+        <div><span class="dot" style="background:var(--red)"></span> High risk</div>
+        <div><span class="dot" style="background:var(--amber)"></span> Medium</div>
+        <div><span class="dot" style="background:var(--blue)"></span> Low / victim</div>
+      </div>
+    </div>
+  </div>
+  <div class="col right">
+    <div class="tabs">
+      <div class="tab active" data-p="overview">Overview</div>
+      <div class="tab" data-p="map">Map</div>
+      <div class="tab" data-p="agent">Agent</div>
+    </div>
+    <div class="pane active" id="overview"><p class="hint">Select a ring to investigate.</p></div>
+    <div class="pane" id="map-pane"><div id="map"></div>
+      <p class="hint">Circles = fraud hotspots (size = flagged entities). Lines = money flow across districts.</p>
+    </div>
+    <div class="pane" id="agent">
+      <div class="chat">
+        <div class="log" id="log"><div class="msg a"><div class="who">agent</div>
+          Ask me about any ring or entity. I cite entity IDs for every claim.</div></div>
+        <div class="ask">
+          <input id="q" placeholder="e.g. Why is DR07 high risk?" />
+          <button onclick="ask()">Ask</button>
+        </div>
+        <p class="hint">Try: "Who is the ringleader of the top ring and why?"</p>
+      </div>
+    </div>
+  </div>
+</main>
+<script>
+const API = '/api';
+let cy, map, mapLayer, currentRing=null, hotspots=null;
+
+const bandClass = b => b==='High'?'b-high':b==='Medium'?'b-med':'b-low';
+const inr = n => '₹'+Number(n).toLocaleString('en-IN');
+
+async function j(u,o){const r=await fetch(u,o);return r.json();}
+
+async function init(){
+  const k = await j(API+'/kpis');
+  document.getElementById('kpis').innerHTML = [
+    ['entities','Entities'],['rings_detected','Rings'],['entities_flagged','Flagged'],
+    ['cross_jurisdiction_rings','Cross-juris']
+  ].map(([f,l])=>`<div class="kpi"><b>${k[f]}</b><span>${l}</span></div>`).join('')
+   + `<div class="kpi"><b>${inr(k.amount_at_risk_inr)}</b><span>At risk</span></div>`;
+  const rings = await j(API+'/rings');
+  document.getElementById('rings').innerHTML = rings.map(r=>`
+    <div class="ring" data-id="${r.ring_id}" onclick="selectRing('${r.ring_id}')">
+      <div class="top"><span class="id">${r.ring_id}</span>
+        <span class="badge ${bandClass(r.risk>=.66?'High':r.risk>=.33?'Medium':'Low')}">
+          RISK ${r.risk}</span></div>
+      <div class="meta">👤 ${r.ringleader_name} &nbsp;·&nbsp; ${r.size} entities · ${r.n_mules} mules<br>
+        🗺️ ${r.states.length} states ${r.cross_jurisdiction?'· <b style="color:var(--amber)">cross-jurisdiction</b>':''}<br>
+        💸 ${inr(r.total_flow_inr)} flow</div>
+    </div>`).join('');
+  hotspots = await j(API+'/geo/hotspots');
+  if(rings.length) selectRing(rings[0].ring_id);
+}
+
+async function selectRing(id){
+  currentRing = await j(API+'/rings/'+id);
+  document.querySelectorAll('.ring').forEach(e=>e.classList.toggle('active',e.dataset.id===id));
+  renderGraph(currentRing);
+  renderOverview(currentRing);
+  if(document.querySelector('.tab[data-p=map]').classList.contains('active')) renderMap();
+}
+
+function nodeColor(n){ if(n.is_leader) return '#ffd54a';
+  return n.band==='High'?'#ff5d6c':n.band==='Medium'?'#ffb547':'#49b6ff'; }
+
+function renderGraph(r){
+  const els = [];
+  r.nodes.forEach(n=>els.push({data:{id:n.id,label:n.is_leader?'★ '+n.name:n.name,
+    color:nodeColor(n),size:n.is_leader?46:(22+n.risk*22)}}));
+  r.edges.forEach((e,i)=>els.push({data:{id:'e'+i,source:e.source,target:e.target}}));
+  if(cy) cy.destroy();
+  cy = cytoscape({container:document.getElementById('cy'),elements:els,
+    style:[
+      {selector:'node',style:{'background-color':'data(color)','width':'data(size)',
+        'height':'data(size)','label':'data(label)','color':'#cdd6ee','font-size':'8px',
+        'text-valign':'bottom','text-margin-y':3}},
+      {selector:'edge',style:{'width':1.2,'line-color':'#38507f',
+        'target-arrow-color':'#38507f','target-arrow-shape':'triangle','curve-style':'bezier',
+        'arrow-scale':.7,'opacity':.6}}],
+    layout:{name:'cose',animate:false,nodeRepulsion:8000,idealEdgeLength:70}});
+  cy.on('tap','node',evt=>{document.getElementById('q').value='Tell me about '+evt.target.id;});
+}
+
+function renderOverview(r){
+  const el = document.getElementById('overview');
+  const lt = r.first_detectable ?
+    `<div class="lead">⏱️ <b>Lead-time intelligence:</b> this ring became detectable at
+       <b>${new Date(r.first_detectable).toLocaleString('en-IN')}</b> — yet
+       <b>${r.victims_after_detectable} further victim payments</b> occurred afterward.
+       Detecting at contact instead of complaint would have stopped them.</div>` : '';
+  el.innerHTML = `
+    <h2>${r.ring_id} · investigation</h2>
+    <div class="stat"><span>Ringleader</span><b>★ ${r.ringleader_name}</b></div>
+    <div class="stat"><span>Ringleader ID</span><b>${r.ringleader}</b></div>
+    <div class="stat"><span>Entities in network</span><b>${r.size}</b></div>
+    <div class="stat"><span>Mule-like accounts</span><b>${r.n_mules}</b></div>
+    <div class="stat"><span>Money flow</span><b>${inr(r.total_flow_inr)}</b></div>
+    <div class="stat"><span>Jurisdictions</span><b>${r.states.length} states ${r.cross_jurisdiction?'⚠️':''}</b></div>
+    <div class="stat"><span>Districts</span><b style="font-size:11px">${r.districts.join(', ')}</b></div>
+    ${lt}
+    <button class="act" onclick="genPackage('${r.ring_id}')">🔏 Generate Intelligence Package</button>
+    <div id="pkg"></div>`;
+}
+
+async function genPackage(id){
+  const el = document.getElementById('pkg');
+  el.innerHTML = '<p class="hint">Sealing evidence & hashing…</p>';
+  const p = await j(API+'/rings/'+id+'/package',{method:'POST'});
+  const v = await j(API+'/ledger/verify');
+  el.innerHTML = `<div class="pkg">
+    <b style="color:var(--green)">✓ Court-admissible package #${p.seq} sealed</b>
+    \nSHA-256: <span class="hash">${p.this_hash}</span>
+    \nchained to prev: <span class="hash">${p.prev_hash.slice(0,24)}…</span>
+    \nledger integrity: ${v.intact?'<span style="color:var(--green)">INTACT ('+v.length+' entries)</span>':'BROKEN'}
+    \n\n${JSON.stringify(p.package,null,2)}</div>`;
+}
+
+function renderMap(){
+  if(!map){
+    map = L.map('map',{scrollWheelZoom:false}).setView([23.5,80],4.4);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+      {attribution:'© OpenStreetMap'}).addTo(map);
+  }
+  if(mapLayer) map.removeLayer(mapLayer);
+  mapLayer = L.layerGroup().addTo(map);
+  (hotspots?.hotspots||[]).filter(h=>h.flagged>0).forEach(h=>{
+    L.circleMarker([h.lat,h.lng],{radius:6+h.flagged*1.3,color:'#ff5d6c',
+      fillColor:'#ff5d6c',fillOpacity:.35,weight:1})
+     .bindPopup(`<b>${h.district}</b><br>${h.flagged} flagged · ${inr(h.loss_inr)} lost`)
+     .addTo(mapLayer);
+  });
+  if(currentRing){
+    const pos = {};
+    currentRing.nodes.forEach(n=>{pos[n.id]=[n.lat,n.lng];
+      L.circleMarker([n.lat,n.lng],{radius:n.is_leader?7:4,
+        color:n.is_leader?'#ffd54a':'#49b6ff',fillOpacity:.9,weight:1})
+       .bindPopup(`${n.is_leader?'★ ':''}${n.name} (${n.role})`).addTo(mapLayer);});
+    currentRing.edges.forEach(e=>{if(pos[e.source]&&pos[e.target])
+      L.polyline([pos[e.source],pos[e.target]],{color:'#ffb547',weight:1,opacity:.5}).addTo(mapLayer);});
+  }
+  setTimeout(()=>map.invalidateSize(),80);
+}
+
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  t.classList.add('active');
+  ['overview','map','agent'].forEach(p=>{
+    document.getElementById(p==='map'?'map-pane':p).classList.toggle('active',p===t.dataset.p);});
+  if(t.dataset.p==='map') renderMap();
+});
+
+async function ask(){
+  const inp=document.getElementById('q'), log=document.getElementById('log');
+  const q=inp.value.trim(); if(!q) return; inp.value='';
+  log.innerHTML+=`<div class="msg u"><div class="who">investigator</div>${q}</div>`;
+  log.innerHTML+=`<div class="msg a" id="tmp"><div class="who">agent</div>…thinking</div>`;
+  log.scrollTop=log.scrollHeight;
+  const a=await j(API+'/agent/ask',{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({question:q})});
+  document.getElementById('tmp').outerHTML=
+    `<div class="msg a"><div class="who">agent</div>${a.answer}
+      <div class="tools">tools: ${(a.tool_calls||[]).join(', ')||'—'}</div></div>`;
+  log.scrollTop=log.scrollHeight;
+}
+document.getElementById('q').addEventListener('keydown',e=>{if(e.key==='Enter')ask();});
+init();
+</script>
+</body>
+</html>
