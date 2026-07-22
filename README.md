@@ -15,6 +15,8 @@ Built for the *AI for Digital Public Safety* national hackathon
 > 📄 See [AGENTS.md](AGENTS.md) for the full architecture, design decisions, and the
 > reasoning behind every technical choice — read that first if you're extending this project.
 >
+> 📝 **Written submission document**: [`docs/submission-document.docx`](docs/submission-document.docx)
+>
 > 🎤 **Presentation deck**: [`docs/presentation-deck.pptx`](docs/presentation-deck.pptx)
 >
 > 🎬 **Demo video script**: [`docs/demo-video-script.md`](docs/demo-video-script.md) — shot-by-shot recording script with exact narration
@@ -225,6 +227,7 @@ et-hackthon/
 ├── .env.example                 # every config variable, documented
 └── docs/
     ├── architecture.excalidraw    # editable architecture diagram (open at excalidraw.com)
+    ├── submission-document.docx   # written submission report (Word)
     ├── presentation-deck.pptx     # hackathon pitch deck
     ├── demo-video-script.md       # shot-by-shot recording script
     └── screenshots/               # drop your own captures here
