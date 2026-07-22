@@ -4,10 +4,11 @@ import RingRail from "./components/RingRail";
 import GraphCanvas from "./components/GraphCanvas";
 import InvestigationPanel from "./components/InvestigationPanel";
 import EntityDrawer from "./components/EntityDrawer";
+import Landing from "./components/Landing";
 import { api } from "./api";
 import type { Kpis, RingSummary, RingDetail, GeoResponse } from "./types";
 
-export default function App() {
+function Dashboard() {
   const [kpis, setKpis] = useState<Kpis | null>(null);
   const [rings, setRings] = useState<RingSummary[]>([]);
   const [geo, setGeo] = useState<GeoResponse | null>(null);
@@ -41,4 +42,17 @@ export default function App() {
       <EntityDrawer id={entityId} onClose={() => setEntityId(null)} />
     </div>
   );
+}
+
+export default function App() {
+  const [view, setView] = useState<"landing" | "app">(
+    window.location.hash === "#app" ? "app" : "landing"
+  );
+
+  const enterApp = () => {
+    window.location.hash = "app";
+    setView("app");
+  };
+
+  return view === "landing" ? <Landing onEnter={enterApp} /> : <Dashboard />;
 }
