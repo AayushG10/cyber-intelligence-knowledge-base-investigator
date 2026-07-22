@@ -124,6 +124,12 @@ platform*. Given raw transaction/complaint data, it:
 
 ## Architecture at a glance
 
+> ✏️ **Editable diagram**: [`docs/architecture.excalidraw`](docs/architecture.excalidraw) —
+> open it at [excalidraw.com](https://excalidraw.com) (menu → Open) or with the
+> [Excalidraw VS Code extension](https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor)
+> to view or edit it directly — the same diagram is also embedded on the landing page
+> (scroll to "System architecture").
+
 ```
 CSV Upload → Validation → Entity Resolution (deterministic)
   → Feature Engineering (velocity + graph-derived features)
@@ -213,7 +219,9 @@ et-hackthon/
 ├── infra/
 │   └── docker-compose.yml       # optional Neo4j (GDS+APOC) + Postgres for local dev
 ├── .env.example                 # every config variable, documented
-└── docs/screenshots/             # drop your own captures here
+└── docs/
+    ├── architecture.excalidraw    # editable architecture diagram (open at excalidraw.com)
+    └── screenshots/               # drop your own captures here
 ```
 
 ---
