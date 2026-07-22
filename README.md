@@ -14,6 +14,8 @@ Built for the *AI for Digital Public Safety* national hackathon
 
 > 📄 See [AGENTS.md](AGENTS.md) for the full architecture, design decisions, and the
 > reasoning behind every technical choice — read that first if you're extending this project.
+>
+> 🎤 **Presentation deck**: [`docs/presentation-deck.pptx`](docs/presentation-deck.pptx)
 
 ---
 
@@ -221,6 +223,7 @@ et-hackthon/
 ├── .env.example                 # every config variable, documented
 └── docs/
     ├── architecture.excalidraw    # editable architecture diagram (open at excalidraw.com)
+    ├── presentation-deck.pptx     # hackathon pitch deck
     └── screenshots/               # drop your own captures here
 ```
 
