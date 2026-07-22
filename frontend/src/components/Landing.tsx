@@ -5,13 +5,15 @@ import {
 } from "lucide-react";
 import { api, inrShort } from "../api";
 import type { Kpis } from "../types";
+import { useCountUp } from "../lib/useCountUp";
 
 const REPO_URL = "https://github.com/AayushG10/cyber-intelligence-knowledge-base-investigator";
 
-function StatPill({ value, label, tone }: { value: string; label: string; tone: string }) {
+function StatPill({ target, format, label, tone }: { target: number; format: (n: number) => string; label: string; tone: string }) {
+  const n = useCountUp(target, 1100);
   return (
-    <div className="card px-4 py-3 min-w-[128px] rise-in">
-      <div className="text-[20px] font-bold tabular-nums" style={{ color: tone }}>{value}</div>
+    <div className="card card-hover px-4 py-3 min-w-[128px] rise-in">
+      <div className="text-[20px] font-bold tabular" style={{ color: tone }}>{format(n)}</div>
       <div className="text-[10.5px] uppercase tracking-[0.1em] text-faint font-medium mt-0.5">{label}</div>
     </div>
   );
@@ -19,7 +21,7 @@ function StatPill({ value, label, tone }: { value: string; label: string; tone: 
 
 function ProblemStat({ value, label, source }: { value: string; label: string; source: string }) {
   return (
-    <div className="card p-5 rise-in">
+    <div className="card card-hover p-5 rise-in">
       <div className="text-[26px] font-extrabold tracking-tight" style={{ color: "var(--color-danger)" }}>{value}</div>
       <div className="text-[13px] text-txt mt-1 leading-snug">{label}</div>
       <div className="text-[10.5px] text-faint mt-2">{source}</div>
@@ -70,7 +72,7 @@ export default function Landing({ onEnter }: { onEnter: () => void }) {
             <Github size={15} /> GitHub
           </a>
           <button onClick={onEnter}
-            className="flex items-center gap-1.5 text-[12.5px] font-semibold px-3.5 py-2 rounded-lg text-white transition-transform hover:-translate-y-px"
+            className="btn-press btn-shine flex items-center gap-1.5 text-[12.5px] font-semibold px-3.5 py-2 rounded-lg text-white transition-transform hover:-translate-y-px"
             style={{ background: "linear-gradient(135deg,#2b4d9e,#4f8cff)", boxShadow: "0 6px 16px -6px rgba(79,127,255,0.55)" }}>
             Launch command centre <ArrowRight size={13} />
           </button>
@@ -102,12 +104,12 @@ export default function Landing({ onEnter }: { onEnter: () => void }) {
 
         <div className="rise-in flex items-center justify-center gap-3 mt-8" style={{ animationDelay: "180ms" }}>
           <button onClick={onEnter}
-            className="flex items-center gap-2 text-[14px] font-semibold px-5 py-3 rounded-xl text-white transition-transform hover:-translate-y-0.5"
+            className="btn-press btn-shine flex items-center gap-2 text-[14px] font-semibold px-5 py-3 rounded-xl text-white transition-transform hover:-translate-y-0.5"
             style={{ background: "linear-gradient(135deg,#2b4d9e,#4f8cff)", boxShadow: "0 10px 28px -8px rgba(79,127,255,0.6)" }}>
             Launch command centre <ArrowRight size={16} />
           </button>
           <a href={REPO_URL} target="_blank" rel="noreferrer"
-            className="flex items-center gap-2 text-[14px] font-medium px-5 py-3 rounded-xl border border-line text-txt hover:border-line-soft transition-colors">
+            className="btn-press flex items-center gap-2 text-[14px] font-medium px-5 py-3 rounded-xl border border-line text-txt hover:border-line-soft transition-colors">
             <Github size={16} /> View source
           </a>
         </div>
@@ -115,10 +117,10 @@ export default function Landing({ onEnter }: { onEnter: () => void }) {
         <div className="rise-in flex items-center justify-center gap-3 mt-10 flex-wrap" style={{ animationDelay: "240ms" }}>
           {kpis ? (
             <>
-              <StatPill value={kpis.entities.toLocaleString("en-IN")} label="Entities analysed" tone="var(--color-brand-2)" />
-              <StatPill value={String(kpis.rings_detected)} label="Rings detected" tone="var(--color-danger)" />
-              <StatPill value={String(kpis.entities_flagged)} label="Entities flagged" tone="var(--color-warn)" />
-              <StatPill value={inrShort(kpis.amount_at_risk_inr)} label="Amount at risk" tone="var(--color-good)" />
+              <StatPill target={kpis.entities} format={(n) => Math.round(n).toLocaleString("en-IN")} label="Entities analysed" tone="var(--color-brand-2)" />
+              <StatPill target={kpis.rings_detected} format={(n) => String(Math.round(n))} label="Rings detected" tone="var(--color-danger)" />
+              <StatPill target={kpis.entities_flagged} format={(n) => String(Math.round(n))} label="Entities flagged" tone="var(--color-warn)" />
+              <StatPill target={kpis.amount_at_risk_inr} format={(n) => inrShort(n)} label="Amount at risk" tone="var(--color-good)" />
             </>
           ) : (
             Array.from({ length: 4 }).map((_, i) => <div key={i} className="skeleton w-32 h-[62px]" />)
@@ -150,7 +152,7 @@ export default function Landing({ onEnter }: { onEnter: () => void }) {
         <div className="flex items-stretch justify-center gap-2 max-w-5xl mx-auto flex-wrap">
           {PIPELINE.map((s, i) => (
             <div key={s.label} className="flex items-center gap-2">
-              <div className="card px-4 py-4 w-[150px] text-center rise-in" style={{ animationDelay: `${i * 80}ms` }}>
+              <div className="card card-hover px-4 py-4 w-[150px] text-center rise-in" style={{ animationDelay: `${i * 80}ms` }}>
                 <div className="w-9 h-9 rounded-xl grid place-items-center mx-auto mb-2.5"
                   style={{ background: "color-mix(in srgb, var(--color-brand) 16%, transparent)", color: "var(--color-brand-2)" }}>
                   <s.icon size={16} />
@@ -173,7 +175,7 @@ export default function Landing({ onEnter }: { onEnter: () => void }) {
         </h2>
         <div className="grid md:grid-cols-3 gap-4">
           {FEATURES.map((f, i) => (
-            <div key={f.title} className="card p-5 rise-in" style={{ animationDelay: `${i * 60}ms` }}>
+            <div key={f.title} className="card card-hover p-5 rise-in" style={{ animationDelay: `${i * 60}ms` }}>
               <div className="w-10 h-10 rounded-xl grid place-items-center mb-3.5"
                 style={{ background: `color-mix(in srgb, ${f.tone} 16%, transparent)`, color: f.tone }}>
                 <f.icon size={18} />
@@ -204,7 +206,7 @@ export default function Landing({ onEnter }: { onEnter: () => void }) {
             Live on synthetic data with 3 planted fraud rings, ready to investigate.
           </p>
           <button onClick={onEnter}
-            className="inline-flex items-center gap-2 text-[14px] font-semibold px-5 py-3 rounded-xl text-white transition-transform hover:-translate-y-0.5"
+            className="btn-press btn-shine inline-flex items-center gap-2 text-[14px] font-semibold px-5 py-3 rounded-xl text-white transition-transform hover:-translate-y-0.5"
             style={{ background: "linear-gradient(135deg,#2b4d9e,#4f8cff)", boxShadow: "0 10px 28px -8px rgba(79,127,255,0.6)" }}>
             Launch command centre <ArrowRight size={16} />
           </button>

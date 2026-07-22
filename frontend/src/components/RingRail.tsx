@@ -1,7 +1,8 @@
 import { User, MapPin, ArrowRightLeft, ChevronRight } from "lucide-react";
 import type { RingSummary } from "../types";
 import { inrShort } from "../api";
-import { RiskBadge, riskColor } from "../lib/ui";
+import { riskColor, riskLevel } from "../lib/ui";
+import RiskGauge from "./RiskGauge";
 
 export default function RingRail({
   rings, selected, onSelect,
@@ -26,7 +27,7 @@ export default function RingRail({
             <button
               key={r.ring_id}
               onClick={() => onSelect(r.ring_id)}
-              className={`rise-in relative overflow-hidden text-left p-3.5 rounded-[14px] border transition-all duration-200
+              className={`btn-press rise-in relative overflow-hidden text-left p-3.5 rounded-[14px] border transition-all duration-200
                 ${active ? "glow-danger" : "border-line hover:border-line-soft hover:-translate-y-0.5 hover:shadow-lg"}`}
               style={{
                 animationDelay: `${i * 60}ms`,
@@ -41,38 +42,40 @@ export default function RingRail({
                 style={{ background: color, opacity: active ? 1 : 0.55 }}
               />
 
-              <div className="flex items-center justify-between mb-2 pl-1.5">
-                <span className="font-bold text-[15px] tracking-tight flex items-center gap-1">
-                  {r.ring_id}
-                  {active && <ChevronRight size={14} style={{ color }} />}
-                </span>
-                <RiskBadge risk={r.risk} />
-              </div>
-
-              <div className="risk-bar mb-2.5 ml-1.5">
-                <span style={{ width: `${Math.round(r.risk * 100)}%`, background: color, color }} />
-              </div>
-
-              <div className="text-[12px] text-muted space-y-1.5 pl-1.5">
-                <div className="flex items-center gap-1.5 truncate">
-                  <User size={12} className="text-gold shrink-0" />
-                  <span className="text-txt font-medium truncate">{r.ringleader_name}</span>
-                  <span className="text-faint">· {r.size} · {r.n_mules}m</span>
-                </div>
-                <div className="flex items-center gap-1.5">
-                  <MapPin size={12} className="shrink-0" />
-                  {r.states.length} states
-                  {r.cross_jurisdiction && (
-                    <span className="text-[9.5px] font-bold px-1.5 py-0.5 rounded tracking-wide"
-                      style={{ color: "var(--color-warn)", background: "color-mix(in srgb, var(--color-warn) 16%, transparent)" }}>
-                      CROSS-JURIS
+              <div className="flex items-start gap-3 pl-1.5">
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-1 mb-2">
+                    <span className="font-bold text-[15px] tracking-tight">{r.ring_id}</span>
+                    {active && <ChevronRight size={14} style={{ color }} />}
+                    <span className="text-[9.5px] uppercase font-bold tracking-wide ml-auto pr-1" style={{ color }}>
+                      {riskLevel(r.risk)}
                     </span>
-                  )}
+                  </div>
+
+                  <div className="text-[12px] text-muted space-y-1.5">
+                    <div className="flex items-center gap-1.5 truncate">
+                      <User size={12} className="text-gold shrink-0" />
+                      <span className="text-txt font-medium truncate">{r.ringleader_name}</span>
+                      <span className="text-faint">· {r.size} · {r.n_mules}m</span>
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      <MapPin size={12} className="shrink-0" />
+                      {r.states.length} states
+                      {r.cross_jurisdiction && (
+                        <span className="text-[9.5px] font-bold px-1.5 py-0.5 rounded tracking-wide"
+                          style={{ color: "var(--color-warn)", background: "color-mix(in srgb, var(--color-warn) 16%, transparent)" }}>
+                          CROSS-JURIS
+                        </span>
+                      )}
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      <ArrowRightLeft size={12} className="shrink-0" />
+                      <span className="font-medium text-txt/90">{inrShort(r.total_flow_inr)}</span> flow
+                    </div>
+                  </div>
                 </div>
-                <div className="flex items-center gap-1.5">
-                  <ArrowRightLeft size={12} className="shrink-0" />
-                  <span className="font-medium text-txt/90">{inrShort(r.total_flow_inr)}</span> flow
-                </div>
+
+                <RiskGauge value={r.risk} color={color} size={44} />
               </div>
             </button>
           );

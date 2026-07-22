@@ -36,7 +36,7 @@ export default function InvestigationPanel({
         />
         {TABS.map((t) => (
           <button key={t.id} onClick={() => setTab(t.id)}
-            className={`relative z-10 flex items-center justify-center gap-1.5 py-2 rounded-lg text-[12px] font-medium transition-colors duration-200 ${
+            className={`btn-press relative z-10 flex items-center justify-center gap-1.5 py-2 rounded-lg text-[12px] font-medium transition-colors duration-200 ${
               tab === t.id ? "text-white" : "text-muted hover:text-txt"
             }`}>
             {t.icon}
@@ -56,7 +56,7 @@ export default function InvestigationPanel({
             </p>
           </div>
         ) : (
-          <div key={tab + ring.ring_id} className="scale-in">
+          <div key={tab + ring.ring_id} className="content-in">
             {tab === "overview" && <OverviewTab ring={ring} />}
             {tab === "map" && <MapTab ring={ring} geo={geo} />}
             {tab === "agent" && <AgentTab ringId={ring.ring_id} />}

@@ -83,15 +83,22 @@ export default function GraphCanvas({
           style: {
             "background-color": "data(color)",
             width: "data(size)", height: "data(size)",
-            label: "data(label)", color: "#c7d2ee", "font-size": "8px",
+            label: "data(label)", color: "#dbe3f7", "font-size": "8px",
             "font-family": "Inter, sans-serif", "text-valign": "bottom",
-            "text-margin-y": 4, "border-width": 2, "border-color": "#0a0e1a",
+            "text-margin-y": 5, "border-width": 2, "border-color": "#0a0e1a",
+            "text-outline-width": 2.5, "text-outline-color": "#080b14", "text-outline-opacity": 0.85,
             "overlay-opacity": 0, "transition-property": "opacity border-color border-width",
             "transition-duration": 0.15,
           },
         },
-        { selector: "node[leader = 1]", style: { "border-width": 3, "border-color": "#ffd54a", "font-size": "10px", "font-weight": 700, color: "#ffe58a" } },
-        { selector: "edge", style: { width: 1.3, "line-color": "#33507f", "target-arrow-color": "#33507f", "target-arrow-shape": "triangle", "arrow-scale": 0.75, "curve-style": "bezier", opacity: 0.55 } },
+        {
+          selector: "node[leader = 1]",
+          style: {
+            "border-width": 3, "border-color": "#ffd54a", "font-size": "11px", "font-weight": 700, color: "#ffe58a",
+            "transition-property": "border-width, border-opacity", "transition-duration": 0.9, "transition-timing-function": "ease-in-out-sine",
+          },
+        },
+        { selector: "edge", style: { width: 1.3, "line-color": "#33507f", "target-arrow-color": "#33507f", "target-arrow-shape": "triangle", "arrow-scale": 0.7, "curve-style": "bezier", opacity: 0.5, "line-cap": "round", "target-distance-from-node": 3 } },
         { selector: "node:selected", style: { "border-width": 3, "border-color": "#4f8cff" } },
         { selector: ".dim", style: { opacity: 0.12 } },
         { selector: ".hl", style: { opacity: 1, "border-color": "#4f8cff", "border-width": 3 } },
@@ -104,6 +111,7 @@ export default function GraphCanvas({
 
     // hover → focus a node's neighbourhood
     cy.on("mouseover", "node", (evt) => {
+      boxRef.current!.style.cursor = "pointer";
       if (tracing) return;
       const n = evt.target;
       const hood = n.closedNeighborhood();
@@ -111,17 +119,34 @@ export default function GraphCanvas({
       hood.removeClass("dim").addClass("hl");
     });
     cy.on("mouseout", "node", () => {
+      boxRef.current!.style.cursor = "default";
       if (tracing) return;
       cy.elements().removeClass("dim hl");
     });
     cy.on("tap", "node", (evt) => onPick?.(evt.target.id()));
+
+    // ringleader breathing-glow: toggle style on an interval and let the
+    // stylesheet's own transition (declared on the leader selector) animate it.
+    // (cytoscape's .animate().animate() completion-callback chain proved
+    // unreliable — it silently stops firing after 1-2 cycles.)
+    const leader = cy.nodes('[leader = 1]');
+    let pulseOn = false;
+    const pulseTimer = leader.empty() ? null : window.setInterval(() => {
+      pulseOn = !pulseOn;
+      leader.style({ "border-width": pulseOn ? 7 : 3, "border-opacity": pulseOn ? 1 : 0.7 });
+    }, 900);
 
     const raf = requestAnimationFrame(() => {
       if (!cy.destroyed()) { cy.resize(); cy.fit(undefined, 44); }
     });
     cyRef.current = cy;
     setTracing(false);
-    return () => { cancelAnimationFrame(raf); if (!cy.destroyed()) cy.destroy(); cyRef.current = null; };
+    return () => {
+      if (pulseTimer) clearInterval(pulseTimer);
+      cancelAnimationFrame(raf);
+      if (!cy.destroyed()) cy.destroy();
+      cyRef.current = null;
+    };
   }, [ring]);
 
   const fit = () => cyRef.current?.fit(undefined, 44);
@@ -161,23 +186,23 @@ export default function GraphCanvas({
         <div className="scale-in absolute left-4 top-4 flex gap-1.5 shadow-2xl">
           {!tracing ? (
             <button onClick={traceTrail} title="Trace money trail"
-              className="glass rounded-xl px-3 py-2 flex items-center gap-1.5 text-[11.5px] font-medium text-txt
+              className="btn-press glass rounded-xl px-3 py-2 flex items-center gap-1.5 text-[11.5px] font-medium text-txt
                         hover:border-brand-2 hover:shadow-lg transition-all duration-200 hover:-translate-y-px">
               <Route size={13} className="text-gold" /> Trace money trail
             </button>
           ) : (
             <button onClick={clearTrace}
-              className="glow-brand rounded-xl px-3 py-2 flex items-center gap-1.5 text-[11.5px] font-medium text-txt transition-all"
+              className="btn-press glow-brand rounded-xl px-3 py-2 flex items-center gap-1.5 text-[11.5px] font-medium text-txt transition-all"
               style={{ background: "linear-gradient(165deg, rgba(255,213,74,0.16), rgba(23,31,54,0.8))", borderColor: "var(--color-gold)" }}>
               <X size={13} className="text-gold" /> Clear trail
             </button>
           )}
           <button onClick={fit} title="Fit to view"
-            className="glass rounded-xl px-2.5 py-2 text-muted hover:text-txt hover:border-brand-2 hover:-translate-y-px transition-all duration-200">
+            className="btn-press glass rounded-xl px-2.5 py-2 text-muted hover:text-txt hover:border-brand-2 hover:-translate-y-px transition-all duration-200">
             <Crosshair size={14} />
           </button>
           <button onClick={relayout} title="Re-layout"
-            className="glass rounded-xl px-2.5 py-2 text-muted hover:text-txt hover:border-brand-2 hover:-translate-y-px transition-all duration-200">
+            className="btn-press glass rounded-xl px-2.5 py-2 text-muted hover:text-txt hover:border-brand-2 hover:-translate-y-px transition-all duration-200">
             <RefreshCw size={14} />
           </button>
         </div>
