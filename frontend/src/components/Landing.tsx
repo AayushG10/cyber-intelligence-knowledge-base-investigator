@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import {
-  ShieldAlert, Network, Brain, Globe2, FileLock2, Clock, Github, ArrowRight,
+  ShieldAlert, Network, Brain, Globe2, FileLock2, Clock, Github, ArrowRight, ArrowDown,
   Upload, ScanSearch, Workflow, MessageSquareText, Gavel, TrendingUp,
+  Database, GitBranch, LayoutDashboard, Bot,
 } from "lucide-react";
 import { api, inrShort } from "../api";
 import type { Kpis } from "../types";
@@ -51,6 +52,34 @@ const PIPELINE = [
   { icon: MessageSquareText, label: "Investigate", body: "Agent answers, cited" },
   { icon: Gavel, label: "Seal evidence", body: "Hash-chained package" },
 ];
+
+function ArchBox({ icon: Icon, title, tone, items, wide }: {
+  icon: any; title: string; tone: string; items: string[]; wide?: boolean;
+}) {
+  return (
+    <div className={`card card-hover p-4 ${wide ? "w-[240px]" : "w-[200px]"} text-left`}>
+      <div className="flex items-center gap-2 mb-2.5">
+        <div className="w-7 h-7 rounded-lg grid place-items-center shrink-0"
+          style={{ background: `color-mix(in srgb, ${tone} 18%, transparent)`, color: tone }}>
+          <Icon size={14} />
+        </div>
+        <span className="font-semibold text-[12.5px]">{title}</span>
+      </div>
+      <ul className="space-y-1">
+        {items.map((it) => (
+          <li key={it} className="text-[11px] text-muted flex gap-1.5">
+            <span className="mt-1.5 w-1 h-1 rounded-full shrink-0" style={{ background: tone }} />
+            {it}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+function ArchArrow() {
+  return <ArrowDown size={16} className="text-faint my-1.5" />;
+}
 
 export default function Landing({ onEnter }: { onEnter: () => void }) {
   const [kpis, setKpis] = useState<Kpis | null>(null);
@@ -168,8 +197,43 @@ export default function Landing({ onEnter }: { onEnter: () => void }) {
         </div>
       </section>
 
-      {/* features */}
+      {/* architecture */}
       <section className="px-6 py-14 max-w-5xl mx-auto">
+        <h2 className="text-center text-[12px] uppercase tracking-[0.14em] text-faint font-semibold mb-2">
+          System architecture
+        </h2>
+        <p className="text-center text-muted text-[13px] max-w-xl mx-auto mb-10">
+          A modular monolith — detection runs in-process, Neo4j and the LLM are optional
+          enhancers, not hard dependencies. Full rationale in <code className="mono text-[11.5px] px-1 py-0.5 rounded" style={{ background: "var(--color-ink-700)" }}>AGENTS.md</code>.
+        </p>
+
+        <div className="flex flex-col items-center">
+          <ArchBox icon={Database} title="Synthetic dataset" tone="var(--color-brand-2)" wide
+            items={["Persons · accounts · UPI · devices · IP", "Transactions with planted fraud rings", "Deterministic, seed-based generator"]} />
+          <ArchArrow />
+          <div className="flex flex-wrap justify-center gap-3">
+            <ArchBox icon={ScanSearch} title="Entity resolution" tone="var(--color-info)"
+              items={["Deterministic normalization", "Velocity + graph features"]} />
+            <ArchBox icon={Brain} title="Scoring engine" tone="var(--color-warn)"
+              items={["Rule engine (explainable)", "IsolationForest + RandomForest", "Fused risk score"]} />
+            <ArchBox icon={GitBranch} title="Graph engine" tone="var(--color-danger)"
+              items={["Louvain (rings) · Betweenness (leader)", "WCC · shortest-path · DBSCAN geo", "Runs in NetworkX — no GDS needed"]} />
+          </div>
+          <ArchArrow />
+          <ArchBox icon={FileLock2} title="FastAPI + hash-chained ledger" tone="var(--color-good)" wide
+            items={["REST investigation API", "SHA-256 chained evidence packages", "Optional: Neo4j Aura for graph storage"]} />
+          <ArchArrow />
+          <div className="flex flex-wrap justify-center gap-3">
+            <ArchBox icon={LayoutDashboard} title="React command centre" tone="var(--color-brand-2)"
+              items={["Graph · map · globe · evidence", "Vite + TypeScript + Tailwind"]} />
+            <ArchBox icon={Bot} title="Tool-calling agent" tone="var(--color-gold)"
+              items={["OpenRouter (model-agnostic)", "Cites entity/txn IDs · offline fallback"]} />
+          </div>
+        </div>
+      </section>
+
+      {/* features */}
+      <section className="px-6 py-14 max-w-5xl mx-auto border-t border-line-soft">
         <h2 className="text-center text-[12px] uppercase tracking-[0.14em] text-faint font-semibold mb-10">
           Built for investigators, not another fraud dashboard
         </h2>

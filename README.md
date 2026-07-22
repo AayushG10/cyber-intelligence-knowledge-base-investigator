@@ -17,6 +17,30 @@ Built for the *AI for Digital Public Safety* national hackathon
 
 ---
 
+## 👋 New to this repo? Start here
+
+If you're a teammate picking this up cold, read in this order — it's about 15 minutes to
+full context:
+
+1. **This section + "What this project does" below** (2 min) — the concept in plain language.
+2. **[Architecture at a glance](#architecture-at-a-glance)** (3 min) — the shape of the system.
+   The same diagram is also on the landing page (`http://localhost:5173`, scroll to "System
+   architecture") if you prefer a visual.
+3. **[Getting started](#getting-started)** (5 min, hands-on) — get it running on your machine.
+4. **[Frontend component map](#frontend-component-map)** and **[Backend module map](#backend-module-map)**
+   (5 min) — know which file to open for what you're changing.
+5. Only if you're touching detection logic or making an architectural change: read
+   [AGENTS.md](AGENTS.md) in full — it has the design rationale and two real corrections we
+   found by testing (not just claiming) the algorithms against the data.
+
+**The one-sentence mental model**: raw CSVs go in, a Python pipeline (`backend/engine.py`)
+turns them into scored entities + detected fraud rings entirely in memory (no database
+required to run), FastAPI exposes that as JSON, and a React app renders it as an
+investigator's command centre. Neo4j and the LLM agent are optional add-ons wired in at the
+edges — remove either one and the app still runs and still detects rings.
+
+---
+
 ## Table of contents
 
 1. [The problem](#the-problem)
@@ -25,15 +49,18 @@ Built for the *AI for Digital Public Safety* national hackathon
 4. [Architecture at a glance](#architecture-at-a-glance)
 5. [Tech stack](#tech-stack)
 6. [Project structure](#project-structure)
-7. [Getting started](#getting-started)
-8. [The synthetic dataset](#the-synthetic-dataset)
-9. [How detection actually works](#how-detection-actually-works)
-10. [The intelligence package (court admissibility)](#the-intelligence-package-court-admissibility)
-11. [API reference](#api-reference)
-12. [The 5-minute demo script](#the-5-minute-demo-script)
-13. [Judging-criteria mapping](#judging-criteria-mapping)
-14. [Roadmap](#roadmap)
-15. [Disclaimer](#disclaimer)
+7. [Frontend component map](#frontend-component-map)
+8. [Backend module map](#backend-module-map)
+9. [Getting started](#getting-started)
+10. [The synthetic dataset](#the-synthetic-dataset)
+11. [How detection actually works](#how-detection-actually-works)
+12. [The intelligence package (court admissibility)](#the-intelligence-package-court-admissibility)
+13. [API reference](#api-reference)
+14. [Common tasks (FAQ for teammates)](#common-tasks-faq-for-teammates)
+15. [The 5-minute demo script](#the-5-minute-demo-script)
+16. [Judging-criteria mapping](#judging-criteria-mapping)
+17. [Roadmap](#roadmap)
+18. [Disclaimer](#disclaimer)
 
 ---
 
@@ -86,7 +113,7 @@ platform*. Given raw transaction/complaint data, it:
 
 | Screen | What it shows |
 |---|---|
-| **Landing page** (`/`) | Problem stats, live KPI strip, pipeline walkthrough, feature grid |
+| **Landing page** (`/`) | Problem stats, live KPI strip, pipeline walkthrough, **system architecture diagram**, feature grid |
 | **Command centre — Overview** | Interactive fraud-ring graph (Cytoscape), ringleader highlighted gold, risk-colored nodes, lead-time intelligence panel |
 | **Command centre — Map** | Leaflet map of hotspots + the selected ring's cross-jurisdiction money flow |
 | **Command centre — Agent** | Tool-calling investigation agent answering a question with cited entity IDs |
@@ -170,20 +197,64 @@ et-hackthon/
 │   └── requirements.txt
 ├── frontend/                    # React command centre (the primary UI)
 │   ├── src/
-│   │   ├── App.tsx               # landing ⇄ dashboard routing
-│   │   ├── api.ts, types.ts       # typed API client
+│   │   ├── App.tsx               # landing ⇄ dashboard routing (hash-based, no router lib)
+│   │   ├── api.ts, types.ts       # typed API client + shared TS interfaces
 │   │   ├── components/
-│   │   │   ├── Landing.tsx         # marketing/landing page
+│   │   │   ├── Landing.tsx         # marketing/landing page (hero, architecture diagram, features)
 │   │   │   ├── TopBar.tsx, RingRail.tsx, GraphCanvas.tsx
 │   │   │   ├── InvestigationPanel.tsx, EntityDrawer.tsx
+│   │   │   ├── GlobeView.tsx        # rotating Canvas2D "AI globe" (no WebGL — see AGENTS.md)
+│   │   │   ├── RiskGauge.tsx        # animated radial risk-score SVG gauge
 │   │   │   └── tabs/ (Overview, Map, Agent, Evidence)
-│   │   └── lib/ui.tsx             # shared risk-color/badge helpers
+│   │   └── lib/
+│   │       ├── ui.tsx               # shared risk-color/badge helpers
+│   │       └── useCountUp.ts        # animated count-up number hook
 │   └── package.json
 ├── infra/
 │   └── docker-compose.yml       # optional Neo4j (GDS+APOC) + Postgres for local dev
 ├── .env.example                 # every config variable, documented
 └── docs/screenshots/             # drop your own captures here
 ```
+
+---
+
+## Frontend component map
+
+A quick "which file do I open" reference — every component in `frontend/src/components/`:
+
+| File | Responsibility | Touch this when... |
+|---|---|---|
+| `App.tsx` | Top-level routing between the landing page and the dashboard (a hash check, no router library) | You're adding a new top-level view/page |
+| `Landing.tsx` | Marketing page: hero, problem stats, pipeline walkthrough, **architecture diagram**, feature grid | You're changing the pitch/messaging or the architecture diagram |
+| `TopBar.tsx` | Header KPI strip with animated count-up numbers | You're adding a new headline metric |
+| `RingRail.tsx` | Left sidebar list of detected rings, each with a radial risk gauge | You're changing how rings are listed/selected |
+| `GraphCanvas.tsx` | The Cytoscape.js fraud-network graph — node/edge styling, hover-to-focus, money-trail tracing, the ringleader pulse animation | You're changing how the graph looks or behaves |
+| `InvestigationPanel.tsx` | Right-side panel: the 4-tab switcher (Overview/Map/Agent/Evidence) with the sliding pill indicator | You're adding a new tab |
+| `EntityDrawer.tsx` | Slide-in drawer with an entity's full explainable risk breakdown, opened by clicking any graph node | You're changing what's shown about a single entity |
+| `RiskGauge.tsx` | Reusable animated SVG radial gauge (used in `RingRail` and `EntityDrawer`) | You need a risk/score visual elsewhere |
+| `GlobeView.tsx` | The rotating "AI globe" inside the Map tab — pure Canvas2D, no WebGL/three.js (see AGENTS.md for why) | You're changing the globe's visuals or projection math |
+| `tabs/OverviewTab.tsx` | Ring stats + the lead-time intelligence callout | Changing the ring-detail summary |
+| `tabs/MapTab.tsx` | Globe/Tactical-map toggle + the Leaflet flat map | Changing map behavior |
+| `tabs/AgentTab.tsx` | Chat UI for the tool-calling agent | Changing the agent's chat experience |
+| `tabs/EvidenceTab.tsx` | "Generate Intelligence Package" button + hash-chain display | Changing evidence-package presentation |
+| `lib/ui.tsx` | `riskColor`, `riskLevel`, `bandColor`, `RiskBadge`, `Stat` — shared small helpers | Adding a new shared visual primitive |
+| `lib/useCountUp.ts` | The count-up-animation hook used by KPI numbers | Reusing the count-up effect elsewhere |
+
+## Backend module map
+
+Everything under `backend/`, in the order data flows through them:
+
+| File | Responsibility |
+|---|---|
+| `config.py` | Loads all environment variables into one `Settings` object |
+| `engine.py` | **The core**: loads CSVs, builds the money/entity graphs, engineers features, runs the rule engine + IsolationForest + RandomForest, runs Louvain/betweenness/WCC/shortest-path/DBSCAN, and exposes query methods (`get_ring`, `get_entity`, `money_trail`, etc.) — this is a singleton built once at startup |
+| `ledger.py` | Builds an "Intelligence Package" from a ring and appends it to the SHA-256 hash chain (`data/ledger.json`) |
+| `agent.py` | The OpenRouter tool-calling agent — tool schemas, dispatch, and the offline deterministic fallback |
+| `api.py` | All `/api/*` REST routes; thin — it calls into `engine.py`/`ledger.py`/`agent.py` |
+| `main.py` | FastAPI app setup, builds the engine at startup, serves the fallback static dashboard |
+| `graph/client.py` | A pooled, reusable Neo4j driver singleton |
+| `graph/check_connection.py` | Standalone script: verifies Neo4j connectivity and reports GDS/APOC availability |
+| `graph/neo4j_loader.py` | Standalone script: loads the CSVs into Neo4j (optional, for Bloom visualization) |
 
 ---
 
@@ -320,6 +391,49 @@ All endpoints are served under `/api` (see `backend/api.py`):
 | `/agent/ask` | POST | `{"question": "..."}` → tool-calling agent answer + tools used |
 | `/rings/{id}/package` | POST | Generate & append a hash-chained intelligence package |
 | `/ledger/verify` | GET | Verify the entire hash chain is intact |
+
+---
+
+## Common tasks (FAQ for teammates)
+
+**"I changed a backend file and nothing happens."**
+`uvicorn` needs `--reload` to pick up changes automatically: `uvicorn backend.main:app --reload --port 8010`.
+Without it, restart the process manually after each edit.
+
+**"I want to regenerate the data with different numbers (more rings, more people, etc.)."**
+`python data_generator/generate.py --persons 3000 --rings 5 --out data` — see
+`data_generator/README.md` for all flags. Re-run always overwrites `data/*.csv`; the acceptance
+report at the end must show all PASS.
+
+**"I want to change which LLM model the agent uses."**
+One line in `.env`: `LLM_MODEL=anthropic/claude-sonnet-4` (or any OpenRouter model — it must
+support tool/function calling, verify at openrouter.ai/models). No code change needed.
+
+**"I want to add a new detection algorithm / feature."**
+It belongs in `backend/engine.py`. Follow the existing pattern: build the feature in
+`_features()`, add scoring logic in `_score()`, or add ring-level logic in `_detect_rings()`.
+Add a query method at the bottom if the frontend needs to read the new data, then expose it
+in `backend/api.py`.
+
+**"I want to add a new page/tab to the frontend."**
+For a new investigation tab: add a file under `frontend/src/components/tabs/`, then wire it
+into the `TABS` array and switch statement in `InvestigationPanel.tsx`. For a new top-level
+page: add the component and extend the `view` state logic in `App.tsx`.
+
+**"The agent isn't citing IDs / seems to be hallucinating."**
+Check `backend/agent.py` — the `SYSTEM` prompt is what enforces citation behavior, and the
+`TOOLS` array is what it's allowed to call. If you added new engine query methods, add a
+matching tool schema + dispatch case so the agent can actually reach that data.
+
+**"Neo4j connection isn't working."**
+Run `python -m backend.graph.check_connection` — it reports the exact failure (wrong
+username, instance paused, no GDS, etc.) rather than a generic error. Remember: on Aura the
+username and database are literally `neo4j`, not your instance ID.
+
+**"Tests? CI?"**
+None yet — this is a hackathon build. The closest thing to a test suite is the data
+generator's built-in 8-point acceptance report and manual verification via the running app.
+If you add real tests, `backend/` is plain enough for `pytest` to drop in without restructuring.
 
 ---
 
