@@ -33,7 +33,7 @@ export default function App() {
       <TopBar kpis={kpis} />
       <main className="flex-1 flex min-h-0">
         <RingRail rings={rings} selected={selected} onSelect={setSelected} />
-        <section className="flex-1 min-w-0 relative">
+        <section className="flex-1 min-w-0 relative grid-bg">
           <GraphCanvas ring={ring} onPick={setEntityId} />
         </section>
         <InvestigationPanel ring={ring} geo={geo} />

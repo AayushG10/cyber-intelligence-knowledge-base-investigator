@@ -12,9 +12,14 @@ export function RiskBadge({ risk }: { risk: number }) {
   const c = riskColor(risk);
   return (
     <span
-      className="text-[10px] font-bold px-2 py-1 rounded-full tracking-wide"
-      style={{ color: c, background: `color-mix(in srgb, ${c} 16%, transparent)` }}
+      className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-1 rounded-full tracking-wide border"
+      style={{
+        color: c,
+        background: `color-mix(in srgb, ${c} 14%, transparent)`,
+        borderColor: `color-mix(in srgb, ${c} 35%, transparent)`,
+      }}
     >
+      <span className="w-1.5 h-1.5 rounded-full" style={{ background: c, boxShadow: `0 0 6px 0 ${c}` }} />
       {lvl.toUpperCase()} · {risk.toFixed(2)}
     </span>
   );

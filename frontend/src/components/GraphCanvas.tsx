@@ -158,44 +158,48 @@ export default function GraphCanvas({
 
       {/* toolbar */}
       {ring && (
-        <div className="absolute left-4 top-4 flex gap-1.5">
+        <div className="scale-in absolute left-4 top-4 flex gap-1.5 shadow-2xl">
           {!tracing ? (
             <button onClick={traceTrail} title="Trace money trail"
-              className="glass rounded-lg px-2.5 py-1.5 flex items-center gap-1.5 text-[11px] text-txt hover:border-brand transition-colors">
+              className="glass rounded-xl px-3 py-2 flex items-center gap-1.5 text-[11.5px] font-medium text-txt
+                        hover:border-brand-2 hover:shadow-lg transition-all duration-200 hover:-translate-y-px">
               <Route size={13} className="text-gold" /> Trace money trail
             </button>
           ) : (
             <button onClick={clearTrace}
-              className="glass rounded-lg px-2.5 py-1.5 flex items-center gap-1.5 text-[11px] text-txt hover:border-brand transition-colors"
-              style={{ borderColor: "var(--color-gold)" }}>
+              className="glow-brand rounded-xl px-3 py-2 flex items-center gap-1.5 text-[11.5px] font-medium text-txt transition-all"
+              style={{ background: "linear-gradient(165deg, rgba(255,213,74,0.16), rgba(23,31,54,0.8))", borderColor: "var(--color-gold)" }}>
               <X size={13} className="text-gold" /> Clear trail
             </button>
           )}
-          <button onClick={fit} title="Fit to view" className="glass rounded-lg px-2 py-1.5 text-muted hover:text-txt hover:border-brand transition-colors">
+          <button onClick={fit} title="Fit to view"
+            className="glass rounded-xl px-2.5 py-2 text-muted hover:text-txt hover:border-brand-2 hover:-translate-y-px transition-all duration-200">
             <Crosshair size={14} />
           </button>
-          <button onClick={relayout} title="Re-layout" className="glass rounded-lg px-2 py-1.5 text-muted hover:text-txt hover:border-brand transition-colors">
+          <button onClick={relayout} title="Re-layout"
+            className="glass rounded-xl px-2.5 py-2 text-muted hover:text-txt hover:border-brand-2 hover:-translate-y-px transition-all duration-200">
             <RefreshCw size={14} />
           </button>
         </div>
       )}
 
       {/* legend */}
-      <div className="absolute left-4 bottom-4 glass rounded-xl px-3 py-2.5 text-[11px] space-y-1.5">
+      <div className="scale-in absolute left-4 bottom-4 glass rounded-xl px-3.5 py-3 text-[11px] space-y-2 shadow-2xl">
+        <div className="text-[9.5px] uppercase tracking-[0.1em] text-faint font-semibold mb-1">Legend</div>
         {[["#ffd54a", "Ringleader"], ["var(--color-danger)", "High risk"], ["var(--color-warn)", "Medium"], ["var(--color-info)", "Low / victim"]].map(([c, l]) => (
           <div key={l} className="flex items-center gap-2">
-            <span className="w-2.5 h-2.5 rounded-full" style={{ background: c }} />
+            <span className="w-2.5 h-2.5 rounded-full" style={{ background: c, boxShadow: `0 0 8px -1px ${c}` }} />
             <span className="text-muted">{l}</span>
           </div>
         ))}
       </div>
 
       {ring && (
-        <div className="absolute right-4 top-4 flex flex-col items-end gap-1.5">
-          <div className="glass rounded-lg px-3 py-1.5 text-[11px] text-muted">
+        <div className="scale-in absolute right-4 top-4 flex flex-col items-end gap-1.5">
+          <div className="glass rounded-lg px-3 py-1.5 text-[11px] text-muted shadow-lg">
             <span className="text-txt font-semibold">{ring.ring_id}</span> · {ring.nodes.length} entities · {ring.edges.length} transfers
           </div>
-          <div className="glass rounded-lg px-3 py-1.5 text-[10.5px] text-faint">
+          <div className="glass rounded-lg px-3 py-1.5 text-[10.5px] text-faint shadow-lg">
             {tracing ? "Gold path = victim → ringleader money trail" : "Hover to focus · click to investigate →"}
           </div>
         </div>
